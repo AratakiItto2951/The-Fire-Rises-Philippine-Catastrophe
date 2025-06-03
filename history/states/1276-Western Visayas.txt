@@ -1,0 +1,22 @@
+state={
+	id=1276
+	name="STATE_1276"
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 10302 7}
+		buildings = {
+			infrastructure = 2
+			10302 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		1368 7423 10302 14966 
+	}
+	manpower = 5331551
+	buildings_max_level_factor=1.000
+	
+	state_category = suburb
+}
