@@ -1,0 +1,138 @@
+characters = {
+	PHL_leni_robredo_char = {
+	name = "Leni Robredo"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Leni Robredo.png" 
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			traits = {
+			}
+		}
+	}
+	PHL_risa_hontiveros_char = {
+	name = "Risa Hontiveros"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Risa_Hontiveros.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}	
+	PHL_bam_aquino_char = {
+	name = "Bam Aquino"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Bam_Aquino.png" 
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+			traits = {
+			}
+		}
+	}	
+	PHL_leila_de_lima_char = {
+	name = "Leila De Lima"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Leila_de_Lima.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}
+	PHL_chel_diokno_char = {
+	name = "Jose Manuel "Chel" Diokno"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Chel_Diokno.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}	
+	PHL_vico_sotto_char = {
+	name = "Victor Ma. Regis Sotto"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Vico_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}	
+	PHL_erin_tanada_char = {
+	name = "Erin Tañada"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Erin_Tanada.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}		
+	PHL_vico_sotto_char = {
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHL/PHL_Vico_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology = progressivism
+			traits = {
+			}
+		}
+	}		
+	PHL_romeo_brawner_char = {
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHL/generals/Romeo_Brawner.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+	PHL_roy_galido_char = {
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHL/generals/Roy_Galido.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}			
+	PHL_walter_icaro_char = {
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHL/generals/Walter_Icaro.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+}	

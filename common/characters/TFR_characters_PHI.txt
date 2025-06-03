@@ -1,0 +1,228 @@
+characters = {
+	PHI_rodrigo_duterte_char = {
+		name = "Rodrigo Duterte"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Duterte.png" 
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+	}
+	PHI_bongbong_marcos_char = {
+		name = "Bongbong Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Bongbong_Marcos.png" 
+			}
+		}
+		country_leader = {
+			ideology = right_populism
+		}
+	}
+	PHI_leni_robredo_char = {
+		name = "Leni Robredo"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Leni Robredo.png" 
+			}
+		}
+		country_leader = {
+			ideology = neoliberalism
+		}
+	}
+	PHI_manny_pacquiao_char = {
+		name = "Manny Pacquiao"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Manny Pacquiao.png" 
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+	}
+		PHI_miljunta_jay_tarriela_char = {
+		name = "Jay Tarriela"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/PHI_miljunta_Jay_Tarriela.png" 
+			}
+		}
+		country_leader = {
+			ideology = military_democracy
+		}
+	}
+	PHI_sara_duterte_char = {
+		name = "Sara Duterte-Carpio"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/PHI_Sara_Duterte.png" 
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+	}
+	PHI_eduardo_ano_char = {
+		name = "Eduardo Ano"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Eduardo_Ano.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+	PHI_mayoralgo_dela_cruz_char = {
+		name = "Mayoralgo Dela Cruz"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Mayoralgo_Dela_Cruz.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+	PHI_rey_guerrero_char = {
+		name = "Re Guerrero"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Rey_Guerrero.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=1
+		}
+	}
+	PHI_ricardo_visaya_char = {
+		name = "Ricardo Visaya"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Ricardo_Visaya.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=1
+		}
+	}
+	PHI_romeo_gan_char = {
+		name = "Romeo Gan"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Romeo_Gan.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=1
+		}
+	}
+	PHI_romeo_tanalgo_char = {
+		name = "Romeo Tanalgo"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Romeo_Tanalgo.dds" 
+			}
+		}
+
+		corps_commander={
+			skill=1
+		}
+	}
+	PHI_caeser_taccad_char = {
+		name = "Caesar Taccad"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/admirals/Caeser_Taccad.dds" 
+			}
+		}
+
+		navy_leader={
+			skill=3
+		}
+	}
+	PHI_jesus_millan_char = {
+		name = "Jesus Millan"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/admirals/Jesus_Millan.dds" 
+			}
+		}
+
+		navy_leader={
+			skill=1
+		}
+	}
+	
+	VIS_gwendolyn_garcia_char = {
+		name = "Gwendolyn Garcia"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Gwendolyn Garcia.png" 
+			}
+		}
+		country_leader = {
+			ideology = military_democracy
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+		country_leader = {
+			ideology = right_populism
+		}
+	}
+	
+	MIN_rodrigo_duterte_char = {
+		name = "Rodrigo Duterte"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Duterte.png" 
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+		country_leader = {
+			ideology = ultra_conservatism
+		}
+	}
+	NPA_luis_jalandoni_char = {
+		name = "Luis Jalandoni"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/Luis_Jalandoni.png" 
+			}
+		}
+		country_leader = {
+			ideology = maoism
+		}
+		country_leader = {
+			ideology = marxism_leninism
+		}
+		country_leader = {
+			ideology = reformist_socialism
+		}
+		country_leader = {
+			ideology = progressivism
+		}
+	}
+	BAG_terrorist_char = {
+		name = "Esmael Abdulmalik"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/Terrorists/terror3.png" 
+			}
+		}
+		country_leader = {
+			ideology = salafi
+		}
+	}
+}
