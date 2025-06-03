@@ -1,0 +1,501 @@
+add_namespace = philipines
+
+#Uhhhhh
+country_event = {
+	id = philipines.1
+	title = philipines.1.t
+	desc = philipines.1.d
+	picture = GFX_Generic_Collapse
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	option = {
+		name = philipines.1.a
+		set_global_flag = philipines_civil_war_global
+		TAG = {
+				transfer_state = 1273
+				add_state_core = 1273
+				declare_war_on = {
+    				target = PHI
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				load_oob = TAG_civil_war
+			}
+		MIN = {
+				transfer_state = 627
+				transfer_state = 1279
+				transfer_state = 1280
+
+				add_state_core = 627
+				add_state_core = 1277
+				add_state_core = 1278
+				add_state_core = 1279
+				add_state_core = 1280
+				add_state_core = 1281
+
+				load_oob = MIN_civil_war
+				declare_war_on = {
+    				target = TAG
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = NPA
+    				type = annex_everything
+				}
+		}
+		VIS = {
+				transfer_state = 1276
+				transfer_state = 628
+				add_state_core = 628
+				add_state_core = 1276
+				load_oob = VIS_civil_war
+		}
+		BAG = {
+				transfer_state = 1281
+				declare_war_on = {
+    				target = PHI
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = NPA
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = TAG
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = VIS
+    				type = annex_everything
+				}
+				load_oob = BAG_civil_war
+		}
+		PHI = {
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				#load_oob = PHI_civil_war
+		}
+		NPA = {
+			transfer_state = 625
+			transfer_state = 623
+			transfer_state = 1277
+			transfer_state = 1278
+			transfer_state = 624
+			add_state_core = 625
+			add_state_core = 623
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 624
+			
+			declare_war_on = {
+				target = PHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MIN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BAG
+				type = annex_everything
+			}
+			load_oob = NPA_civil_war
+		}
+		set_party_name = {
+			ideology = social_democrat
+			long_name = PHI_pdp_split_long
+			name = PHI_pdp_split_short
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+		set_cosmetic_tag = PHI_at_WAR
+		news_event = {
+			id = philipines.2
+		}
+	}	
+}
+
+news_event = {
+	id = philipines.2
+	title = philipines.2.t
+	desc = philipines.2.d
+	picture = GFX_philippine_civil_war
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+
+	}
+		
+	option = {
+		name = philipines.2.a
+		
+	}
+}
+
+country_event = {
+	id = philipines.3
+	title = philipines.3.t
+	desc = philipines.3.d
+	picture = GFX_generic_elections
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+
+	option = {
+		name = philipines.3.a
+		ai_chance = {
+			base = 80
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_2
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_3
+					    }
+			        }
+			    }
+		}
+		retire_character = PHI_rodrigo_duterte_char
+		set_politics = {
+			ruling_party = conservative 
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
+		}
+		add_popularity = { ideology = conservative popularity = 0.15 }
+		add_ideas = PHI_marcos_family_idea
+	}
+	option = {
+		name = philipines.3.b
+		ai_chance = {
+			base = 10
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_1
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_3
+					    }
+			        }
+			    }
+		}
+		retire_character = PHI_rodrigo_duterte_char
+		set_politics = {
+			ruling_party = social_liberal 
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
+		}
+		add_popularity = { ideology = social_liberal popularity = 0.15 }
+	}
+	option = {
+		name = philipines.3.c
+		ai_chance = {
+			base = 10
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_1
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_2
+					    }
+			        }
+			    }
+		}
+		retire_character = PHI_rodrigo_duterte_char
+		set_politics = {
+			ruling_party = social_democrat 
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
+		}
+		add_popularity = { ideology = social_democrat popularity = 0.15 }
+		add_ideas = PHI_man_of_destiny_idea
+	}
+}
+
+country_event = {
+	id = philipines.4
+	title = philipines.4.t
+	desc = philipines.4.d
+	picture = GFX_yankee_no_more
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PHI
+	}
+
+	option = {
+		name = philipines.4.a
+		remove_ideas = PHI_mutual_defence_treaty_idea
+	}
+}
+###PHILIPPINE CATASTROPHE TEST###
+
+country_event = {
+	id = philipines.5
+	title = philipines.5.t
+	desc = philipines.5.d
+	picture = GFX_Generic_Collapse
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}	
+	option = {
+		#PHI
+		name = philipines.5.a
+		trigger = {
+			is_ai = no
+		}
+		set_cosmetic_tag = PHI_miljunta
+		retire_character = PHI_rodrigo_duterte_char
+        promote_character = {
+            character = PHI_miljunta_jay_tarriela_char
+            ideology = authoritarian_democrat
+        }
+        set_politics = {
+            ruling_party = authoritarian_democrat
+            elections_allowed = no # Junta likely suspends elections
+            last_election = "2028.5.10"
+            election_frequency = 72
+        }
+        add_popularity = {
+            ideology = authoritarian_democrat
+            popularity = 0.50 # Ensures party is dominant
+        }
+		set_party_name = {
+				ideology = totalitarian_socialist
+				long_name = PHI_miljunta_totalitarian_socialist_long
+				name = PHI_miljunta_totalitarian_socialist_short
+			}
+		set_party_name = {
+				ideology = communist
+				long_name = PHI_miljunta_communist_long
+				name = PHI_miljunta_communist_short
+			}
+		set_party_name = {
+				ideology = libertarian_socialist
+				long_name = PHI_miljunta_libertarian_socialist_long
+				name = PHI_miljunta_libertarian_socialist_short
+			}
+		set_party_name = {
+				ideology = social_democrat
+				long_name = PHI_miljunta_social_democrat_long
+				name = PHI_miljunta_social_democrat_short
+			}
+		set_party_name = {
+				ideology = social_liberal
+				long_name = PHI_miljunta_social_liberal_long
+				name = PHI_miljunta_social_liberal_short
+			}
+		set_party_name = {
+				ideology = conservative
+				long_name = PHI_miljunta_conservative_long
+				name = PHI_miljunta_conservative_short
+			}			
+		set_party_name = {
+				ideology = authoritarian_democrat
+				long_name = PHI_miljunta_authoritarian_democrat_long
+				name = PHI_miljunta_authoritarian_democrat_short
+			}			
+		set_party_name = {
+				ideology = nationalist
+				long_name = PHI_miljunta_nationalist_long
+				name = PHI_miljunta_nationalist_short
+			}
+			
+		set_party_name = {
+				ideology = fascist
+				long_name = PHI_miljunta_fascist_long
+				name = PHI_miljunta_fascist_short
+			}
+		set_party_name = {
+				ideology = national_socialist
+				long_name = PHI_miljunta_national_socialist_long
+				name = PHI_miljunta_national_socialist_short
+			}
+		set_party_name = {
+				ideology = outlawed
+				long_name = PHI_miljunta_outlawed_long
+				name = PHI_miljunta_outlawed_short
+			}	
+	}
+
+}
+
+country_event = {
+	id = philipines.6
+	title = philipines.6.t
+	desc = philipines.6.d
+	picture = PHP_Sara_speech
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}	
+	option = {
+		#PHL
+		name = philipines.6.a
+		trigger = {
+			is_ai = no
+		}
+		PHP = {
+			transfer_state = 625
+			transfer_state = 626
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 1277
+			transfer_state = 1278
+			transfer_state = 1279
+			transfer_state = 1280
+			transfer_state = 1281
+			transfer_state = 1435
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			load_oob = MIN_civil_war
+			change_tag_from = PHI	
+			}
+
+		}
+	}
+	option = {
+		#PHI
+		name = philipines.6.b
+		trigger = {
+			is_ai = no
+		}
+		PHP = {
+		}
+}
+
+country_event = {
+	id = philipines.7
+	title = philipines.7.t
+	desc = philipines.7.d
+	picture = PHL_Risa_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}	
+	option = {
+		#PHL
+		name = philipines.7.a
+		trigger = {
+			is_ai = no
+		}
+		PHL = {
+			transfer_state = 624
+			transfer_state = 625
+			transfer_state = 628
+			transfer_state = 1276
+			transfer_state = 1437
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			load_oob = PHL_2020
+			change_tag_from = PHI	
+			}
+
+		}
+	}
+	option = {
+		#PHI
+		name = philipines.7.b
+		trigger = {
+			is_ai = no
+		}
+		PHL = {
+		}
+}
+				
+country_event = {
+	id = philipines.8
+	title = philipines.8.t
+	desc = philipines.8.d
+	picture = GFX_Generic_Collapse
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}	
+	option = {
+		#PHI
+		name = philipines.8.a
+		trigger = {
+			is_ai = no
+		}
+		PHI = {
+			declare_war_on = {
+				target = PHI PHL PHP
+				type = annex_everything
+		}
+	}				
