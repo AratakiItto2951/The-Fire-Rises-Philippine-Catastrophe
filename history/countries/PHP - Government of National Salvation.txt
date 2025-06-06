@@ -19,6 +19,10 @@ set_war_support = 0.3
 
 set_country_flag = shithole_country
 recruit_character = PHP_sara_duterte_char
+recruit_character = PHP_rodrigo_duterte_dowager_char
+recruit_character = PHP_bato_delarosa_char
+recruit_character = PHP_gloria_arroyo_char
+recruit_character = PHP_rodante_marcoleta_char
 
 
 
@@ -78,12 +82,12 @@ set_technology = {
 }
 
 
-set_variable = { Russian_Influence = 0.00 }
-set_variable = { Chinese_Influence = 0.05 }
-set_variable = { American_Influence = 0.65 }
+set_variable = { Russian_Influence = 0.10 }
+set_variable = { Chinese_Influence = 0.75 }
+set_variable = { American_Influence = 0.0 }
 set_variable = { European_Influence = 0.0 }
-set_variable = { PDO_Influence = 0.50 }
-set_variable = { Sovereign_Influence = 0.05 }
+set_variable = { PDO_Influence = 0.0 }
+set_variable = { Sovereign_Influence = 0.15 }
 
 
 set_country_flag = country_language_filipino
