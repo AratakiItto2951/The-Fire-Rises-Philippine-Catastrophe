@@ -673,6 +673,14 @@ ideologies = {
 			russian_monarchist_conservative = {
 				can_be_randomly_selected = no
 			}
+			dutertismo = {
+				can_be_randomly_selected = no
+				color = {
+					99
+					118
+					140
+				}
+			}			
 			trumpism_authdem = {
 				can_be_randomly_selected = no
 				color = {
