@@ -371,6 +371,7 @@ country_event = {
 	trigger = {
 		is_ai = no
 		tag = PHI
+		is_triggered_only = yes # Triggered by philcatastrophe.1
 	}	
 	option = {
 		#PHP
@@ -414,8 +415,7 @@ country_event = {
 
 		}
 	option = {
-		{
-		#PHI
+		{#PHI
 		name = philcatastrophe.2.b
 		}
 	}
@@ -437,6 +437,8 @@ country_event = {
 		name = philcatastrophe.3.a
 		trigger = {
 			is_ai = no
+			tag = PHI
+			is_triggered_only = yes # Triggered by philcatastrophe.2
 		}
 		PHL = {
 			transfer_state = 624
@@ -468,7 +470,6 @@ country_event = {
 			}
 		}	
 	option = {
-		#PHI
 		name = philcatastrophe.3.b
 		}
 	}
@@ -494,13 +495,10 @@ country_event = {
 			declare_war_on = {
 				target = PHL
 				type = annex_everything
-			}
 		}
 		PHI = {
 			declare_war_on = {
 				target = PHP
 				type = annex_everything
-			}
 		}
-}
-}
+	}				
