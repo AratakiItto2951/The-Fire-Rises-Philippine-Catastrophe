@@ -54,6 +54,28 @@ characters = {
 			ideology = military_democracy
 		}
 	}
+	PHI_miljunta_comelec_char = {
+		name = "Commission on Elections"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/PHI_miljunta_Commission_on_Elections.png" 
+			}
+		}
+		country_leader = {
+			ideology = supervised_democracy_liberal
+		}
+	}
+	PHI_miljunta_jtc_char = {
+		name = "Joint Transitional Council"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/PHI_miljunta_Joint_Transitional_Council.png" 
+			}
+		}
+		country_leader = {
+			ideology = military_democracy
+		}
+	}
 	PHI_sara_duterte_char = {
 		name = "Sara Duterte-Carpio"
 		portraits={
