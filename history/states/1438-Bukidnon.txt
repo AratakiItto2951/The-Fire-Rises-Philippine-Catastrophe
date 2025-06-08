@@ -1,0 +1,18 @@
+state={
+	id=1438
+	name="STATE_1438"
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		12217 12273 14973
+	}
+	manpower = 1541308
+	buildings_max_level_factor=1.000
+	
+	state_category = suburb
+}
