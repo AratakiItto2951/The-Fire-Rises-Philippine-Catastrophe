@@ -2009,4 +2009,8 @@
 			name = "GFX_ideology_trumpism_market"
 			texturefile = "gfx/interface/ideologies/trumpism_market.png"
 		}
+		spriteType = {
+			name = "GFX_ideology_dutertismo"
+			texturefile = "gfx/interface/ideologies/dutertismo.png"
+		}
 	}
