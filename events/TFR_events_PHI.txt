@@ -367,11 +367,10 @@ country_event = {
 	desc = philcatastrophe.2.d
 	picture = GFX_PHP_Sara_speech
 	fire_only_once = yes
-	is_triggered_only = yes
+	is_triggered_only = yes 
 	trigger = {
 		is_ai = no
 		tag = PHI
-		is_triggered_only = yes # Triggered by philcatastrophe.1
 	}	
 	option = {
 		#PHP
@@ -381,7 +380,6 @@ country_event = {
 		}
 		PHP = {
 			transfer_state = 625
-			transfer_state = 626
 			transfer_state = 627
 			transfer_state = 628
 			transfer_state = 1277
@@ -390,6 +388,7 @@ country_event = {
 			transfer_state = 1280
 			transfer_state = 1281
 			transfer_state = 1435
+			transfer_state = 1438
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -409,15 +408,52 @@ country_event = {
 			add_state_core = 1435
 			add_state_core = 1436
 			add_state_core = 1437
+			add_state_core = 1438
 			load_oob = MIN_civil_war
 			change_tag_from = PHI	
 			}
 
 		}
 	option = {
-		{#PHI
+		{#PHP
 		name = philcatastrophe.2.b
 		}
+		trigger = {
+			is_ai = no
+		}
+		PHP = {
+			transfer_state = 625
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 1277
+			transfer_state = 1278
+			transfer_state = 1279
+			transfer_state = 1280
+			transfer_state = 1281
+			transfer_state = 1435
+			transfer_state = 1438
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			add_state_core = 1438
+			load_oob = MIN_civil_war	
+			}
 	}
 }
 
@@ -438,7 +474,6 @@ country_event = {
 		trigger = {
 			is_ai = no
 			tag = PHI
-			is_triggered_only = yes # Triggered by philcatastrophe.2
 		}
 		PHL = {
 			transfer_state = 624
@@ -465,19 +500,127 @@ country_event = {
 			add_state_core = 1435
 			add_state_core = 1436
 			add_state_core = 1437
+			add_state_core = 1438
 			load_oob = PHL_2020
 			change_tag_from = PHI	
 			}
 		}	
 	option = {
 		name = philcatastrophe.3.b
-		}
+		trigger = {
+			is_ai = no
+			tag = PHI
+			}
+		PHL = {
+			transfer_state = 624
+			transfer_state = 625
+			transfer_state = 628
+			transfer_state = 1276
+			transfer_state = 1437
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			add_state_core = 1438
+			load_oob = PHL_2020
+			)
 	}
-}				
+	
 country_event = {
 	id = philcatastrophe.4
 	title = philcatastrophe.4.t
 	desc = philcatastrophe.4.d
+	picture = GFX_PHL_Risa_rally
+	fire_only_once = yes
+	is_triggered_only = yes 
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}	
+	option = {
+		#NPA
+		name = philcatastrophe.4.a
+		trigger = {
+			is_ai = no
+			tag = PHI
+		}
+		NPA = {
+			transfer_state = 1438
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			add_state_core = 1438
+			load_oob = NPA_civil_war
+			change_tag_from = PHI	
+			}
+		}	
+	option = {
+		name = philcatastrophe.4.b
+		trigger = {
+			is_ai = no
+			tag = PHI
+		}
+		NPA = {
+			transfer_state = 1438
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1435
+			add_state_core = 1436
+			add_state_core = 1437
+			add_state_core = 1438
+			load_oob = NPA_civil_war	
+			}
+	}	
+}				
+country_event = {
+	id = philcatastrophe.5
+	title = philcatastrophe.5.t
+	desc = philcatastrophe.5.d
 	picture = GFX_PH_Civil_war
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -487,7 +630,7 @@ country_event = {
 	}	
 	option = {
 		#PHI
-		name = philcatastrophe.4.a
+		name = philcatastrophe.5.a
 		trigger = {
 			is_ai = no
 		}
