@@ -265,6 +265,7 @@ country_event = {
 
 add_namespace = philcatastrophe
 
+# EVENT 1: Junta seizes Malacañang
 country_event = {
 	id = philcatastrophe.1
 	title = philcatastrophe.1.t
@@ -275,153 +276,63 @@ country_event = {
 	trigger = {
 		is_ai = no
 		tag = PHI
-	}	
+	}
+
 	option = {
-		#PHI
 		name = philcatastrophe.1.a
-		trigger = {
-			is_ai = no
-		}
 		set_cosmetic_tag = PHI_miljunta
 		retire_character = PHI_rodrigo_duterte_char
 		retire_character = PHI_bongbong_marcos_char
 		retire_character = PHI_leni_robredo_char
 		retire_character = PHI_manny_pacquiao_char
-        promote_character = {
-            character = PHI_miljunta_jay_tarriela_char
-            ideology = authoritarian_democrat
-        }
-        set_politics = {
-            ruling_party = authoritarian_democrat
-            elections_allowed = no # Junta likely suspends elections
-            last_election = "2028.5.10"
-            election_frequency = 72
-        }
-        add_popularity = {
-            ideology = authoritarian_democrat
-            popularity = 0.50 # Ensures party is dominant
-        }
-		set_party_name = {
-				ideology = totalitarian_socialist
-				long_name = PHI_miljunta_totalitarian_socialist_long
-				name = PHI_miljunta_totalitarian_socialist_short
-			}
-		set_party_name = {
-				ideology = communist
-				long_name = PHI_miljunta_communist_long
-				name = PHI_miljunta_communist_short
-			}
-		set_party_name = {
-				ideology = libertarian_socialist
-				long_name = PHI_miljunta_libertarian_socialist_long
-				name = PHI_miljunta_libertarian_socialist_short
-			}
-		set_party_name = {
-				ideology = social_democrat
-				long_name = PHI_miljunta_social_democrat_long
-				name = PHI_miljunta_social_democrat_short
-			}
-		set_party_name = {
-				ideology = social_liberal
-				long_name = PHI_miljunta_social_liberal_long
-				name = PHI_miljunta_social_liberal_short
-			}
-		set_party_name = {
-				ideology = conservative
-				long_name = PHI_miljunta_conservative_long
-				name = PHI_miljunta_conservative_short
-			}			
-		set_party_name = {
-				ideology = authoritarian_democrat
-				long_name = PHI_miljunta_authoritarian_democrat_long
-				name = PHI_miljunta_authoritarian_democrat_short
-			}			
-		set_party_name = {
-				ideology = nationalist
-				long_name = PHI_miljunta_nationalist_long
-				name = PHI_miljunta_nationalist_short
-			}
-			
-		set_party_name = {
-				ideology = fascist
-				long_name = PHI_miljunta_fascist_long
-				name = PHI_miljunta_fascist_short
-			}
-		set_party_name = {
-				ideology = national_socialist
-				long_name = PHI_miljunta_national_socialist_long
-				name = PHI_miljunta_national_socialist_short
-			}
-		set_party_name = {
-				ideology = outlawed
-				long_name = PHI_miljunta_outlawed_long
-				name = PHI_miljunta_outlawed_short
-			}	
-	}
 
+		promote_character = {
+			character = PHI_miljunta_jay_tarriela_char
+			ideology = authoritarian_democrat
+		}
+		set_politics = {
+			ruling_party = authoritarian_democrat
+			elections_allowed = no
+			last_election = "2028.5.10"
+			election_frequency = 72
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.50
+		}
+
+		# Set party names
+		set_party_name = { ideology = totalitarian_socialist long_name = PHI_miljunta_totalitarian_socialist_long name = PHI_miljunta_totalitarian_socialist_short }
+		set_party_name = { ideology = communist long_name = PHI_miljunta_communist_long name = PHI_miljunta_communist_short }
+		set_party_name = { ideology = libertarian_socialist long_name = PHI_miljunta_libertarian_socialist_long name = PHI_miljunta_libertarian_socialist_short }
+		set_party_name = { ideology = social_democrat long_name = PHI_miljunta_social_democrat_long name = PHI_miljunta_social_democrat_short }
+		set_party_name = { ideology = social_liberal long_name = PHI_miljunta_social_liberal_long name = PHI_miljunta_social_liberal_short }
+		set_party_name = { ideology = conservative long_name = PHI_miljunta_conservative_long name = PHI_miljunta_conservative_short }
+		set_party_name = { ideology = authoritarian_democrat long_name = PHI_miljunta_authoritarian_democrat_long name = PHI_miljunta_authoritarian_democrat_short }
+		set_party_name = { ideology = nationalist long_name = PHI_miljunta_nationalist_long name = PHI_miljunta_nationalist_short }
+		set_party_name = { ideology = fascist long_name = PHI_miljunta_fascist_long name = PHI_miljunta_fascist_short }
+		set_party_name = { ideology = national_socialist long_name = PHI_miljunta_national_socialist_long name = PHI_miljunta_national_socialist_short }
+		set_party_name = { ideology = outlawed long_name = PHI_miljunta_outlawed_long name = PHI_miljunta_outlawed_short }
+	}
 }
 
+# EVENT 2: PHP declares war
 country_event = {
 	id = philcatastrophe.2
 	title = philcatastrophe.2.t
 	desc = philcatastrophe.2.d
 	picture = GFX_PHP_Sara_speech
 	fire_only_once = yes
-	is_triggered_only = yes 
+	is_triggered_only = yes
 	trigger = {
 		is_ai = no
 		tag = PHI
-	}	
-	option = {
-		#PHP
-		name = philcatastrophe.2.a
-		trigger = {
-			is_ai = no
-		}
-		PHP = {
-			transfer_state = 625
-			transfer_state = 627
-			transfer_state = 628
-			transfer_state = 1277
-			transfer_state = 1278
-			transfer_state = 1279
-			transfer_state = 1280
-			transfer_state = 1281
-			transfer_state = 1435
-			transfer_state = 1438
-			add_state_core = 624
-			add_state_core = 625
-			add_state_core = 626
-			add_state_core = 627
-			add_state_core = 628
-			add_state_core = 1272
-			add_state_core = 1273
-			add_state_core = 1274
-			add_state_core = 1275
-			add_state_core = 1276
-			add_state_core = 1277
-			add_state_core = 1278
-			add_state_core = 1279
-			add_state_core = 1280
-			add_state_core = 1281
-			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
-			load_oob = MIN_civil_war
-			change_tag_from = PHI	
-			}
+	}
 
-		}
 	option = {
-		{#PHP
-		name = philcatastrophe.2.b
-		}
-		trigger = {
-			is_ai = no
-		}
+		name = philcatastrophe.2.a
 		PHP = {
+			PHP = {
 			transfer_state = 625
 			transfer_state = 627
 			transfer_state = 628
@@ -430,8 +341,8 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1435
-			transfer_state = 1438
+			transfer_state = 1445
+			transfer_state = 1448
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -448,15 +359,54 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
-			load_oob = MIN_civil_war	
-			}
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
+			load_oob = MIN_civil_war
+			change_tag_from = PHI
+		}
+	}
+	option = {
+		name = philcatastrophe.2.b
+		PHP = {
+			PHP = {
+			transfer_state = 625
+			transfer_state = 627
+			transfer_state = 628
+			transfer_state = 1277
+			transfer_state = 1278
+			transfer_state = 1279
+			transfer_state = 1280
+			transfer_state = 1281
+			transfer_state = 1445
+			transfer_state = 1448
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
+			load_oob = MIN_civil_war
+		}
 	}
 }
 
+# EVENT 3: PHL emerges
 country_event = {
 	id = philcatastrophe.3
 	title = philcatastrophe.3.t
@@ -467,20 +417,16 @@ country_event = {
 	trigger = {
 		is_ai = no
 		tag = PHI
-	}	
+	}
+
 	option = {
-		#PHL
 		name = philcatastrophe.3.a
-		trigger = {
-			is_ai = no
-			tag = PHI
-		}
 		PHL = {
 			transfer_state = 624
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1437
+			transfer_state = 1447
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -497,26 +443,22 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
 			load_oob = PHL_2020
-			change_tag_from = PHI	
-			}
-		}	
+			change_tag_from = PHI
+		}
+	}
 	option = {
 		name = philcatastrophe.3.b
-		trigger = {
-			is_ai = no
-			tag = PHI
-			}
 		PHL = {
 			transfer_state = 624
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1437
+			transfer_state = 1447
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -533,34 +475,32 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
 			load_oob = PHL_2020
-			)
+		}
 	}
-	
+}
+
+# EVENT 4: NPA takes the mountains
 country_event = {
 	id = philcatastrophe.4
 	title = philcatastrophe.4.t
 	desc = philcatastrophe.4.d
 	picture = GFX_PHL_Risa_rally
 	fire_only_once = yes
-	is_triggered_only = yes 
+	is_triggered_only = yes
 	trigger = {
 		is_ai = no
 		tag = PHI
-	}	
+	}
+
 	option = {
-		#NPA
 		name = philcatastrophe.4.a
-		trigger = {
-			is_ai = no
-			tag = PHI
-		}
 		NPA = {
-			transfer_state = 1438
+			transfer_state = 1448
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -577,22 +517,18 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
 			load_oob = NPA_civil_war
-			change_tag_from = PHI	
-			}
-		}	
+			change_tag_from = PHI
+		}
+	}
 	option = {
 		name = philcatastrophe.4.b
-		trigger = {
-			is_ai = no
-			tag = PHI
-		}
 		NPA = {
-			transfer_state = 1438
+			transfer_state = 1448
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -609,14 +545,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1435
-			add_state_core = 1436
-			add_state_core = 1437
-			add_state_core = 1438
-			load_oob = NPA_civil_war	
-			}
-	}	
-}				
+			add_state_core = 1445
+			add_state_core = 1446
+			add_state_core = 1447
+			add_state_core = 1448
+			load_oob = NPA_civil_war
+		}
+	}
+}
+
+# EVENT 5: Civil War Begins
 country_event = {
 	id = philcatastrophe.5
 	title = philcatastrophe.5.t
@@ -627,21 +565,23 @@ country_event = {
 	trigger = {
 		is_ai = no
 		tag = PHI
-	}	
+	}
+
 	option = {
-		#PHI
 		name = philcatastrophe.5.a
-		trigger = {
-			is_ai = no
-		}
 		PHI = {
 			declare_war_on = {
 				target = PHL
 				type = annex_everything
-		}
-		PHI = {
+			}
 			declare_war_on = {
 				target = PHP
 				type = annex_everything
+			}
+			declare_war_on = {
+				target = NPA
+				type = annex_everything
+			}
 		}
-	}				
+	}
+}				
