@@ -1,0 +1,54 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_adobo_1"
+		texturefile = "gfx/event_pictures/adobo_1.png"
+	}
+
+	spriteType = {
+		name = "GFX_adobo_2"
+		texturefile = "gfx/event_pictures/adobo_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bibingka"
+		texturefile = "gfx/event_pictures/bibingka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_naboang_si_gojo"
+		texturefile = "gfx/event_pictures/naboang_si_gojo.png"
+	}
+		
+	spriteType = {
+		name = "GFX_Philippine_CW"
+		texturefile = "gfx/event_pictures/Philippine CW.png"
+	}
+
+	spriteType = {
+		name = "GFX_PH_Civil_war"
+		texturefile = "gfx/event_pictures/PH_Civil_war.png"
+	}
+	
+	spriteType = {
+		name = "GFX_PHL_Risa_rally"
+		texturefile = "gfx/event_pictures/PHL_Risa_rally.png"
+	}
+	
+	spriteType = {
+		name = "GFX_PHP_Sara_speech"
+		texturefile = "gfx/event_pictures/PHP_Sara_speech.png"
+	}
+		
+	spriteType = {
+		name = "GFX_quiboloy"
+		texturefile = "gfx/event_pictures/quiboloy.png"
+	}
+
+	spriteType = {
+		name = "GFX_philippines_start"
+		texturefile = "gfx/event_pictures/philippines_start.dds"
+	}
+	
+}
+	
