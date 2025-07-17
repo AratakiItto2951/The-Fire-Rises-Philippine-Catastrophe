@@ -1,0 +1,96 @@
+characters = {
+	PHP_sara_duterte_char = {
+	name = "Sara Duterte"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Sara_Duterte.png" 
+			}
+		}
+		country_leader = {
+			ideology = dutertismo
+			traits = {
+			}
+		}
+	}
+	PHP_rodrigo_duterte_dowager_char = {
+		name = "Rodrigo Duterte"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Rodrigo_Duterte_dowager.png" 
+			}
+		}
+		country_leader = {
+			ideology = dutertismo
+			traits = {
+			}
+		}
+	}
+	PHP_bato_delarosa_char = {
+		name = "Ronald “Bato” Dela Rosa"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Bato_Dela_Rosa.png" 
+			}
+		}
+		country_leader = {
+			ideology = dutertismo
+			traits = {
+			}
+		}
+	}
+	PHP_gloria_arroyo_char = {
+		name = "Gloria Macapagal-Arroyo"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Gloria_Macapagal_Arroyo.png" 
+			}
+		}
+		country_leader = {
+			ideology = oligarchist
+			traits = {
+			}
+		}
+	}
+	PHP_rodante_marcoleta_char = {
+		name = "Rodante Marcoleta"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Rodante Marcoleta.png" 
+			}
+		}
+		country_leader = {
+			ideology = dutertismo
+			traits = {
+			}
+		}
+	}
+	PHP_apollo_quiboloy_char = {
+		name = "Apollo Carreon Quiboloy"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Apollo_Quiboloy.png" 
+			}
+		}
+		country_leader = {
+			ideology = theocracy
+			traits = {
+			}
+		}
+	} 
+	# meme path for GNS #
+	PHP_rigo_duterte_char = {
+		name = "Rodrigo “Rigo” Duterte II"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Rigo_Duterte.png" 
+			}
+		}
+		country_leader = {
+			ideology = jucheism
+			traits = {
+			}
+		}
+	} 
+}
+	
+

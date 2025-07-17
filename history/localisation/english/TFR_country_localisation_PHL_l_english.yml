@@ -1,0 +1,40 @@
+﻿l_english:
+
+#IDEAS
+
+#Decisions
+
+#Events
+
+#Parties 
+ PHL_totalitarian_socialist_long: "§ROUTLAWED§!"
+ PHL_totalitarian_socialist_short: "§ROUTLAWED§!"
+ PHL_communist_long: "§ROUTLAWED§!"
+ PHL_communist_short: "§ROUTLAWED§!" 
+ PHL_libertarian_socialist_long: "Philippine Democratic Socialist Party"
+ PHL_libertarian_socialist_short: "PDSP"
+ PHL_social_democrat_long: " Akbayan Citizens' Action Party"
+ PHL_social_democrat_short: "AKB"
+ PHL_social_liberal_long: "Liberal Party"
+ PHL_social_liberal_short: "LP"
+ PHL_market_liberal_long: "Fight of Democratic Filipinos"
+ PHL_market_liberal_short: "LDP"
+ PHL_conservative_long: "Nationalist People's Coalition"
+ PHL_conservative_short: "NPC"
+ PHL_authoritarian_democrat_long: 
+ PHL_authoritarian_democrat_short: "Magdalo"
+ PHL_nationalist_long: "§ROUTLAWED§!"
+ PHL_nationalist_short: "§ROUTLAWED§!"
+ PHL_fascist_long: "§ROUTLAWED§!"
+ PHL_fascist_short: "§ROUTLAWED§!"
+ PHL_national_socialist_long: "§ROUTLAWED§!"
+ PHL_national_socialist_short: "§ROUTLAWED§!"
+ PHL_outlawed_long: "§ROUTLAWED§!"
+ PHL_outlawed_short: "§ROUTLAWED§!"
+ PHL_suspended_party_long: "§RSUSPENDED§!"
+ PHL_suspended_party: "§RSUSPENDED§!"
+ 
+  #Country
+  PHL_reunified_PHI: "Republic of the Philippines"
+  PHL_reunified_PHI_ADJ: "Filipino"
+  PHL_reunified_PHI_DEF: "the Republic of the Philippines"
