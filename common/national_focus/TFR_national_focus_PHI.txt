@@ -23,7 +23,9 @@ focus_tree = {
 			add = 20
 			original_tag = PHI
 		}
-		focus = {
+	}
+	
+	focus = {
 		id = PHI_a_nation_at_the_brink
 		icon = GFX_focus_USA_trump_speech
 		search_filters = {
@@ -46,6 +48,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			}
-			
 		}
+			
+	}
+}

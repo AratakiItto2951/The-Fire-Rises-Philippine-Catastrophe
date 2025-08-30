@@ -90,18 +90,6 @@ characters = {
 			}
 		}
 	}		
-	PHL_vico_sotto_char = {
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/PHL/PHL_Vico_Sotto.png" 
-			}
-		}
-		country_leader = {
-			ideology = progressivism
-			traits = {
-			}
-		}
-	}		
 	PHL_romeo_brawner_char = {
 		portraits={
 			army = {

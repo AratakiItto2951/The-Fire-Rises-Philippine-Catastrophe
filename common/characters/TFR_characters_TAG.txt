@@ -44,7 +44,7 @@ characters = {
 		}
 	}
 	
-		TAG_raymundo_ortega_char = {
+	TAG_raymundo_ortega_char = {
 		name = "Raymundo Ortega"
 		portraits={
 			civilian = {
@@ -58,7 +58,7 @@ characters = {
 	
 # Masked Man
 
-		TAG_raffy_delgado_char = {
+	TAG_raffy_delgado_char = {
 		name = "Rafael Delgado"
 		portraits={
 			civilian = {
@@ -156,7 +156,7 @@ characters = {
 		}		
 	}
 	
-		TAG_tito_sotto_char = {
+	TAG_tito_sotto_char = {
 		name = "Vicente Sotto III"
 		portraits={
 			civilian = {
@@ -170,7 +170,7 @@ characters = {
 			ideology =  classical_conservatism
 		}
 
-		TAG_gary_alejano_char = {
+	TAG_gary_alejano_char = {
 		name = "Gary Alejano"
 		portraits={
 			civilian = {
