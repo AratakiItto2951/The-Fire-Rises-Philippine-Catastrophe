@@ -50,5 +50,31 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/philippines_start.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_familydinner1"
+		texturefile = "gfx/event_pictures/familydinner1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_familydinner2"
+		texturefile = "gfx/event_pictures/familydinner2.png"
+	}
+	
+		
+	spriteType = {
+		name = "GFX_jolibee1"
+		texturefile = "gfx/event_pictures/jolibee1.png"
+	}
+		
+	spriteType = {
+		name = "GFX_codcosers1"
+		texturefile = "gfx/event_pictures/codcosers_1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_codcosers2"
+		texturefile = "gfx/event_pictures/codcosers_2.png"
+	}
+	
 }
 	

@@ -341,8 +341,8 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1445
-			transfer_state = 1448
+			transfer_state = 1447
+			transfer_state = 1450
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -359,12 +359,13 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = MIN_civil_war
 			change_tag_from = PHI
+			}
 		}
 	}
 	option = {
@@ -379,8 +380,8 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1445
-			transfer_state = 1448
+			transfer_state = 1447
+			transfer_state = 1450
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -397,11 +398,12 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = MIN_civil_war
+			}
 		}
 	}
 }
@@ -422,11 +424,12 @@ country_event = {
 	option = {
 		name = philcatastrophe.3.a
 		PHL = {
+			PHL = {
 			transfer_state = 624
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1447
+			transfer_state = 1449
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -443,22 +446,25 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = PHL_2020
 			change_tag_from = PHI
+			}
 		}
 	}
+	
 	option = {
 		name = philcatastrophe.3.b
-		PHL = {
+		PHP = {
+			PHL = {
 			transfer_state = 624
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1447
+			transfer_state = 1449
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -475,21 +481,22 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = PHL_2020
+			}
 		}
 	}
-}
+}	
 
 # EVENT 4: NPA takes the mountains
 country_event = {
 	id = philcatastrophe.4
 	title = philcatastrophe.4.t
 	desc = philcatastrophe.4.d
-	picture = GFX_PHL_Risa_rally
+	picture = GFX_npa_marching
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
@@ -500,7 +507,8 @@ country_event = {
 	option = {
 		name = philcatastrophe.4.a
 		NPA = {
-			transfer_state = 1448
+			NPA = {
+			transfer_state = 1450
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -517,18 +525,20 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = NPA_civil_war
 			change_tag_from = PHI
+			}
 		}
 	}
 	option = {
 		name = philcatastrophe.4.b
 		NPA = {
-			transfer_state = 1448
+			NPA = {
+			transfer_state = 1450
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -545,21 +555,23 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1445
-			add_state_core = 1446
 			add_state_core = 1447
 			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
 			load_oob = NPA_civil_war
+			}
 		}
 	}
 }
 
-# EVENT 5: Civil War Begins
+#Union Proclaimed
+
 country_event = {
 	id = philcatastrophe.5
 	title = philcatastrophe.5.t
 	desc = philcatastrophe.5.d
-	picture = GFX_PH_Civil_war
+	picture = GFX_npa_marching
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
@@ -569,6 +581,262 @@ country_event = {
 
 	option = {
 		name = philcatastrophe.5.a
+		UPH = {
+			UPH = {
+			transfer_state = 623
+			transfer_state = 1272
+			transfer_state = 1273
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1447
+			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
+			load_oob = TAG_civil_war
+			change_tag_from = PHI
+			}
+		}
+	}
+	option = {
+		name = philcatastrophe.5.b
+		UPH = {
+			UPH = {
+			transfer_state = 623
+			transfer_state = 1272
+			transfer_state = 1273
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1447
+			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
+			load_oob = TAG_civil_war
+			}
+		}
+	}
+}
+
+
+# Bloody Cebu
+
+# Interim Government Proclaimed
+country_event = {
+	id = philcatastrophe.6
+	title = philcatastrophe.6.t
+	desc = philcatastrophe.6.d
+	picture = GFX_PHL_Risa_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}
+	option = {
+		name = philcatastrophe.6.a
+		IGP = {
+			IGP = {
+			transfer_state = 628
+			transfer_state = 1276
+			transfer_state = 1449
+			add_state_claim = 623
+			add_state_claim = 624
+			add_state_claim = 625
+			add_state_claim = 626
+			add_state_claim = 627
+			add_state_core = 628
+			add_state_claim = 1272
+			add_state_claim = 1273
+			add_state_claim = 1274
+			add_state_claim = 1275
+			add_state_core = 1276
+			add_state_claim = 1277
+			add_state_claim = 1278
+			add_state_claim = 1279
+			add_state_claim = 1280
+			add_state_claim = 1281
+			add_state_claim = 1384
+			add_state_claim = 1447
+			add_state_claim = 1448
+			add_state_core = 1449
+			add_state_claim = 1450
+			load_oob = VIS_civil_war
+			change_tag_from = PHI
+			}
+		}
+	}
+	
+	option = {
+		name = philcatastrophe.6.b
+		IGP = {
+			IGP = {
+			transfer_state = 628
+			transfer_state = 1276
+			transfer_state = 1449
+			add_state_claim = 623
+			add_state_claim = 624
+			add_state_claim = 625
+			add_state_claim = 626
+			add_state_claim = 627
+			add_state_core = 628
+			add_state_claim = 1272
+			add_state_claim = 1273
+			add_state_claim = 1274
+			add_state_claim = 1275
+			add_state_core = 1276
+			add_state_claim = 1277
+			add_state_claim = 1278
+			add_state_claim = 1279
+			add_state_claim = 1280
+			add_state_claim = 1281
+			add_state_claim = 1384
+			add_state_claim = 1447
+			add_state_claim = 1448
+			add_state_core = 1449
+			add_state_claim = 1450
+			load_oob = VIS_civil_war
+			}
+		}
+	}
+}
+
+# NRA takes up arms
+country_event = {
+	id = philcatastrophe.7
+	title = philcatastrophe.7.t
+	desc = philcatastrophe.7.d
+	picture = GFX_PHL_Risa_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}
+	option = {
+		name = philcatastrophe.7.a
+		TAG = {
+			promote_character = {
+			character = TAG_ronald_cardema_char
+			ideology = authoritarian_democrat
+		}
+		set_politics = {
+			ruling_party = military_democracy
+			elections_allowed = no
+			last_election = "2028.5.10"
+			election_frequency = 72
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 65
+		}	
+			TAG = {
+			transfer_state = 623
+			add_state_core = 623
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1447
+			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
+			load_oob = TAG_civil_war
+			change_tag_from = PHI
+			}
+		}
+	}
+	
+	option = {
+		name = philcatastrophe.7.b
+		TAG = {
+			TAG = {
+			transfer_state = 623
+			add_state_core = 623
+			add_state_core = 624
+			add_state_core = 625
+			add_state_core = 626
+			add_state_core = 627
+			add_state_core = 628
+			add_state_core = 1272
+			add_state_core = 1273
+			add_state_core = 1274
+			add_state_core = 1275
+			add_state_core = 1276
+			add_state_core = 1277
+			add_state_core = 1278
+			add_state_core = 1279
+			add_state_core = 1280
+			add_state_core = 1281
+			add_state_core = 1384
+			add_state_core = 1447
+			add_state_core = 1448
+			add_state_core = 1449
+			add_state_core = 1450
+			load_oob = TAG_civil_war
+			}
+		}
+	}
+}
+
+# Bangsamoro declares neutrality and stays out
+
+# Cordillera proclaims ARMM-style regional gov, also stays out
+
+
+# EVENT 9: Civil War Begins
+country_event = {
+	id = philcatastrophe.8
+	title = philcatastrophe.8.t
+	desc = philcatastrophe.8.d
+	picture = GFX_PH_Civil_war
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}
+
+	option = {
+		name = philcatastrophe.8.a
 		PHI = {
 			declare_war_on = {
 				target = PHL

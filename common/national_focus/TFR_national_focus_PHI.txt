@@ -1,0 +1,51 @@
+######################################################
+# Republic of the Philippines Focus Tree
+# By Tetsutetsu Tetsutetsu
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_EDUCATION}
+### search_filters = {FOCUS_FILTER_DISASTER_RESPONSE}
+### search_filters = {FOCUS_FILTER_CORRUPTION_REFORM}
+### search_filters = {FOCUS_FILTER_SOCIAL_MEDIA_CONTROL}
+### search_filters = {FOCUS_FILTER_YOUTH_AND_RADICALIZATION}
+focus_tree = {
+	id = PHI_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			original_tag = PHI
+		}
+		focus = {
+		id = PHI_a_nation_at_the_brink
+		icon = GFX_focus_USA_trump_speech
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		x = 0
+		y = 0
+		cost = 5
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		ai_will_do = {
+			base = 1
+		}
+		available = {
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}

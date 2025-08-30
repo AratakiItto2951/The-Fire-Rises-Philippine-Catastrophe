@@ -38,16 +38,30 @@
  philcatastrophe.2.a: "Stand by Authority and People's Will! (Play as PHP)"
  philcatastrophe.2.b: "Stand by the Republic!"
  philcatastrophe.3.t: "Provisional Republic proclaimed!"
- philcatastrophe.3.d: ""
- philcatastrophe.3.a: "Stand by Democracy! (Play as PHL)"
+ philcatastrophe.3.d: "At 9:35 AM, before a modest crowd and under the gaze of the Mayon Volcano, Risa Hontiveros raised her hand at Peñaranda Park. The sun was low, casting long shadows across the Capitol steps as former Chief Justice Sereno whispered the words that would restart the Republic."
+ philcatastrophe.3.a: "Stand by Liberty! (Play as PHL)"
  philcatastrophe.3.b: "Stand by the Republic!"
  philcatastrophe.4.t: "New People's Army rejuvenated!"
  philcatastrophe.4.d: ""
  philcatastrophe.4.a: "Stand by the Revolution! (Play as NPA)"
  philcatastrophe.4.b: "Stand by the Republic!"
- philcatastrophe.5.t: "Civil War Breaks Out!"
+ philcatastrophe.5.t: "Union of the Philippines Proclaimed!"
  philcatastrophe.5.d: ""
- philcatastrophe.5.a: "To Arms!"	
+ philcatastrophe.5.a: "Stand by the Old Powers! (Play as Union)"
+ philcatastrophe.5.b: "Stand by the Republic!"
+ philcatastrophe.6.t: "Interim Government Proclaimed!"
+ philcatastrophe.6.d: ""
+ philcatastrophe.6.a: "Stand by the Local Governments! (Play as IGP)"
+ philcatastrophe.6.b: "Stand by the Republic!"
+ philcatastrophe.7.t: "Nationalists take up arms!"
+ philcatastrophe.7.d: ""
+ philcatastrophe.7.a: "Stand by the Nation! (Play as the NRA)"
+ philcatastrophe.7.b: "Stand by the Republic!"
+ 
+ 
+ philcatastrophe.8.t: "Civil War Breaks Out!"
+ philcatastrophe.8.d: ""
+ philcatastrophe.8.a: "To Arms!"	
  #### PHI CW TAGS ####
  MIN_social_democrat_party: "PDP-Laban (D)"
  MIN_social_democrat_party_long: "Philippine Democratic Party - People's Power (Duterte Faction)"
@@ -71,6 +85,9 @@
  VIS_conservative_party_long: "Federal Party of the Philippines"
  VIS_social_democrat_party: "PDP-Laban"
  VIS_social_democrat_party_long: "Philippine Democratic Party - People's Power"
+ 
+ #Summary
+ PHI_country_summary: "For centuries, the Philippines has been a nation caught between foreign dominion and internal struggle—from Spanish colonization in 1521 to American rule in 1898, through Japanese occupation in World War II, and finally into an independent but politically tumultuous republic. The 20th century saw the country swinging between dictatorship and democracy, with the fall of Marcos Sr. in 1986 marking a return to civilian rule, but corruption and stagnation remained endemic."
  
  #### PHI_miljunta tags ####
  PHI_miljunta_totalitarian_socialist_long: "§ROUTLAWED§!" 

@@ -1,0 +1,195 @@
+characters = {
+	TAG_ronald_cardema_char = {
+		name = "Ronald Cardema"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Ronald_Cardema.png" 
+			}
+		}
+		country_leader = {
+			ideology = military_democracy
+		}
+		country_leader = {
+			ideology = hybrid_regime
+		}
+		country_leader = {
+			ideology = military_junta
+		}
+	}
+	
+	TAG_edmundo_casino_char = {
+		name = "Edmundo Casiño"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Edmundo_Toti_Casiño.png" 
+			}
+		}
+		country_leader = {
+			ideology = ultranationalism
+		}
+	}
+	
+	TAG_larry_gadon_char = {
+		name = "Lorenzo Gadon"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Larry_Gadon.png" 
+			}
+		}
+		country_leader = {
+			ideology = right_populism
+		}
+		country_leader = {
+			ideology = sovereign_democracy
+		}
+	}
+	
+		TAG_raymundo_ortega_char = {
+		name = "Raymundo Ortega"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Raymundo_Ortega.png" 
+			}
+		}
+		country_leader = {
+			ideology = neonazism
+		}
+	}
+	
+# Masked Man
+
+		TAG_raffy_delgado_char = {
+		name = "Rafael Delgado"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_notsimonriley.png" 
+			}
+		}
+		country_leader = {
+			ideology = right_populism
+		}
+		country_leader = {
+			ideology = sovereign_democracy
+		}
+		country_leader = {
+			ideology = military_democracy
+		}
+		country_leader = {
+			ideology = hybrid_regime
+		}
+		country_leader = {
+			ideology = military_junta
+		}
+		country_leader = {
+			ideology = autocrat
+		}
+		country_leader = {
+			ideology = ultranationalism
+		}		
+		country_leader = {
+			ideology =  classical_fascism
+		}
+		country_leader = {
+			ideology = neonazism
+		}		
+		country_leader = {
+			ideology =   national_spartanism
+		}		
+	}	
+	
+#KBL Marcoses
+
+	TAG_sandro_marcos_kaiser_char = {
+		name = "Sandro Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Sandro_Marcos_kaiser.png" 
+			}
+		}
+		country_leader = {
+			ideology = right_populism
+		}
+		country_leader = {
+			ideology = sovereign_democracy
+		}
+	}
+
+#Hispanista
+
+	TAG_macario_ofilada_char = {
+		name = "Macario Ofilada"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Macario_Ofilada.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+		}
+		country_leader = {
+			ideology =  classical_conservatism
+		}
+		country_leader = {
+			ideology =   clerical_fascism
+		}		
+	}	
+	
+###The Internal Opposition###
+
+#Left Opposition (Nationalist People's Coalition rebellion)
+
+	TAG_jv_ejercito_char = {
+		name = "Joseph Victor Ejercito"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_JV_Ejercito.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+		}
+		country_leader = {
+			ideology =  classical_conservatism
+		}
+		country_leader = {
+			ideology =  right_centrist
+		}		
+	}
+	
+		TAG_tito_sotto_char = {
+		name = "Vicente Sotto III"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+		}
+		country_leader = {
+			ideology =  classical_conservatism
+		}
+
+		TAG_gary_alejano_char = {
+		name = "Gary Alejano"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+		}
+		country_leader = {
+			ideology =  classical_conservatism
+		}
+		country_leader = {
+			ideology =   supervised_democracy
+		}		
+	}
+	
+	
+
+#Right Opposition	(PNF rebellion)
+	
+}

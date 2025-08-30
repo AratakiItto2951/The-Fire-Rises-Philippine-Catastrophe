@@ -1,0 +1,119 @@
+capital = 327
+
+oob = ""
+
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			aa_hmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			guided_bombs = 1
+			aircraft_construction = 1
+			survivability_studies = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+		}
+	else = {
+		set_technology = {
+			CAS1 = 1
+			CAS2 = 1
+			fighter1 = 1
+			fighter2 = 1
+			scout_plane1 = 1
+			transport_plane2 = 1
+		}
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		main_battle_tank1 = 1
+		light_tank1 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+
+set_research_slots = 3
+set_convoys = 10
+set_stability = 0.4
+set_war_support = 0.3
+
+set_country_flag = shithole_country
+recruit_character = TAG_ronald_cardema_char
+recruit_character = TAG_edmundo_casino_char
+recruit_character = TAG_larry_gadon_char 
+recruit_character = TAG_raymundo_ortega_char
+
+set_technology = {
+	
+}
+
+set_politics = {	
+	ruling_party = authoritarian_democrat
+	last_election = "2028.5.10"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_popularities = {
+	conservative = 15
+	authoritarian_democrat = 65
+	nationalist = 10
+	fascist = 6
+	national_socialist = 4
+}
+
+add_ideas = {
+	
+	#Laws
+	partial_mobilization
+	lower_trade
+	lower_welfare
+	
+	medium_conscription
+	high_female_service
+	lower_supervision
+	low_training
+	higher_racial_integration
+	
+	
+
+	lower_immigration
+	lower_safety
+	lower_education
+	medium_race
+	medium_female
+	high_prison
+	lower_police
+	medium_conscription
+	low_supervision
+	low_training
+	low_academic
+	low_farming
+	low_poverty
+	medium_industry
+	low_society
+
+}
+
+

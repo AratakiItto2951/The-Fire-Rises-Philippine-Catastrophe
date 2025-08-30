@@ -19,12 +19,11 @@ state= {
 			dockyard = 1
 			12213 = { naval_base = 1 }
 		}
-		victory_points = {
-			12213 1 
-		}
+		victory_points = { 12213 1 }
+		victory_points = { 4214 4 }
 		add_core_of = PHI
 	}
 	provinces={
-		1388 4101 4214 4233 7325 7439 10252 12213 14988 
+		1388 4101 4214 4233 7325 7439 10252 12213 14990  
 	}
 }

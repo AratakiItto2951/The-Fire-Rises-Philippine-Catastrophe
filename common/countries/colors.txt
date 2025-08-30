@@ -325,8 +325,8 @@ UPH = {
 	color_ui = rgb { 71  170  180 }
 }
 IGP = {
-	color = rgb { 71  170  180 }
-	color_ui = rgb { 71  170  180 }
+	color = rgb { 54  93  166 }
+	color_ui = rgb { 54  93  166 }
 }
 PRU = {
 	color = rgb { 225 88 112 }
@@ -1748,8 +1748,8 @@ NPA = {
 }
 
 TAG = { 
-	color = rgb { 145 73 73 }
-	color_ui = rgb { 145 73 73 }
+	color = rgb { 76 58 87 }
+	color_ui = rgb { 76 58 87 }
 }
 
 MIN = { 

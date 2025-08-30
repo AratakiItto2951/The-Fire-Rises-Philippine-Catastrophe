@@ -24,6 +24,7 @@ recruit_character = IGP_afp_viscom_junta_char
 recruit_character = IGP_tommy_osmena_char
 recruit_character = IGP_mike_rama_char
 recruit_character = IGP_gwendolyn_garcia_char
+recruit_character = IGP_VPCA_char
 	
 
 
@@ -162,7 +163,7 @@ if = {
 }
 
 	set_politics = {	
-	ruling_party = military_democracy
+	ruling_party = hybrid_regime
 	last_election = "2028.5.8"
 	election_frequency = 72
 	elections_allowed = yes
