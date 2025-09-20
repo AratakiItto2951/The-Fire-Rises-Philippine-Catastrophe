@@ -90,61 +90,6 @@ characters = {
 			}
 		}
 	}		
-	PHL_kiko_pangilinan_char = {
-	name = "Francis Pangilinan"
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/PHL/PHL_Kiko_Pangilinan.png" 
-			}
-		}
-		country_leader = {
-			ideology = progressivism
-			traits = {
-			}
-		}
-	}
-	PHL_mar_roxas_char = {
-	name = "Manuel Roxas II"
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/PHL/PHL_Mar_Roxas.png" 
-			}
-		}
-		country_leader = {
-			ideology = progressivism
-			traits = {
-			}
-		}
-	}
-	PHL_gibo_teodoro_char = {
-	name = "Gilbert Teodoro"
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/PHL/PHL_Gilbert_Teodoro.png" 
-			}
-		}
-		country_leader = {
-			ideology = progressivism
-			traits = {
-			}
-		}
-	}
-	PHL_antonio_trillanes_char = {
-	name = "Antonio Trillanes IV"
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/PHL/PHL_Antonio_Trillanes.png" 
-			}
-		}
-		country_leader = {
-			ideology = progressivism
-			traits = {
-			}
-		}
-	}
-		
-	}
-	
 	PHL_romeo_brawner_char = {
 		portraits={
 			army = {

@@ -2,6 +2,16 @@ capital = 327
 
 oob = ""
 
+recruit_character = TAG_ronald_cardema_char
+recruit_character = TAG_edmundo_casino_char
+recruit_character = TAG_larry_gadon_char
+recruit_character = TAG_raymundo_ortega_char
+recruit_character = TAG_raffy_delgado_char
+recruit_character = TAG_sandro_marcos_kaiser_char
+recruit_character = TAG_macario_ofilada_char
+recruit_character = TAG_jv_ejercito_char
+recruit_character = TAG_tito_sotto_char
+recruit_character = TAG_gary_alejano_char
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -65,7 +75,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = communist
+	ruling_party = authoritarian_democrat
 	last_election = "2020.11.3"
 	election_frequency = 48
 	elections_allowed = no
