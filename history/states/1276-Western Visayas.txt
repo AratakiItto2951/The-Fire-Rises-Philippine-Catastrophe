@@ -9,11 +9,11 @@ state={
 			infrastructure = 2
 			10302 = {
 				naval_base = 2
-			}
 		}
 	}
+}
 	provinces={
-		1368 7423 10302 14980
+		1368 7423 10302 14981
 	}
 	manpower = 5331551
 	buildings_max_level_factor=1.000

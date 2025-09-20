@@ -4,13 +4,13 @@ state={
 	history = {
 		owner = PHI
 		add_core_of = PHI
-		victory_points = { 1421 5}
+		victory_points = { 1421 7}
 		buildings = {
 			infrastructure = 3
 		}
 	}
 	provinces={
-		1421 4399 7360 7389 7417 10184 14982
+		1421 4399 7360 7389 7417 10184 14983
 	}
 	manpower = 3875576
 	buildings_max_level_factor=1.000

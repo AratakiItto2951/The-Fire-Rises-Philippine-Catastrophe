@@ -357,13 +357,14 @@ SAI = "countries/Saigaing Government.txt"
 MOA = "countries/Mon State.txt"
 KNU = "countries/Karen National Union.txt"
 WAT = "countries/Wa State.txt"
-#### PHILIPINE CATASTROPHE FACTION TAGS ####
+#### PHILIPPINE CATASTROPHE FACTION TAGS ####
 PHL = "countries/Provisional Republic of the Philippines.txt"
 PHP = "countries/Government of National Salvation.txt"
 UPH = "countries/Union of the Philippines.txt"
 IGP = "countries/Interim Government of the Philippines.txt"
+TAG = "countries/National Revolutionary Army.txt"
+NPA = "countries/New People's Army.txt" 
 #### PHILIPINES COLLAPSE ####
-TAG = "countries/Second Tagalog Republic.txt"
 MIN = "countries/Mindanao Federation.txt"
 VIS = "countries/Federal State of the Visayas.txt"
 BAG = "countries/Bangsamoro Islamic Freedom Fighters.txt"

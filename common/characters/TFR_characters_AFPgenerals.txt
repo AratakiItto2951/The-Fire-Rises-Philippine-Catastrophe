@@ -1,0 +1,94 @@
+
+###All Philippines generals (PHI and other Pretender Factions)###
+
+characters = {
+	PHI_andres_centino_char = {
+		name = "Andres Centino"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/PHI_Andres_Centino.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+	PHI_cirilito_sobejana_char = {
+		name = "Cirilito Sobejana"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/PHI_Cirilito_Sobejana.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+	PHI_allen_paredes_char = {
+		name = "Allen Paredes"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/PHI_Allen_Paredes.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+
+	PHI_gilbert_gapay_char = {
+		name = "Gilbert Gapay"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/PHI_Gilbert_Gapay.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+
+	PHI_gilbert_gapay_char = {
+		name = "Gilbert Gapay"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/PHI_Gilbert_Gapay.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+	
+	PHI_eduardo_ano_char = {
+		name = "Eduardo Ano"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Eduardo_Ano.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}
+	
+	PHI_eduardo_ano_char = {
+		name = "Eduardo Ano"
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHI/generals/Eduardo_Ano.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+
+)
