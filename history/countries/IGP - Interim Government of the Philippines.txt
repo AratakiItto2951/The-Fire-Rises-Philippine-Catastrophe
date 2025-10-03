@@ -162,8 +162,8 @@ if = {
 	}
 }
 
-set_politics = {	
-	ruling_party = authoritarian_democrat
+	set_politics = {	
+	ruling_party = hybrid_regime
 	last_election = "2028.5.8"
 	election_frequency = 72
 	elections_allowed = yes

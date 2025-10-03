@@ -88,6 +88,19 @@
  
  #Summary
  PHI_country_summary: "For centuries, the Philippines has been a nation caught between foreign dominion and internal struggle—from Spanish colonization in 1521 to American rule in 1898, through Japanese occupation in World War II, and finally into an independent but politically tumultuous republic. The 20th century saw the country swinging between dictatorship and democracy, with the fall of Marcos Sr. in 1986 marking a return to civilian rule, but corruption and stagnation remained endemic."
+ PHI_country_paths: 
+ PHI_country_other: 
+
+#Focus Tree Test
+ PHI_new_decade: "Facing the New Decade"
+ PHI_new_decade_desc: "test"
+ PHI_a_nation_at_the_brink: "A Nation at the Brink"
+ PHI_a_nation_at_the_brink_desc: "test"
+ PHI_buildx3: "Build, Build, Build"
+ PHI_taal:
+ PHI_expand_pppmodel:
+  
+  
  
  #### PHI_miljunta tags ####
  PHI_miljunta_totalitarian_socialist_long: "§ROUTLAWED§!" 
@@ -114,3 +127,7 @@
  PHI_miljunta_national_socialist_short: "§ROUTLAWED§!" 
  PHI_miljunta_outlawed_long: "§ROUTLAWED§!" 
  PHI_miljunta_outlawed_short: "§ROUTLAWED§!" 
+ 
+ #Ministers
+ 
+ 

@@ -18,16 +18,14 @@ set_stability = 0.4
 set_war_support = 0.3
 
 set_country_flag = shithole_country
-recruit_character = PHL_leni_robredo_char
-recruit_character = PHL_leila_de_lima_char
+recruit_character = PHI_leni_robredo_char
 recruit_character = PHL_risa_hontiveros_char
 recruit_character = PHL_bam_aquino_char
-recruit_character = PHL_vico_sotto_char
+recruit_character = PHL_leila_de_lima_char
 recruit_character = PHL_chel_diokno_char
-recruit_character = PHL_erin_tanada_char
-recruit_character = PHL_romeo_brawner_char
-recruit_character = PHL_roy_galido_char
-recruit_character = PHL_walter_icaro_char
+recruit_character = PHL_vico_sotto_char	
+
+
 
 set_technology = {
 	## Infantry ##

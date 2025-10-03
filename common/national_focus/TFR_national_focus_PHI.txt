@@ -20,35 +20,66 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 20
-			original_tag = PHI
+			add = 10
+			tag = PHI
 		}
-	}
+	}	
+	default = no
 	
-	focus = {
+		focus = {
+        id = PHI_new_decade
+        icon = GFX_generic_communications
+        x = 10
+        y = 0
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = PHI
+			
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: completed PHI_start_focus"
+            add_political_power = 50
+			}
+		}		
+		focus = {
 		id = PHI_a_nation_at_the_brink
-		icon = GFX_focus_USA_trump_speech
+		icon =  GFX_generic_communications
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		relative_position_id = PHI_new_decade
 		x = 0
-		y = 0
+		y = 1
 		cost = 5
+		
 		allow_branch = {
 		}
 		available_if_capitulated = yes
 		cancelable = no
-		ai_will_do = {
-			base = 1
-		}
+        prerequisite = {
+            focus = PHI_new_decade
+        }
+        ai_will_do = {
+            base = 1
+        }
 		available = {
+			tag = PHI
 			has_country_leader = {
 				character = PHI_rodrigo_duterte_char
 				ruling_only = yes
 			}
 		}
 		completion_reward = {
-		}
+			}
 			
-	}
-}
+		}		
+		
+	}		

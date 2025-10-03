@@ -1,6 +1,6 @@
 add_namespace = philipines
 
-#Uhhhhh
+#Uhhhhh (base mod events, ayaw hilabti)#
 country_event = {
 	id = philipines.1
 	title = philipines.1.t
@@ -14,77 +14,77 @@ country_event = {
 		name = philipines.1.a
 		set_global_flag = philipines_civil_war_global
 		TAG = {
-			transfer_state = 1273
-			add_state_core = 1273
-			declare_war_on = {
-				target = PHI
-				type = annex_everything
+				transfer_state = 1273
+				add_state_core = 1273
+				declare_war_on = {
+    				target = PHI
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				load_oob = TAG_civil_war
 			}
-			declare_war_on = {
-				target = MIN
-				type = annex_everything
-			}
-			load_oob = TAG_civil_war
-		}
 		MIN = {
-			transfer_state = 627
-			transfer_state = 1279
-			transfer_state = 1280
+				transfer_state = 627
+				transfer_state = 1279
+				transfer_state = 1280
 
-			add_state_core = 627
-			add_state_core = 1277
-			add_state_core = 1278
-			add_state_core = 1279
-			add_state_core = 1280
-			add_state_core = 1281
+				add_state_core = 627
+				add_state_core = 1277
+				add_state_core = 1278
+				add_state_core = 1279
+				add_state_core = 1280
+				add_state_core = 1281
 
-			load_oob = MIN_civil_war
-			declare_war_on = {
-				target = TAG
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = NPA
-				type = annex_everything
-			}
+				load_oob = MIN_civil_war
+				declare_war_on = {
+    				target = TAG
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = NPA
+    				type = annex_everything
+				}
 		}
 		VIS = {
-			transfer_state = 1276
-			transfer_state = 628
-			add_state_core = 628
-			add_state_core = 1276
-			load_oob = VIS_civil_war
+				transfer_state = 1276
+				transfer_state = 628
+				add_state_core = 628
+				add_state_core = 1276
+				load_oob = VIS_civil_war
 		}
 		BAG = {
-			transfer_state = 1281
-			declare_war_on = {
-				target = PHI
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = NPA
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = MIN
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = TAG
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = VIS
-				type = annex_everything
-			}
-			load_oob = BAG_civil_war
+				transfer_state = 1281
+				declare_war_on = {
+    				target = PHI
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = NPA
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = TAG
+    				type = annex_everything
+				}
+				declare_war_on = {
+    				target = VIS
+    				type = annex_everything
+				}
+				load_oob = BAG_civil_war
 		}
 		PHI = {
-			declare_war_on = {
-				target = MIN
-				type = annex_everything
-			}
-			#load_oob = PHI_civil_war
+				declare_war_on = {
+    				target = MIN
+    				type = annex_everything
+				}
+				#load_oob = PHI_civil_war
 		}
 		NPA = {
 			transfer_state = 625
@@ -161,26 +161,26 @@ country_event = {
 		name = philipines.3.a
 		ai_chance = {
 			base = 80
-			modifier = {
-				factor = 0
-				OR = {
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_2
-					}
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_3
-					}
-				}
-			}
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_2
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_3
+					    }
+			        }
+			    }
 		}
 		retire_character = PHI_rodrigo_duterte_char
 		set_politics = {
 			ruling_party = conservative 
-			elections_allowed = yes
-			last_election = "2022.5.9"
-			election_frequency = 72
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
 		}
 		add_popularity = { ideology = conservative popularity = 0.15 }
 		add_ideas = PHI_marcos_family_idea
@@ -189,26 +189,26 @@ country_event = {
 		name = philipines.3.b
 		ai_chance = {
 			base = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_1
-					}
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_3
-					}
-				}
-			}
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_1
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_3
+					    }
+			        }
+			    }
 		}
 		retire_character = PHI_rodrigo_duterte_char
 		set_politics = {
 			ruling_party = social_liberal 
-			elections_allowed = yes
-			last_election = "2022.5.9"
-			election_frequency = 72
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.15 }
 	}
@@ -216,26 +216,26 @@ country_event = {
 		name = philipines.3.c
 		ai_chance = {
 			base = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_1
-					}
-					has_game_rule = {
-						rule = The_Philippine_2022_Election
-						option = The_Philippine_2022_Election_2
-					}
-				}
-			}
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_1
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_2
+					    }
+			        }
+			    }
 		}
 		retire_character = PHI_rodrigo_duterte_char
 		set_politics = {
 			ruling_party = social_democrat 
-			elections_allowed = yes
-			last_election = "2022.5.9"
-			election_frequency = 72
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
 		}
 		add_popularity = { ideology = social_democrat popularity = 0.15 }
 		add_ideas = PHI_man_of_destiny_idea
@@ -260,6 +260,15 @@ country_event = {
 		remove_ideas = PHI_mutual_defence_treaty_idea
 	}
 }
+
+###------------------------------------###
+
+######################################################
+# Republic of the Philippines Events				 #
+# By Tetsutetsu Tetsutetsu							 #
+######################################################
+
+###Philippines events 2020-2028###
 
 ###PHILIPPINE CATASTROPHE TEST###
 
@@ -343,6 +352,9 @@ country_event = {
 			transfer_state = 1281
 			transfer_state = 1452
 			transfer_state = 1455
+			transfer_state = 1456
+			transfer_state = 1457
+			transfer_state = 1458
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -363,6 +375,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458			
 			load_oob = MIN_civil_war
 			change_tag_from = PHI
 			}
@@ -382,6 +397,9 @@ country_event = {
 			transfer_state = 1281
 			transfer_state = 1452
 			transfer_state = 1455
+			transfer_state = 1456
+			transfer_state = 1457
+			transfer_state = 1458			
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -402,6 +420,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = MIN_civil_war
 			}
 		}
@@ -450,6 +471,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = PHL_2020
 			change_tag_from = PHI
 			}
@@ -458,7 +482,7 @@ country_event = {
 	
 	option = {
 		name = philcatastrophe.3.b
-		PHP = {
+		PHL = {
 			PHL = {
 			transfer_state = 624
 			transfer_state = 625
@@ -485,6 +509,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = PHL_2020
 			}
 		}
@@ -529,6 +556,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = NPA_civil_war
 			change_tag_from = PHI
 			}
@@ -559,6 +589,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = NPA_civil_war
 			}
 		}
@@ -606,6 +639,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = TAG_civil_war
 			change_tag_from = PHI
 			}
@@ -638,6 +674,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = TAG_civil_war
 			}
 		}
@@ -687,6 +726,9 @@ country_event = {
 			add_state_claim = 1453
 			add_state_core = 1454
 			add_state_claim = 1455
+			add_state_claim = 1456
+			add_state_claim = 1457
+			add_state_claim = 1458
 			load_oob = VIS_civil_war
 			change_tag_from = PHI
 			}
@@ -721,6 +763,9 @@ country_event = {
 			add_state_claim = 1453
 			add_state_core = 1454
 			add_state_claim = 1455
+			add_state_claim = 1456
+			add_state_claim = 1457
+			add_state_claim = 1458
 			load_oob = VIS_civil_war
 			}
 		}
@@ -756,7 +801,7 @@ country_event = {
 			ideology = authoritarian_democrat
 			popularity = 65
 		}	
-		TAG = {
+			TAG = {
 			transfer_state = 623
 			add_state_core = 623
 			add_state_core = 624
@@ -779,6 +824,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = TAG_civil_war
 			change_tag_from = PHI
 			}
@@ -811,6 +859,9 @@ country_event = {
 			add_state_core = 1453
 			add_state_core = 1454
 			add_state_core = 1455
+			add_state_core = 1456
+			add_state_core = 1457
+			add_state_core = 1458
 			load_oob = TAG_civil_war
 			}
 		}
