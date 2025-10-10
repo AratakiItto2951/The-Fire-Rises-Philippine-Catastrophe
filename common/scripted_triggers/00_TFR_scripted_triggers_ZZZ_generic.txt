@@ -18,6 +18,7 @@ has_content_tag = {
 		tag = FRA
 		tag = GER
 		tag = FPR
+		tag = PHI
 	}
 }
 
@@ -90,7 +91,7 @@ has_skeleton_tag = {
 		#tag = KOS
 		#tag = MOL
 		tag = TAL
-		tag = PHI
+		
 	}
 }
 

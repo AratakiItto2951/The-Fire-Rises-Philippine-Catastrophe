@@ -364,7 +364,7 @@
         }
 		text = {
 			trigger = {
-				NOT = { tag = SOV tag = USA tag = FRA tag = JAP tag = PRC tag = GER tag = NCM }
+				NOT = { tag = SOV tag = USA tag = FRA tag = JAP tag = PRC tag = GER tag = NCM tag = PHI }
 				NOT = { tag = USB has_completed_focus = USB_rebirth }
 			}
 			localization_key = "GFX_World_Map_BG"

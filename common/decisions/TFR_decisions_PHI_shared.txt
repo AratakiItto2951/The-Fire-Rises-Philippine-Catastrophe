@@ -3,29 +3,46 @@ PHI_unification = {
 		available = {
 		    OR = {
 				AND = {
-					tag = NPA
-					NOT = {
-						country_exists = PHI
-						country_exists = MIN
-						country_exists = BAG
-					}
-				}
-				AND = {
 					tag = PHI
-					country_exists = VIS
 					NOT = {
-						country_exists = MIN
+						country_exists = PHL
+						country_exists = PHP
+						country_exists = UPH
+						country_exists = IGP
 						country_exists = NPA
-						country_exists = BAG
 						country_exists = TAG
 					}
 				}
 				AND = {
-					tag = MIN
+					tag = PHL
 					NOT = {
 						country_exists = PHI
+						country_exists = PHP
+						country_exists = UPH
+						country_exists = IGP
 						country_exists = NPA
-						country_exists = BAG
+						country_exists = TAG
+					}
+				}
+				AND = {
+					tag = PHP
+					NOT = {
+						country_exists = PHL
+						country_exists = PHI
+						country_exists = UPH
+						country_exists = IGP
+						country_exists = NPA
+						country_exists = TAG
+					}
+				}
+				AND = {
+					tag = UPH
+					NOT = {
+						country_exists = PHL
+						country_exists = PHP
+						country_exists = PHI
+						country_exists = IGP
+						country_exists = NPA
 						country_exists = TAG
 					}
 				}

@@ -47,6 +47,7 @@ focus_tree = {
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: completed PHI_start_focus"
             add_political_power = 50
+			set_country_flag = head_of_gov_ui_enabled
 			}
 		}		
 		focus = {
@@ -80,6 +81,105 @@ focus_tree = {
 		completion_reward = {
 			}
 			
+		}
+		
+		focus = {
+		id = PHI_buildx3
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_new_decade
+		x = 0
+		y = 2
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_a_nation_at_the_brink
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_taal
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_DISASTER_RESPONSE
+		}
+		relative_position_id = PHI_new_decade
+		x = 0
+		y = 3
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_buildx3
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			available = { has_country_flag = PHI_taal_boomboom }
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id =  PHI_expand_pppmodel
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_new_decade
+		x = 0
+		y = 4
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_buildx3
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
 		}		
+		
 		
 	}		

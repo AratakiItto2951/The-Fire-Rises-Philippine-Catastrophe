@@ -270,6 +270,127 @@ country_event = {
 
 ###Philippines events 2020-2028###
 
+add_namespace = phi
+add_namespace = phi_news
+
+country_event = {
+	id = phi.1
+	title = phi.1.t
+	desc = phi.1.d
+	picture = GFX_Generic_Collapse
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: event phi.1 immediate"
+			country_event = {
+				id = phi.2
+				days = 1
+		
+	option = {
+		name = phi.1.a
+		complete_national_focus = PHI_new_decade
+		}
+}
+
+country_event = {
+	id = phi.2
+	title = phi.2.t
+	desc = phi.2.d
+	picture = GFX_Generic_Collapse
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.2.a
+		complete_national_focus = PHI_new_decade
+		}
+}
+
+#Taal Volcano eruption
+country_event = {
+	id = phi.3
+	title = phi.3.t
+	desc = phi.3.d
+	picture = GFX_Generic_Collapse
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+		date > 2020.1.12
+	}
+		
+	option = {
+		name = phi.1.a
+		custom_effect_tooltip = taal_boomboom
+		set_country_flag = PHI_taal_boomboom
+		}
+}
+
+####SECOND AMERICAN CIVIL WAR####
+#----#where the fun begins#---#
+add_namespace = phi_2acw
+#requires flag: USA_american_civil_war_global
+
+#Duterte rambling 2ACW
+country_event = {
+	id = phi_2acw.1
+	title = phi_2acw.1.t
+	desc = phi_2acw.1.d
+	picture = GFX_duterte_speech
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+	}
+	option = {
+		name = phi_2acw.1.a
+	}
+}
+#Nabuang na si Quiboloy
+country_event = {
+	id = phi_2acw.2
+	title = phi_2acw.2.t
+	desc = phi_2acw.2.d
+	picture = GFX_quiboloy
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+	}
+	option = {
+		name = phi_2acw.2.a
+	}
+}
+#Duterte goes full Mao
+##Uni of San Carlos Dorm Kid
+country_event = {
+	id = phi_2acw.3
+	title = phi_2acw.3.t
+	desc = phi_2acw.3.d
+	picture = GFX_revgov1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+	}
+	option = {
+		name = phi_2acw.3.a
+	}
+}
+
 ###PHILIPPINE CATASTROPHE TEST###
 
 add_namespace = philcatastrophe
@@ -286,6 +407,16 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
+	
+	immediate = {
+        hidden_effect = {
+            # EVENT 2: PHP declares war
+            country_event = {
+                id = philcatastrophe.2
+                days = 1
+            }
+        }
+    }
 
 	option = {
 		name = philcatastrophe.1.a
@@ -337,6 +468,16 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
+	
+	immediate = {
+        hidden_effect = {
+            # EVENT 3: PHL emerges
+            country_event = {
+                id = philcatastrophe.3
+                days = 3
+            }
+        }
+    }	
 
 	option = {
 		name = philcatastrophe.2.a
@@ -441,6 +582,35 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
+	
+	immediate = {
+        hidden_effect = {
+            # EVENT 4: UPH emerges
+            country_event = {
+                id = philcatastrophe.5
+                days = 1
+            }
+			
+			#EVENT4: NPA takes mountains
+            country_event = {
+                id = philcatastrophe.4
+                days = 7
+            }
+			
+			#EVENT6: Bloody Cebu and IGP
+            country_event = {
+                id = philcatastrophe.6
+                days = 10
+            }
+
+			#EVENT7: NRA spawns in Cagayan
+            country_event = {
+                id = philcatastrophe.7
+                days = 15
+            }			
+        }
+    }
+	
 
 	option = {
 		name = philcatastrophe.3.a
@@ -777,7 +947,7 @@ country_event = {
 	id = philcatastrophe.7
 	title = philcatastrophe.7.t
 	desc = philcatastrophe.7.d
-	picture = GFX_PHL_Risa_rally
+	picture = GFX_TAG_nationalist_rally
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {

@@ -69,7 +69,7 @@ characters = {
 		name = "Eduardo Ano"
 		portraits={
 			army = {
-				large = "gfx/Leaders/PHI/generals/Eduardo_Ano.png" 
+				large = "gfx/Leaders/PHP/generals/Eduardo_Ano.png" 
 			}
 		}
 
@@ -77,12 +77,32 @@ characters = {
 			skill=2
 		}
 	}
-	
-	PHI_eduardo_ano_char = {
-		name = "Eduardo Ano"
+	PHL_romeo_brawner_char = {
 		portraits={
 			army = {
-				large = "gfx/Leaders/PHI/generals/Eduardo_Ano.png" 
+				large = "gfx/Leaders/PHL/generals/Romeo_Brawner.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+	PHL_roy_galido_char = {
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHL/generals/Roy_Galido.png" 
+			}
+		}
+
+		corps_commander={
+			skill=2
+		}
+	}	
+	PHI_walter_icaro_char = {
+		portraits={
+			army = {
+				large = "gfx/Leaders/PHL/generals/Walter_Icaro.png" 
 			}
 		}
 

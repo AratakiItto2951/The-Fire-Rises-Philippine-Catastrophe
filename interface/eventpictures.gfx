@@ -41,7 +41,7 @@ spriteTypes = {
 	}
 		
 	spriteType = {
-		name = "GFX_quiboloy"
+		name = "GFX_quiboloyGFX_quiboloy"
 		texturefile = "gfx/event_pictures/quiboloy.png"
 	}
 
@@ -76,5 +76,53 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/codcosers_2.png"
 	}
 	
+	spriteType = {
+		name = "GFX_npa_marching"
+		texturefile = "gfx/event_pictures/npa_marching.png"
+	}
+	
+	spriteType = {
+		name = "GFX_NAIA1"
+		texturefile = "gfx/event_pictures/NAIA1.png"
+	}
+	
+	spriteType = {
+		name = "duterte_speech"
+		texturefile = "gfx/event_pictures/duterte_speech.png"
+	}
+	
+	spriteType = {
+		name = "GFX_reddit1"
+		texturefile = "gfx/event_pictures/reddit1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_reddit2"
+		texturefile = "gfx/event_pictures/reddit2.png"
+	}
+	spriteType = {
+		name = "GFX_revgov1"
+		texturefile = "gfx/event_pictures/revgov_rally1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_revgov2"
+		texturefile = "gfx/event_pictures/revgov_rally2.png"
+	}
+
+	spriteType = {
+		name = "GFX_TAG_nationalist_rally"
+		texturefile = "gfx/event_pictures/TAG_nationalist_rally.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_cardema_inspecting_troops"
+		texturefile = "gfx/event_pictures/TAG_cardema_inspecting_troops.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_nationalist_rally2"
+		texturefile = "gfx/event_pictures/TAG_nationalist_rally2.png"
+	}	
 }
 	
