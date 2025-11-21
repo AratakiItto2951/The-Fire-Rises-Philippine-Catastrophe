@@ -2130,6 +2130,14 @@ PHI_communist = {
 	color = rgb { 145  68  73 }
 	color_ui = rgb { 145  68  73 }
 }
+TAG_hispanista = {
+	color = rgb { 201 63 18 }
+	color_ui = rgb { 201 63 18 }
+}
+TAG_reunified_KBL = {
+	color = rgb { 0 127 217 }
+	color_ui = rgb { 0 127 217 }
+}
 USA_maupin_blue = {
 	color = rgb { 63 98 152 }
 	color_ui = rgb { 63 98 152 }

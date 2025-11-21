@@ -1,0 +1,26 @@
+state={
+	id=1493
+	name="STATE_1493"
+	resources={
+	}
+	
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 15009 12 }
+		buildings = {
+			infrastructure = 2
+			15009 = {
+				naval_base = 2
+			}
+		}
+	}
+	
+	provinces={
+		15014
+	}
+	manpower=372229
+	buildings_max_level_factor=2.000
+	state_category=conurbation
+	local_supplies=0.000
+}

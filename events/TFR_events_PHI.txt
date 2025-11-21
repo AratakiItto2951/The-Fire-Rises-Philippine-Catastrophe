@@ -1,4 +1,7 @@
 add_namespace = philipines
+add_namespace = phi #submod
+add_namespace = phi_news #submod
+add_namespace = phi_2acw #submod
 
 #Uhhhhh (base mod events, ayaw hilabti)#
 country_event = {
@@ -270,9 +273,6 @@ country_event = {
 
 ###Philippines events 2020-2028###
 
-add_namespace = phi
-add_namespace = phi_news
-
 country_event = {
 	id = phi.1
 	title = phi.1.t
@@ -289,8 +289,10 @@ country_event = {
 		hidden_effect = {
 			log = "[GetDateText]: [Root.GetName]: event phi.1 immediate"
 			country_event = {
-				id = phi.2
-				days = 1
+            days = 1
+        }
+    }
+}
 		
 	option = {
 		name = phi.1.a
@@ -298,6 +300,7 @@ country_event = {
 		}
 }
 
+#Fresh bibingka
 country_event = {
 	id = phi.2
 	title = phi.2.t
@@ -313,7 +316,6 @@ country_event = {
 		
 	option = {
 		name = phi.2.a
-		complete_national_focus = PHI_new_decade
 		}
 }
 
@@ -341,7 +343,6 @@ country_event = {
 
 ####SECOND AMERICAN CIVIL WAR####
 #----#where the fun begins#---#
-add_namespace = phi_2acw
 #requires flag: USA_american_civil_war_global
 
 #Duterte rambling 2ACW
@@ -354,6 +355,15 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	immediate = {
+        hidden_effect = {
+			country_event = {
+					id = phi_2acw.2
+					days = 3
+			}
+		}
 	}
 	option = {
 		name = phi_2acw.1.a
@@ -369,7 +379,16 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = PHI
+		has_global_flag = USA_american_civil_war_global
 	}
+	immediate = {
+        hidden_effect = {
+			country_event = {
+					id = phi_2acw.3
+					days = 2
+			}
+		}
+	}	
 	option = {
 		name = phi_2acw.2.a
 	}
@@ -385,9 +404,147 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = PHI
+		has_global_flag = USA_american_civil_war_global
 	}
+	immediate = {
+        hidden_effect = {
+			country_event = {
+					id = phi_2acw.4
+					days = 3
+			}
+		}
+	}	
 	option = {
 		name = phi_2acw.3.a
+	}
+##Swedish Expat mistaken for Yankee
+country_event = {
+	id = phi_2acw.4
+	title = phi_2acw.4.t
+	desc = phi_2acw.4.d
+	picture = GFX_revgov1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	immediate = {
+        hidden_effect = {
+			country_event = {
+					id = phi_2acw.5
+					days = 1
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.4.a
+	}
+##Kid trashes brother's Hot Wheels collection
+country_event = {
+	id = phi_2acw.5
+	title = phi_2acw.5.t
+	desc = phi_2acw.5.d
+	picture = GFX_revgov1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	immediate = {
+        hidden_effect = {
+			country_event = {
+					id = phi_2acw.6
+					days = 8
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.5.a
+	}
+}
+
+#NAIA shitshow
+##Duterte Youth goons harass Fil-Am balikbayans
+country_event = {
+	id = phi_2acw.6
+	title = phi_2acw.6.t
+	desc = phi_2acw.6.d
+	picture = GFX_NAIA1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.6.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.7
+					hours = 3
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.6.b
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.7
+					hours = 3
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.6.c
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.7
+					hours = 3
+			}
+		}
+	}
+##Duterte Youth flash mob makes a ruckus
+country_event = {
+	id = phi_2acw.7
+	title = phi_2acw.7.t
+	desc = phi_2acw.7.d
+	picture = GFX_NAIA1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.7.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.8
+					hours = 1
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.7.b
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.8
+					hours = 1
+			}
+		}
+	}
+	option = {
+		name = phi_2acw.7.c
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.8
+					hours = 1
+			}
+		custom_effect_tooltip = revenge_legion
+		set_country_flag = PHI_revenge_legion	
+		}
 	}
 }
 
@@ -440,6 +597,37 @@ country_event = {
 			ideology = authoritarian_democrat
 			popularity = 0.50
 		}
+
+		if = {
+				limit = {
+					PHI = {
+						has_country_flag = eadi_member
+					}
+				}
+				hidden_effect = {
+				PRC = {
+					remove_from_faction = PHI
+				}
+				PHI = {
+					leave_faction = yes
+					}		
+				}
+			}
+		if = {
+				limit = {
+					PHI = {
+						has_country_flag = pdto_member
+					}
+				}
+				hidden_effect = {
+				JAP = {
+					remove_from_faction = PHI
+				}
+				PHI = {
+					leave_faction = yes
+					}		
+				}
+			}
 
 		# Set party names
 		set_party_name = { ideology = totalitarian_socialist long_name = PHI_miljunta_totalitarian_socialist_long name = PHI_miljunta_totalitarian_socialist_short }
@@ -520,7 +708,21 @@ country_event = {
 			add_state_core = 1457
 			add_state_core = 1458			
 			load_oob = MIN_civil_war
-			change_tag_from = PHI
+			change_tag_from = PHI			
+			if = {
+				limit = {
+					PHI = {
+						has_country_flag = eadi_member
+					}
+				}
+				hidden_effect = {
+				PRC = {
+					add_to_faction = PHP
+				}
+				PHI = {
+					clr_country_flag = eadi_member
+					}		
+				}
 			}
 		}
 	}
@@ -565,6 +767,20 @@ country_event = {
 			add_state_core = 1457
 			add_state_core = 1458
 			load_oob = MIN_civil_war
+			if = {
+				limit = {
+					PHI = {
+						has_country_flag = eadi_member
+					}
+				}
+				hidden_effect = {
+				PRC = {
+					add_to_faction = PHP
+				}
+				PHI = {
+					clr_country_flag = eadi_member
+					}		
+				}
 			}
 		}
 	}
@@ -646,7 +862,23 @@ country_event = {
 			add_state_core = 1458
 			load_oob = PHL_2020
 			change_tag_from = PHI
+			if = {
+				limit = {
+					PHI = {
+						has_country_flag = pdto_member
+					}
+				}
+				hidden_effect = {
+				JAP = {
+					add_to_faction = PHL
+				}
+				PHI = {
+					clr_country_flag = pdto_member
+						}		
+					}
+				}			
 			}
+		
 		}
 	}
 	
@@ -683,6 +915,21 @@ country_event = {
 			add_state_core = 1457
 			add_state_core = 1458
 			load_oob = PHL_2020
+			if = {
+				limit = {
+					PHI = {
+						has_country_flag = pdto_member
+					}
+				}
+				hidden_effect = {
+				JAP = {
+					add_to_faction = PHL
+				}
+				PHI = {
+					clr_country_flag = pdto_member
+						}		
+					}
+				}			
 			}
 		}
 	}
@@ -954,24 +1201,26 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
-	option = {
-		name = philcatastrophe.7.a
+	immediate ={
 		TAG = {
 			promote_character = {
 			character = TAG_ronald_cardema_char
-			ideology = authoritarian_democrat
+			ideology = military_democracy
 		}
 		set_politics = {
-			ruling_party = military_democracy
+			ruling_party = authoritarian_democrat
 			elections_allowed = no
 			last_election = "2028.5.10"
 			election_frequency = 72
 		}
 		add_popularity = {
 			ideology = authoritarian_democrat
-			popularity = 65
-		}	
-			TAG = {
+			popularity = 0.65
+		}
+	}	
+	}
+	option = {
+		name = philcatastrophe.7.a
 			transfer_state = 623
 			add_state_core = 623
 			add_state_core = 624
@@ -1001,12 +1250,10 @@ country_event = {
 			change_tag_from = PHI
 			}
 		}
-	}
 	
 	option = {
 		name = philcatastrophe.7.b
 		TAG = {
-			TAG = {
 			transfer_state = 623
 			add_state_core = 623
 			add_state_core = 624

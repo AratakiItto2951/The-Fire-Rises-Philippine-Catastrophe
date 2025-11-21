@@ -77,6 +77,19 @@ characters = {
 			}
 		}
 	} 
+	PHP_bong_go_char = {
+		name = "Christopher Lawrence Go"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHP/PHP_Bong_Go.png" 
+			}
+		}
+		country_leader = {
+			ideology = dutertismo
+			traits = {
+			}
+		}
+	}
 	# meme path for GNS #
 	PHP_rigo_duterte_char = {
 		name = "Rodrigo “Rigo” Duterte II"

@@ -30,15 +30,6 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/PH_Civil_war.png"
 	}
 	
-	spriteType = {
-		name = "GFX_PHL_Risa_rally"
-		texturefile = "gfx/event_pictures/PHL_Risa_rally.png"
-	}
-	
-	spriteType = {
-		name = "GFX_PHP_Sara_speech"
-		texturefile = "gfx/event_pictures/PHP_Sara_speech.png"
-	}
 		
 	spriteType = {
 		name = "GFX_quiboloyGFX_quiboloy"
@@ -110,19 +101,42 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/revgov_rally2.png"
 	}
 
+#Philippine Catastrophe Faction events
+
+##PHL
+	spriteType = {
+		name = "GFX_PHL_Risa_rally"
+		texturefile = "gfx/event_pictures/PHL/PHL_Risa_rally.png"
+	}
+
+##PHP
+	
+	spriteType = {
+		name = "GFX_PHP_Sara_speech"
+		texturefile = "gfx/event_pictures/PHP/PHP_Sara_speech.png"
+	}
+
+##UPH
+
+##IGP
+
+##TAG
 	spriteType = {
 		name = "GFX_TAG_nationalist_rally"
-		texturefile = "gfx/event_pictures/TAG_nationalist_rally.png"
+		texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally.png"
 	}
 	
 	spriteType = {
 		name = "GFX_TAG_cardema_inspecting_troops"
-		texturefile = "gfx/event_pictures/TAG_cardema_inspecting_troops.png"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_inspecting_troops.png"
 	}
 	
 	spriteType = {
 		name = "GFX_TAG_nationalist_rally2"
-		texturefile = "gfx/event_pictures/TAG_nationalist_rally2.png"
-	}	
+		texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally2.png"
+	}
+
+##NPA
+	
 }
 	

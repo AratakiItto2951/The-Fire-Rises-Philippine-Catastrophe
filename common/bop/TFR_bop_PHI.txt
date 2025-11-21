@@ -1,0 +1,5 @@
+PHI_2022_presidential_election = {
+	left_side = PHI_bad_side
+	right_side = PHI_good_side
+	decision_category = PHI_balance_of_power_category
+}

@@ -820,4 +820,13 @@ defined_text = {
 		}
 		localization_key = JAM_hog_andrew_holness
 	}
+	
+	#PHI
+	text = {
+		trigger = {
+			tag = PHI
+			has_government = social_democrat
+		}
+		localization_key = PHI_hog_leni_robredo
+	}
 }

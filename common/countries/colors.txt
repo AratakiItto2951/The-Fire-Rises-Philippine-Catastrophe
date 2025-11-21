@@ -313,20 +313,20 @@ PHI = {
 	color_ui = rgb { 131 93 200 }
 }
 PHL = {
-	color = rgb { 200  130  220 }
-	color_ui = rgb { 200  130  220 }
+	color = rgb { 110 160 255 }
+	color_ui = rgb { 110 160 255 }
 }
 PHP = {
 	color = rgb { 0  128  128 }
 	color_ui = rgb { 0  128  128 }
 }
 UPH = {
-	color = rgb { 71  170  180 }
-	color_ui = rgb { 71  170  180 }
+	color = rgb { 39 111 135 }
+	color_ui = rgb { 39 111 135 }
 }
 IGP = {
-	color = rgb { 54  93  166 }
-	color_ui = rgb { 54  93  166 }
+	color = rgb { 36 65 133 }
+	color_ui = rgb { 36 65 133 }
 }
 PRU = {
 	color = rgb { 225 88 112 }
@@ -1747,19 +1747,23 @@ NPA = {
 	color_ui = rgb { 76 6 8 }
 }
 
-TAG = { 
+TAG = { # National Revolutionary Army
 	color = rgb { 76 58 87 }
 	color_ui = rgb { 76 58 87 }
+}
+
+CRD = { # Cordillera People's Committee
+	color = rgb { 145 140 110 }
+	color_ui { 145 140 110 }
 }
 
 MIN = { 
 	color = rgb { 23 57 94 }
 	color_ui = rgb { 23 57 94 }
 }
-
-VIS = { 
-	color = rgb { 71 91 131 }
-	color_ui = rgb { 71 91 131 }
+KFH = { # Kingdom Filipina Hacienda
+	color = rgb { 99 213 99 }
+	color_ui = rgb { 99 213 99 }
 }
 
 VIS = { 

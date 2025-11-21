@@ -1,7 +1,7 @@
 ﻿add_namespace = china
 add_namespace = china_collapse
 add_namespace = china_aprilfools25
-
+add_namespace = sino_jap_coldwar
 
 #Taiwan Invasion Preparations
 country_event = {
@@ -17,13 +17,23 @@ country_event = {
 	}
 	option = {
 		name = china.2.a
-		#set_politics = { ага, конечно, не сломано у нас ничего, ага, да, знаем -IAVL
-		#	ruling_party = fascist
-		#	elections_allowed = no
-		#}
 	}
 }
-
+country_event = {
+	id = china.703
+	title = china.703.t
+	desc = china.703.d
+	picture = GFX_event_taiwanwarwin
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	#immediate = {
+	#}
+	option = {
+		name = china.703.a
+		load_oob = PRC_2020_nsb
+	}
+} 
 #President Xi Visits Myanmar
 country_event = {
 	id = china.3
@@ -554,19 +564,68 @@ country_event = {
 	}
 }
 
-#unused
+#September 3rd Victory Parade
 country_event = {
 	id = china.22
 	title = china.22.t
 	desc = china.22.d
-	picture = GFX_event_xijinping
+	picture = GFX_PRC_pla_soldiers_parade_cool
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 		tag = PRC
 	}
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = china.81
+				hours = 2
+			}
+		}
+	}
 	option = {
 		name = china.22.a
+		add_war_support = 0.02
+		custom_effect_tooltip = PRC_september_3rd_portraits_tt
+		set_country_flag = PRC_september_3rd_portraits_flag
+		set_portraits = {
+			character = PRC_wang_yang
+			civilian = {
+				large = "GFX_portrait_PRC_Wang_Yang_sep3rd"
+			}
+		}
+		set_portraits = {
+			character = PRC_cheng_wenqing
+			civilian = {
+				large = "GFX_portrait_PRC_Cheng_Wenqing_sep3rd"
+			}
+		}
+		set_portraits = {
+			character = PRC_Hu_Chunhua
+			civilian = {
+				large = "GFX_portrait_PRC_Hu_Chunhua_sep3rd"
+			}
+		}
+		set_portraits = {
+			character = PRC_xi_jinping
+			civilian = {
+				large = "GFX_portrait_PRC_xi_jinping_sep3rd"
+			}
+			army = {
+				large = "GFX_portrait_PRC_xi_jinping_sep3rd"
+			}
+		}
+		set_portraits = {
+			character = PRC_li_zuocheng
+			civilian = {
+				large = "GFX_portrait_PRC_Li_Zuocheng_leader_sep3rd"
+			}
+		}
+	}
+	option = {
+		name = china.22.b
+		add_stability = 0.01
+		add_political_power = 25
 	}
 }
 
@@ -618,6 +677,7 @@ country_event = {
 			transfer_state = 1150
 			transfer_state = 1149
 			transfer_state = 1148
+			transfer_state = 1451
 			if = {
 				limit = {
 					controls_state = 876
@@ -667,6 +727,7 @@ country_event = {
 						state = 1150
 						state = 1149
 						state = 1148
+						transfer_state = 1451
 					}
 				}
 				remove_claim_by = CHI
@@ -681,6 +742,7 @@ country_event = {
 			transfer_state = 1150
 			transfer_state = 1149
 			transfer_state = 1148
+			transfer_state = 1451
 			if = {
 				limit = {
 					controls_state = 876
@@ -902,13 +964,17 @@ country_event = {
 		}
 		set_temp_variable = {
 			var = PRC_influence_cen_var_temp
-			value = 0.035
+			value = -0.05
 		}
 		PRC_add_influence_cen = yes
 	}
 	option = {
 		name = china.13.b
-		add_political_power = -35
+		set_temp_variable = {
+			var = PRC_approval_rating_var_temp
+			value = 0.03
+		}
+		PRC_add_party_approval = yes
 	}
 }
 
@@ -1046,28 +1112,18 @@ country_event = {
 	}
 }
 
-#Chinese Reunification
-news_event = {
+#unused
+country_event = {
 	id = china.36
 	title = china.36.t
 	desc = china.36.d
 	picture = GFX_chinaarmy1
 	is_triggered_only = yes
-	major = yes
+	fire_only_once = yes
 	trigger = {
-		NOT = {
-			country_exists = CHI
-		}
-		PRC = {
-			owns_state = 1148
-			owns_state = 1149
-			owns_state = 1150
-			owns_state = 524
-		}
 	}
 	option = {
 		name = china.36.a
-		
 	}
 }
 
@@ -3539,18 +3595,19 @@ news_event = {
 	}
 }
 
-#unused
+#Four Generations
 country_event = {
 	id = china.81
 	title = china.81.t
 	desc = china.81.d
-	picture = GFX_Chinese_soldiers
+	picture = GFX_PRC_four_generations
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 	}
 	option = {
 		name = china.81.a
+		add_war_support = 0.01
 	}
 }
 
@@ -3847,22 +3904,27 @@ country_event = {
 	}
 }
 
-news_event = {
+#The Ultimate Collector
+country_event = {
 	id = china.89
 	title = china.89.t
 	desc = china.89.d
-	picture = GFX_news_china_vietnam
-	major = yes
+	picture = GFX_PRC_labubu_chinese_patriot
 	is_triggered_only = yes
+	fire_only_once = yes
 	trigger = {
-		tag = PRC
 	}
 	option = {
 		name = china.89.a
-		
+		add_political_power = 5
+		set_temp_variable = {
+			income_var_temp = 0.5
+		}
+		add_income_with_inflation = yes
 	}
 }
 
+#unused
 news_event = {
 	id = china.90
 	title = china.90.t
@@ -3879,7 +3941,7 @@ news_event = {
 	}
 }
 
-#Laos
+#unused
 news_event = {
 	id = china.91
 	title = china.91.t
@@ -3896,7 +3958,7 @@ news_event = {
 	}
 }
 
-#Nepal
+#unused
 news_event = {
 	id = china.92
 	title = china.92.t
@@ -3913,7 +3975,7 @@ news_event = {
 	}
 }
 
-#Cambodia
+#unused
 news_event = {
 	id = china.93
 	title = china.93.t
@@ -3930,7 +3992,7 @@ news_event = {
 	}
 }
 
-#Sri Lanka
+#unused
 news_event = {
 	id = china.94
 	title = china.94.t
@@ -4555,7 +4617,7 @@ country_event = {
 	}
 }
 
-#unused
+#debug
 country_event = {
 	id = china.111
 	title = china.111.t
@@ -4567,6 +4629,28 @@ country_event = {
 	}
 	option = {
 		name = china.111.a
+		clr_country_flag = PRC_military_tree_available
+		clr_country_flag = PRC_for_policy_tree_available
+		PRC_Huang_Ming = {
+			add_trait = {
+			    trait = trait_PRC_august_1st_medal
+			}
+			add_trait = {
+			    trait = trait_PRC_red_flag_medal
+			}
+			add_trait = {
+			    trait = trait_PRC_red_star_medal
+			}
+			add_trait = {
+			    trait = trait_PRC_tiger_tally
+			}
+			add_trait = {
+			    trait = trait_PRC_goldfish_pouch
+			}
+			add_trait = {
+			    trait = trait_PRC_iron_certificate
+			}
+		}
 	}
 }
 
@@ -5706,6 +5790,7 @@ country_event = {
 	option = {
 		name = china.156.a
 		clr_country_flag = PRC_xinjiang_rebellion
+		clr_country_flag = PRC_Xinjiang_Autonomy_exploded_flag
 		add_stability = 0.05
 		annex_country = {
 			target = XIN
@@ -6313,6 +6398,10 @@ unit_leader_event = {
 			}
 			JAP = {
 				add_to_faction = KOR
+			}
+			news_event = {
+				id = sino_jap_coldwar.11
+				hours = 1
 			}
 			country_event = {
 				id = china.1008
@@ -7395,6 +7484,11 @@ country_event = {
 					modifier = PRC_taiwan_autonomous_region
 				}
 			}
+			1451 = {
+				add_dynamic_modifier = {
+					modifier = PRC_taiwan_autonomous_region
+				}
+			}
 		}
 	}
 }
@@ -7442,6 +7536,7 @@ country_event = {
 				transfer_state = 1150
 				transfer_state = 1149
 				transfer_state = 1148
+				transfer_state = 1451
 				if = {
 					limit = {
 						controls_state = 876
@@ -7487,6 +7582,12 @@ country_event = {
 					modifier = PRC_taiwan
 				}
 			}
+			1451 = {
+				add_dynamic_modifier = {
+					modifier = PRC_taiwan
+				}
+			}
+			add_state_core = 648
 		}
 	}
 }
@@ -7734,6 +7835,10 @@ country_event = {
 			}
 			JAP = {
 				add_to_faction = KOR
+			}
+			news_event = {
+				id = sino_jap_coldwar.11
+				hours = 1
 			}
 			country_event = {
 				id = china.1008
@@ -9032,14 +9137,14 @@ country_event = {
 		add_debt_with_inflation = yes
 		hidden_effect = {
 			random_list = {
-				70 = {
+				80 = {
 					country_event = {
 						id = china.256
 						days = 300
 						random_days = 80
 					}
 				}
-				30 = {
+				20 = {
 					country_event = {
 						id = china.255
 						days = 300
@@ -12993,9 +13098,18 @@ country_event = {
 		name = china.381.a
 		custom_effect_tooltip = PRC_li_zuocheng_authority_fully_consolidated_tt
 		set_country_flag = PRC_li_zuocheng_authority_fully_consolidated_flag
-		set_portraits = {
-		    character = PRC_li_zuocheng
-		    civilian = { large = "GFX_portrait_PRC_Li_Zuocheng_leader_3" }
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = PRC_september_3rd_portraits_flag
+				}
+			}
+			set_portraits = {
+				character = PRC_li_zuocheng
+				civilian = {
+					large = "GFX_portrait_PRC_Li_Zuocheng_leader_3"
+				}
+			}
 		}
 	}
 }
@@ -13015,9 +13129,18 @@ country_event = {
 		custom_effect_tooltip = PRC_pla_authority_fully_consolidated_tt
 		set_country_flag = PRC_pla_authority_fully_consolidated_flag
 		add_country_leader_trait = hos_depressed
-		set_portraits = {
-		    character = PRC_li_zuocheng
-		    civilian = { large = "GFX_portrait_PRC_Li_Zuocheng_leader_2" }
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = PRC_september_3rd_portraits_flag
+				}
+			}
+			set_portraits = {
+				character = PRC_li_zuocheng
+				civilian = {
+					large = "GFX_portrait_PRC_Li_Zuocheng_leader_2"
+				}
+			}
 		}
 	}
 }
@@ -14096,9 +14219,6 @@ country_event = {
 	option = {
 	 	name = china.414.a
 		remove_ideas = PRC_overloaded_bureaucracy_idea
-		remove_dynamic_modifier = {
-			modifier = PRC_overloaded_bureaucracy_dynamic
-		}
 		if = {
 			limit = {
 				has_country_flag = PRC_capital_construction_process_is_finished_flag
@@ -14106,6 +14226,11 @@ country_event = {
 			unlock_decision_tooltip = PRC_xion_full_speed_ahead
 		}
 	    set_country_flag = PRC_capital_bureaucracy_process_is_finished_flag
+		hidden_effect = {
+			remove_dynamic_modifier = {
+				modifier = PRC_overloaded_bureaucracy_dynamic
+			}
+		}
 	}
 }
 
@@ -17169,8 +17294,18 @@ country_event = {
 			long_name = PRC_cpc_technocrats_long
 			name = PRC_cpc_technocrats
 		}
-		set_country_leader_portrait = {
-			portrait = GFX_portrait_PRC_Cheng_Wenqing_scientists
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = PRC_september_3rd_portraits_flag
+				}
+			}
+			set_portraits = {
+				character = PRC_cheng_wenqing
+				civilian = {
+					large = "GFX_portrait_PRC_Cheng_Wenqing_scientists"
+				}
+			}
 		}
 		set_country_leader_ideology = technocracy_totsoc
 		remove_mission = PRC_science_MSS_dynamic_opinion
@@ -17195,8 +17330,18 @@ country_event = {
 		name = china.543.a
 		custom_effect_tooltip = PRC_mss_path_win_tt
 		set_country_flag = PRC_mss_consolidated_power
-		set_country_leader_portrait = {
-			portrait = GFX_portrait_PRC_Cheng_Wenqing_MSS
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = PRC_september_3rd_portraits_flag
+				}
+			}
+			set_portraits = {
+				character = PRC_cheng_wenqing
+				civilian = {
+					large = "GFX_portrait_PRC_Cheng_Wenqing_MSS"
+				}
+			}
 		}
 		set_country_leader_ideology = digital_leninism
 		remove_mission = PRC_science_MSS_dynamic_opinion
@@ -17996,7 +18141,67 @@ country_event = {
 	}
 }
 
+### PLA Reform ###
+##PLA Navy
+# SSN events
+country_event = {
+	id = china.700
+	title = china.700.t
+	desc = china.700.d
+	picture = GFX_event_prc_sun_jianguo1
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	#immediate = {
+	#}
+	option = {
+		name = china.700.a
+		navy_experience = 25
+		hidden_effect = {
+			PRC_sun_jianguo = {
+                unit_leader_event = {
+                    id = china.701
+                    days = 3
+                }
+            }
+		}
+	}
+}
 
+unit_leader_event = {
+	id = china.701
+	title = china.701.t
+	desc = china.701.d
+	picture = GFX_report_event_generic_mussolini
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	}
+	option = { #approved
+		name = china.701.a
+		mio:PRC_bohai_shipyard_organization = {
+			add_mio_funds_gain_factor = 0.10
+			complete_mio_trait = PRC_mio_cmc_funds
+			set_mio_flag = PRC_mio_flag_cmc_approve_ssn_funding
+		}
+		mio:PRC_csic_wuchang_shipyard_organization = {
+			add_mio_funds_gain_factor = 0.10
+		}
+		custom_effect_tooltip = tooltip_white_line
+		set_temp_variable = {
+			var = debt_var_temp
+			value = 10
+		}
+		add_debt_with_inflation = yes
+	}
+	option = {
+		name = china.701.b
+		mio:PRC_bohai_shipyard_organization = {
+			add_mio_funds_gain_factor = 0.10
+			complete_mio_trait = PRC_mio_Navy_Field_Test
+		}
+	}
+}
 
 ###GAW-related events###
 #GAW setup
@@ -19543,7 +19748,415 @@ country_event = {
 	}
 }
 
+#Post-War Flavor
 
+#The Countryside Enters a New Century
+country_event = {
+	id = china.1500
+	title = china.1500.t
+	desc = china.1500.d
+	picture = GFX_PRC_countryside_new_century
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1500.a
+		set_temp_variable = {
+			var = farming_development_var_temp
+			value = 0.025
+		}
+		add_farming_development = yes
+		
+	}
+}
+
+country_event = {
+	id = china.1501
+	title = china.1501.t
+	desc = china.1501.d
+	picture = GFX_PRC_old_japan_vs_new_japan
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1501.a
+	}
+}
+
+country_event = {
+	id = china.1502
+	title = china.1502.t
+	desc = china.1502.d
+	picture = GFX_PRC_citizen_kenji
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1502.a
+		
+	}
+}
+
+country_event = {
+	id = china.1503
+	title = china.1503.t
+	desc = china.1503.d
+	picture = GFX_PRC_the_yasukuni_shrine_question
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1503.a
+		PRC = {
+			add_war_support = 0.05
+		}
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.1
+			add_war_support = -0.1
+			add_political_power = -50
+			add_popularity = {
+			    ideology = fascist
+			    popularity = -0.1
+		    }
+		}
+		1332 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = -1
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = china.1503.b
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_popularity = {
+			    ideology = social_democrat
+			    popularity = 0.03
+		    }
+		    add_popularity = {
+			    ideology = communist
+			    popularity = 0.02
+		    }
+			add_popularity = {
+			    ideology = fascist
+			    popularity = -0.1
+		    }
+		}
+	}
+
+	option = {
+		name = china.1503.c
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_popularity = {
+			    ideology = fascist
+			    popularity = -0.1
+		    }
+		}
+	}
+}
+
+country_event = {
+	id = china.1504
+	title = china.1504.t
+	desc = china.1504.d
+	picture = GFX_PRC_the_chrysanthemum_dynasty
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1504.a
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.10
+			add_war_support = -0.15
+			retire_character = JAP_naruhito_char
+			retire_character = JAP_fumihito_char
+		}
+	}
+
+	option = {
+		name = china.1504.b
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.25
+			add_war_support = -0.25
+			retire_character = JAP_naruhito_char
+			retire_character = JAP_fumihito_char
+			add_manpower = -17
+		}
+	}
+
+	option = {
+		name = china.1504.c
+		every_country = {
+			limit = {
+				original_tag = JAP
+			}
+			add_stability = -0.15
+			add_war_support = -0.15
+			retire_character = JAP_naruhito_char
+			retire_character = JAP_fumihito_char
+		}
+	}
+}
+
+country_event = {
+	id = china.1505
+	title = china.1505.t
+	desc = china.1505.d
+	picture = GFX_PRC_lost_cat
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1505.a
+		
+	}
+}
+
+country_event = {
+	id = china.1506
+	title = china.1506.t
+	desc = china.1506.d
+	picture = GFX_PRC_little_guangzhou
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1506.a
+		
+	}
+}
+
+country_event = {
+	id = china.1507
+	title = china.1507.t
+	desc = china.1507.d
+	picture = GFX_PRC_mountains_with_mountains
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1507.a
+		
+	}
+}
+
+country_event = {
+	id = china.1508
+	title = china.1508.t
+	desc = china.1508.d
+	picture = GFX_PRC_vienam_web
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1508.a
+		
+	}
+}
+
+country_event = {
+	id = china.1509
+	title = china.1509.t
+	desc = china.1509.d
+	picture = GFX_PRC_friends_from_afar
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1509.a
+		
+	}
+}
+
+country_event = {
+	id = china.1510
+	title = china.1510.t
+	desc = china.1510.d
+	picture = GFX_PRC_southern_heat
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1510.a
+		
+	}
+}
+
+country_event = {
+	id = china.1511
+	title = china.1511.t
+	desc = china.1511.d
+	picture = GFX_PRC_the_lonely_watchman
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1511.a
+		
+	}
+}
+
+country_event = {
+	id = china.1512
+	title = china.1512.t
+	desc = china.1512.d
+	picture = GFX_PRC_servant_of_the_people
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1512.a
+		
+	}
+}
+
+country_event = {
+	id = china.1513
+	title = china.1513.t
+	desc = china.1513.d
+	picture = GFX_PRC_a_sprout_on_ashes
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1513.a
+		
+	}
+}
+
+country_event = {
+	id = china.1514
+	title = china.1514.t
+	desc = china.1514.d
+	picture = GFX_PRC_train_to_spring
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1514.a
+		
+	}
+}
+
+country_event = {
+	id = china.1515
+	title = china.1515.t
+	desc = china.1515.d
+	picture = GFX_PRC_the_sea_breeze_remains
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1515.a
+		
+	}
+}
+
+country_event = {
+	id = china.1516
+	title = china.1516.t
+	desc = china.1516.d
+	picture = GFX_PRC_unity_bring_peace
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		has_country_flag = PRC_centrist_win
+	}
+	option = {
+		name = china.1516.a
+		add_named_threat = {
+			threat = -5
+			name = PRC_international_organization_for_mediation
+		}
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	id = china.1517
+	title = china.1517.t
+	desc = china.1517.d
+	picture = GFX_PRC_mount_song_memorial_park
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = china.1517.a
+		
+	}
+}
 
 ###############################################CIVIL WAR###############################################
 #Collapse of the Central Government in China
@@ -20631,5 +21244,444 @@ country_event = {
 	}
 	option = {
 		name = china_aprilfools25.18.a
+	}
+}
+
+
+#Cambodia Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.1
+	title = sino_jap_coldwar.1.t
+	desc = sino_jap_coldwar.1.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.1.a
+	}
+}
+#Vietnam Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.2
+	title = sino_jap_coldwar.2.t
+	desc = sino_jap_coldwar.2.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.2.a
+	}
+}
+#Laos Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.3
+	title = sino_jap_coldwar.3.t
+	desc = sino_jap_coldwar.3.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.3.a
+	}
+}
+#Thailand Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.4
+	title = sino_jap_coldwar.4.t
+	desc = sino_jap_coldwar.4.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.4.a
+	}
+}
+#Singapore Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.5
+	title = sino_jap_coldwar.5.t
+	desc = sino_jap_coldwar.5.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.5.a
+	}
+}
+#Malaysia Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.6
+	title = sino_jap_coldwar.6.t
+	desc = sino_jap_coldwar.6.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.6.a
+	}
+}
+#Philippines Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.7
+	title = sino_jap_coldwar.7.t
+	desc = sino_jap_coldwar.7.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.7.a
+	}
+}
+#Indonesia Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.8
+	title = sino_jap_coldwar.8.t
+	desc = sino_jap_coldwar.8.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.8.a
+	}
+}
+#India Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.9
+	title = sino_jap_coldwar.9.t
+	desc = sino_jap_coldwar.9.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.9.a
+	}
+}
+#Papua New Guinea Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.10
+	title = sino_jap_coldwar.10.t
+	desc = sino_jap_coldwar.10.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.10.a
+	}
+}
+#South Korea Joins the PDTO
+news_event = {
+	id = sino_jap_coldwar.11
+	title = sino_jap_coldwar.11.t
+	desc = sino_jap_coldwar.11.d
+	picture = GFX_sino_jap_coldwar_pdto_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.11.a
+	}
+}
+#North Korea Joins the EADI #uhhh check news.346
+news_event = {
+	id = sino_jap_coldwar.12
+	title = sino_jap_coldwar.12.t
+	desc = sino_jap_coldwar.12.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.12.a
+	}
+}
+#Vietnam Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.13
+	title = sino_jap_coldwar.13.t
+	desc = sino_jap_coldwar.13.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.13.a
+	}
+}
+#Cambodia Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.14
+	title = sino_jap_coldwar.14.t
+	desc = sino_jap_coldwar.14.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.14.a
+	}
+}
+#Laos Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.15
+	title = sino_jap_coldwar.15.t
+	desc = sino_jap_coldwar.15.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.15.a
+	}
+}
+#Thailand Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.16
+	title = sino_jap_coldwar.16.t
+	desc = sino_jap_coldwar.16.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.16.a
+	}
+}
+#Singapore Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.17
+	title = sino_jap_coldwar.17.t
+	desc = sino_jap_coldwar.17.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.17.a
+	}
+}
+#Malaysia Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.18
+	title = sino_jap_coldwar.18.t
+	desc = sino_jap_coldwar.18.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.18.a
+	}
+}
+#Philippines Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.19
+	title = sino_jap_coldwar.19.t
+	desc = sino_jap_coldwar.19.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.19.a
+	}
+}
+#Indonesia Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.20
+	title = sino_jap_coldwar.20.t
+	desc = sino_jap_coldwar.20.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.20.a
+	}
+}
+#Pakistan Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.21
+	title = sino_jap_coldwar.21.t
+	desc = sino_jap_coldwar.21.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.21.a
+	}
+}
+#Nepal Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.22
+	title = sino_jap_coldwar.22.t
+	desc = sino_jap_coldwar.22.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.22.a
+	}
+}
+#Sri Lanka Joins the EADI
+news_event = {
+	id = sino_jap_coldwar.23
+	title = sino_jap_coldwar.23.t
+	desc = sino_jap_coldwar.23.d
+	picture = GFX_sino_jap_coldwar_eadi_join_news
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = PRC
+			is_ally_with = JAP
+			is_ally_with = PRC
+		}
+	}
+	option = {
+		name = sino_jap_coldwar.23.a
 	}
 }

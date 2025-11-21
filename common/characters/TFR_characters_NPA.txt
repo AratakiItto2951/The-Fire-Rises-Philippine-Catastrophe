@@ -1,6 +1,8 @@
 characters = {
 
-NPA_luis_jalandoni_char = {
+
+
+	NPA_luis_jalandoni_char = {
 		name = "Luis Jalandoni"
 		portraits={
 			civilian = {
@@ -20,4 +22,78 @@ NPA_luis_jalandoni_char = {
 			ideology = progressivism
 		}
 	}
-}	
+	NPA_julia_sison_char = {
+		name = "Julie De Lima Sison"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/NPA/NPA_Julie_DeLima_Sison.png" 
+			}
+		}
+		country_leader = {
+			ideology = maoism
+		}
+		country_leader = {
+			ideology = marxism_leninism
+		}
+		country_leader = {
+			ideology = reformist_socialism
+		}
+		country_leader = {
+			ideology = progressivism
+		}
+	}
+	
+###- Starting Commanders -###
+	NPA_jorge_madlos_char = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/NPA/NPA_Jorge_Madlos.png"
+				small = 
+			}
+		}
+		field_marshal = {
+			desc = 
+			traits = 
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}		
+	}
+	NPA_juanito_magbanua_char = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/NPA/NPA_Juanito_Magbanua.png"
+				small = 
+			}
+		}
+		corps_commander = {
+			desc = 
+			traits = {light_infantry_officer}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}
+	NPA_porferio_tuna_char = {
+		portraits = {
+			army = {
+				large = "gfx/leaders/NPA/NPA_Porferio_Tuna.png"
+				small = 
+			}
+		}
+		corps_commander = {
+			desc = 
+			traits = {light_infantry_officer}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+	}		
+}
+	
