@@ -1757,6 +1757,11 @@ CRD = { # Cordillera People's Committee
 	color_ui { 145 140 110 }
 }
 
+BTA = { #Bangsamoro legit
+	color = rgb { 215 100 115 }
+	color_ui = rgb { 215 100 115 }
+}
+
 MIN = { 
 	color = rgb { 23 57 94 }
 	color_ui = rgb { 23 57 94 }

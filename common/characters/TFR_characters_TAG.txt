@@ -5,6 +5,9 @@ characters = {
 			civilian = {
 				large = "gfx/Leaders/TAG/TAG_Ronald_Cardema.png" 
 				}
+			army = {
+				large = "gfx/Leaders/TAG/TAG_Ronald_Cardema.png" 
+				}	
 			}
 		country_leader = {
 			ideology = military_democracy
@@ -28,6 +31,9 @@ characters = {
 				has_government = military_junta
 			}
 		}
+		corps_commander={
+			skill=2
+		}
 	}
 		
 	
@@ -41,7 +47,7 @@ characters = {
 		country_leader = {
 			ideology = ultranationalism
 			}
-		}
+	}
 	
 	TAG_glenn_chong_char = {
 		name = "Glenn Chong"
@@ -180,13 +186,11 @@ characters = {
 				has_government = neonazism
 				has_government = national_spartanism
 				
-				NOT = {
-				
+				NOT = { }
 				}
 			}	
-		
 		}
-		}
+	}	
 			
 		#KBL Marcoses
 		
@@ -225,11 +229,36 @@ characters = {
 			}		
 		}
 
-	TAG_paul_dumol = {
+	TAG_paul_dumol_char = {
 		name = "Paul Arvisu Dumol"
 		portraits={
 			civilian = {
 				large = "gfx/Leaders/TAG/TAG_Paul_Dumol_hispanista.png" 
+			}
+		}
+		
+		advisor = {
+		slot = theorist
+		idea_token = my_character
+		ledger = army
+		traits = { military_theorist }      # Unspecified cost defaults to 150.
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =   clerical_fascism
+			}		
+		}
+		
+	TAG_pepe_alas_char = {
+		name = "José Mario “Pepe” Alas"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Pepe_Alas.png" 
 			}
 			}
 		country_leader = {
@@ -241,7 +270,7 @@ characters = {
 		country_leader = {
 			ideology =   clerical_fascism
 			}		
-		}	
+		}		
 	
 		###The Internal Opposition###
 
@@ -298,25 +327,109 @@ characters = {
 			}		
 		}
 		
-	#Right Opposition	(PNF rebellion)		
+		#Right Opposition	(PNF rebellion)		
 	
 	
-	#Commanders
-
-	TAG_ronald_cardema_char = {
-		name = "Ronald Cardema"
-		portraits={
-			army = {
-				large = "gfx/Leaders/TAG/TAG/TAG_Ronald_Cardema.png" 
+		#Commanders
+		
+		TAG_berlin_lingwa_char = {
+			name = "Berlin Lingwa"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Berlin_Lingwa_masked.png}
+					large = {gfx/Leaders/TAG/TAG_Berlin_Lingwa_masked.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
 			}
-		}
-
-		corps_commander={
-			skill=2
-		}
-	}	
-	
-	
+		
+		TAG_ron_bawalan_char = {}
+		
+		TAG_vincent_bancangoy_char = {}
+		
+		TAG_nicanor_faeldon_char = {}
+		
+		TAG_aurika_abulencia_char = {}
+		
+		TAG_juster_paterno_char = {}
+		
+		TAG_generic_1_char = {
+			name = "John Rhenz Salvatierra"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG1.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+		TAG_generic_2_char = {
+			name = "Mark Francis Lejano"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG2.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+		TAG_generic_3_char = {
+			name = "Mike Quijanes"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG3B.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
 }	
 	
 

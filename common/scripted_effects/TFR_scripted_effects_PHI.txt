@@ -1,0 +1,29 @@
+PHI_civil_war_begins = {
+	set_global_flag = PHI_philippine_catastrophe_global
+	
+	PHI = {
+		declare_war_on = {
+			target = UPH
+			type = civil_war
+		}		
+	}
+	PHL = {
+		declare_war_on = {
+			target = PHL
+			type = civil_war
+		}		
+	}
+
+	TAG = {
+		declare_war_on = {
+			target = CRD
+			type = civil_war
+		}		
+	}
+	PHP = {
+		declare_war_on = {
+			target = NPA
+			type = civil_war
+		}		
+	}	
+}		

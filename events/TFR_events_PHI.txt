@@ -417,6 +417,7 @@ country_event = {
 	option = {
 		name = phi_2acw.3.a
 	}
+}
 ##Swedish Expat mistaken for Yankee
 country_event = {
 	id = phi_2acw.4
@@ -440,6 +441,7 @@ country_event = {
 	option = {
 		name = phi_2acw.4.a
 	}
+}
 ##Kid trashes brother's Hot Wheels collection
 country_event = {
 	id = phi_2acw.5
@@ -505,6 +507,7 @@ country_event = {
 			}
 		}
 	}
+}
 ##Duterte Youth flash mob makes a ruckus
 country_event = {
 	id = phi_2acw.7
@@ -543,7 +546,9 @@ country_event = {
 					hours = 1
 			}
 		custom_effect_tooltip = revenge_legion
-		set_country_flag = PHI_revenge_legion	
+		set_country_flag = PHI_revenge_legion
+		add_state_claim = 638
+		add_state_claim = 647
 		}
 	}
 }
@@ -640,7 +645,6 @@ country_event = {
 		set_party_name = { ideology = nationalist long_name = PHI_miljunta_nationalist_long name = PHI_miljunta_nationalist_short }
 		set_party_name = { ideology = fascist long_name = PHI_miljunta_fascist_long name = PHI_miljunta_fascist_short }
 		set_party_name = { ideology = national_socialist long_name = PHI_miljunta_national_socialist_long name = PHI_miljunta_national_socialist_short }
-		set_party_name = { ideology = outlawed long_name = PHI_miljunta_outlawed_long name = PHI_miljunta_outlawed_short }
 	}
 }
 
@@ -679,11 +683,11 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1452
-			transfer_state = 1455
-			transfer_state = 1456
-			transfer_state = 1457
-			transfer_state = 1458
+			transfer_state = 1486
+			transfer_state = 1489
+			transfer_state = 1490
+			transfer_state = 1491
+			transfer_state = 1492
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -700,14 +704,17 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458			
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
+			add_state_core = 1493
 			load_oob = MIN_civil_war
+			inherit_technology = PHI
 			change_tag_from = PHI			
 			if = {
 				limit = {
@@ -738,11 +745,11 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1452
-			transfer_state = 1455
-			transfer_state = 1456
-			transfer_state = 1457
-			transfer_state = 1458			
+			transfer_state = 1486
+			transfer_state = 1489
+			transfer_state = 1490
+			transfer_state = 1491
+			transfer_state = 1492			
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -759,14 +766,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = MIN_civil_war
+			inherit_technology = PHI
 			if = {
 				limit = {
 					PHI = {
@@ -801,25 +810,25 @@ country_event = {
 	
 	immediate = {
         hidden_effect = {
-            # EVENT 4: UPH emerges
+            # EVENT 5: UPH emerges
             country_event = {
                 id = philcatastrophe.5
                 days = 1
             }
 			
-			#EVENT4: NPA takes mountains
+			#EVENT 4: NPA takes mountains
             country_event = {
                 id = philcatastrophe.4
                 days = 7
             }
 			
-			#EVENT6: Bloody Cebu and IGP
+			#EVENT 6: Bloody Cebu and IGP
             country_event = {
                 id = philcatastrophe.6
                 days = 10
             }
 
-			#EVENT7: NRA spawns in Cagayan
+			#EVENT 7: NRA spawns in Cagayan
             country_event = {
                 id = philcatastrophe.7
                 days = 15
@@ -836,7 +845,7 @@ country_event = {
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1454
+			transfer_state = 1488
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -853,14 +862,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = PHL_2020
+			inherit_technology = PHI
 			change_tag_from = PHI
 			if = {
 				limit = {
@@ -890,7 +901,7 @@ country_event = {
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1454
+			transfer_state = 1488
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -907,14 +918,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = PHL_2020
+			inherit_technology = PHI
 			if = {
 				limit = {
 					PHI = {
@@ -952,7 +965,7 @@ country_event = {
 		name = philcatastrophe.4.a
 		NPA = {
 			NPA = {
-			transfer_state = 1455
+			transfer_state = 1489
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -969,14 +982,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = NPA_civil_war
+			inherit_technology = PHI
 			change_tag_from = PHI
 			}
 		}
@@ -985,7 +1000,7 @@ country_event = {
 		name = philcatastrophe.4.b
 		NPA = {
 			NPA = {
-			transfer_state = 1455
+			transfer_state = 1489
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1002,14 +1017,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = NPA_civil_war
+			inherit_technology = PHI
 			}
 		}
 	}
@@ -1052,14 +1069,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = TAG_civil_war
+			inherit_technology = PHI
 			change_tag_from = PHI
 			}
 		}
@@ -1087,14 +1106,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = TAG_civil_war
+			inherit_technology = PHI
 			}
 		}
 	}
@@ -1121,7 +1142,7 @@ country_event = {
 			IGP = {
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1454
+			transfer_state = 1488
 			add_state_claim = 623
 			add_state_claim = 624
 			add_state_claim = 625
@@ -1139,14 +1160,16 @@ country_event = {
 			add_state_claim = 1280
 			add_state_claim = 1281
 			add_state_claim = 1384
-			add_state_claim = 1452
-			add_state_claim = 1453
-			add_state_core = 1454
-			add_state_claim = 1455
-			add_state_claim = 1456
-			add_state_claim = 1457
-			add_state_claim = 1458
+			add_state_claim = 1486
+			add_state_claim = 1487
+			add_state_core = 1488
+			add_state_claim = 1489
+			add_state_claim = 1490
+			add_state_claim = 1491
+			add_state_claim = 1492
+			add_state_claim = 1493
 			load_oob = VIS_civil_war
+			inherit_technology = PHI
 			change_tag_from = PHI
 			}
 		}
@@ -1158,7 +1181,7 @@ country_event = {
 			IGP = {
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1454
+			transfer_state = 1488
 			add_state_claim = 623
 			add_state_claim = 624
 			add_state_claim = 625
@@ -1176,14 +1199,16 @@ country_event = {
 			add_state_claim = 1280
 			add_state_claim = 1281
 			add_state_claim = 1384
-			add_state_claim = 1452
-			add_state_claim = 1453
-			add_state_core = 1454
-			add_state_claim = 1455
-			add_state_claim = 1456
-			add_state_claim = 1457
-			add_state_claim = 1458
+			add_state_claim = 1486
+			add_state_claim = 1487
+			add_state_core = 1488
+			add_state_claim = 1489
+			add_state_claim = 1490
+			add_state_claim = 1491
+			add_state_claim = 1492
+			add_state_claim = 1493
 			load_oob = VIS_civil_war
+			inherit_technology = PHI
 			}
 		}
 	}
@@ -1221,6 +1246,7 @@ country_event = {
 	}
 	option = {
 		name = philcatastrophe.7.a
+		TAG = {
 			transfer_state = 623
 			add_state_core = 623
 			add_state_core = 624
@@ -1239,14 +1265,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = TAG_civil_war
+			inherit_technology = PHI
 			change_tag_from = PHI
 			}
 		}
@@ -1272,14 +1300,16 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1452
-			add_state_core = 1453
-			add_state_core = 1454
-			add_state_core = 1455
-			add_state_core = 1456
-			add_state_core = 1457
-			add_state_core = 1458
+			add_state_core = 1486
+			add_state_core = 1487
+			add_state_core = 1488
+			add_state_core = 1489
+			add_state_core = 1490
+			add_state_core = 1491
+			add_state_core = 1492
+			add_state_core = 1493
 			load_oob = TAG_civil_war
+			inherit_technology = PHI
 			}
 		}
 	}
@@ -1287,24 +1317,76 @@ country_event = {
 
 # Bangsamoro declares neutrality and stays out
 
-# Cordillera proclaims ARMM-style regional gov, also stays out
-
-
-# EVENT 9: Civil War Begins
 country_event = {
 	id = philcatastrophe.8
 	title = philcatastrophe.8.t
 	desc = philcatastrophe.8.d
-	picture = GFX_PH_Civil_war
+	picture = GFX_TAG_nationalist_rally
 	fire_only_once = yes
 	is_triggered_only = yes
 	trigger = {
 		is_ai = no
 		tag = PHI
 	}
-
 	option = {
 		name = philcatastrophe.8.a
+		BTA = {
+			transfer_state = 1281
+			transfer_state = 1491
+			transfer_state = 1942
+			add_state_core = 1281
+			add_state_core = 1491
+			add_state_core = 1942
+		}
+}
+
+# Cordillera proclaims ARMM-style regional gov, also stays out
+
+#country_event = {
+	id = philcatastrophe.9
+	title = philcatastrophe.9.t
+	desc = philcatastrophe.9.d
+	picture = GFX_TAG_nationalist_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}
+}
+
+# Subic Bay declares neutrality, stays out
+
+#country_event = {
+	id = philcatastrophe.10
+	title = philcatastrophe.9.t
+	desc = philcatastrophe.9.d
+	picture = GFX_TAG_nationalist_rally
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+	}
+}
+
+
+# EVENT 11: Civil War Begins
+country_event = {
+	id = philcatastrophe.11
+	title = philcatastrophe.11.t
+	desc = philcatastrophe.11.d
+	picture = GFX_PH_Civil_war
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		is_ai = no
+		tag = PHI
+		date > 2028.6.30
+	}
+
+	option = {
+		name = philcatastrophe.11.a
 		PHI = {
 			declare_war_on = {
 				target = PHL
