@@ -1,0 +1,26 @@
+characters = {
+	OSB_sbma_char = {
+		name = "Subic Bay Metropolitan Authority"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/Subic/SBMA.png" 
+			}
+		}
+		country_leader = {
+			ideology = oligarchist
+		}
+	}
+	
+	OSB_bas_umali_char = {
+		name = "Bas Umali"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/Subic/Bas_Umali.png"
+				}
+		}
+		country_leader = {
+			ideology = left_anarchist
+		}
+	}
+
+}

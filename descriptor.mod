@@ -12,4 +12,4 @@ tags={
 	"Technologies"
 }
 name="TFR_PHI_submod_test mark 2"
-supported_version="1.*.*"
+supported_version="1.17.*"

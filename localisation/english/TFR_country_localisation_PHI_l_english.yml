@@ -26,9 +26,17 @@
  philipines.3.a: "Bongbong Marcos"
  philipines.3.b: "Leni Robredo"
  philipines.3.c: "Manny Pacquiao"
+ philipines.3.d: "Leody de Guzman"
  philipines.4.t: "Civil war erupts in the United States"
  philipines.4.d: ""
  philipines.4.a: "What will this mean for us?"
+ philipines.5.t: "Philippine Independence Day"
+ philipines.5.d: "" 
+ philipines.5.a: ""
+ philippines.6.t: "Metro Manila Film Festival"
+ philippines.6.d: "Every year, starting on Christmas Day, cinemas across the capital shut out foreign films and celebrate the enduring spirit of Filipino cinema. \n\nThe Metro Manila Film Festival (MMFF), now in its half-century run, has become more than a showcase of local talent — it’s a holiday tradition that brings families together to watch stories of Filipino life, struggle, and triumph projected onto the big screen. \nThis festive season, moviegoers packed theaters for locally produced films with diverse genres, from drama to horror and comedy. \nThe festival’s ‘Parade of Stars’ and ‘Gabi ng Parangal’ awards have once again highlighted the extraordinary creativity of the country’s filmmakers, reinforcing cultural pride during trying times."  
+ philippines.6.a: "Celebrate Filipino cinema!"
+ 
  #submod Events
  phi.1.t: "A new year"
  phi.1.d: ""
@@ -73,39 +81,60 @@
  phi_2acw.11.a: "" 
 
  
- #Philippine Catastrophe test events
+ ##Philippine Catastrophe test events
+ #PHI becomes PEG
  philcatastrophe.1.t: "Gunfire on Mendiola"
  philcatastrophe.1.d: "As clashes erupt outside the gates of Malacañang between Sara loyalists and opposition protesters, the Presidential Security Group orders a forced exfiltration. Smoke from burning tires on Recto is already visible from the Palace grounds. Gunshots echo from Mendiola. She screams at her generals, but they do not listen."
  philcatastrophe.1.a: "History Repeats. The Republic Collapses."
  philcatastrophe.2.t: "Sara makes televised speech!"
+ #PHP (GNS) forms
  philcatastrophe.2.d: ""
  philcatastrophe.2.a: "Stand by Authority and People's Will! (Play as PHP)"
  philcatastrophe.2.b: "Stand by the Republic!"
+ #PHL forms
  philcatastrophe.3.t: "Provisional Republic proclaimed!"
  philcatastrophe.3.d: "At 9:35 AM, before a modest crowd and under the gaze of the Mayon Volcano, Risa Hontiveros raised her hand at Peñaranda Park. The sun was low, casting long shadows across the Capitol steps as former Chief Justice Sereno whispered the words that would restart the Republic."
  philcatastrophe.3.a: "Stand by Liberty! (Play as PHL)"
  philcatastrophe.3.b: "Stand by the Republic!"
+ #NPA
  philcatastrophe.4.t: "New People's Army rejuvenated!"
- philcatastrophe.4.d: ""
+ philcatastrophe.4.d: "At 10:49 AM, NPA units have entered Malaybalay, the capital of Bukidnon, claiming the province all for themselves as their new base after driving the provincial government to exile in Davao City. By 1:00 PM they have marched truimphantly on Valencia, the first urban metropolis they conquered in their half-century long insurgency!"
  philcatastrophe.4.a: "Stand by the Revolution! (Play as NPA)"
  philcatastrophe.4.b: "Stand by the Republic!"
+ #UPH
  philcatastrophe.5.t: "Union of the Philippines Proclaimed!"
  philcatastrophe.5.d: ""
  philcatastrophe.5.a: "Stand by the Old Powers! (Play as Union)"
  philcatastrophe.5.b: "Stand by the Republic!"
+ #IGP
  philcatastrophe.6.t: "Interim Government Proclaimed!"
  philcatastrophe.6.d: ""
  philcatastrophe.6.a: "Stand by the Local Governments! (Play as IGP)"
  philcatastrophe.6.b: "Stand by the Republic!"
+ #TAG
  philcatastrophe.7.t: "Nationalists take up arms!"
  philcatastrophe.7.d: ""
  philcatastrophe.7.a: "Stand by the Nation! (Play as the NRA)"
  philcatastrophe.7.b: "Stand by the Republic!"
- 
- 
- philcatastrophe.8.t: "Civil War Breaks Out!"
+ #Bangsamoro
+ philcatastrophe.8.t: "BARMM declares neutrality"
  philcatastrophe.8.d: ""
- philcatastrophe.8.a: "To Arms!"	
+ philcatastrophe.8.a: "(Play as BARMM)"
+ philcatastrophe.8.b: "Stand by the Republic!"
+ #Cordillera
+ philcatastrophe.9.t: "Cordillera LGUs declare neutrality!"
+ philcatastrophe.9.d: ""
+ philcatastrophe.9.a: "(Play as Cordillera)"
+ philcatastrophe.9.b: "Stand by the Republic!"
+ #Subic Bay
+ philcatastrophe.10.t: "Subic Bay Metropolitian Authority declares neutrality!"
+ philcatastrophe.10.d: ""
+ philcatastrophe.10.a: "(Play as Subic)"
+ philcatastrophe.10.b: "Stand by the Republic!"
+ #Open conflict
+ philcatastrophe.11.t: "Civil War Breaks Out!"
+ philcatastrophe.11.d: ""
+ philcatastrophe.11.a: "To Arms!"	
  #### PHI CW TAGS ####
  MIN_social_democrat_party: "PDP-Laban (D)"
  MIN_social_democrat_party_long: "Philippine Democratic Party - People's Power (Duterte Faction)"
@@ -146,7 +175,7 @@
  PHI_taal_desc: ""
  PHI_expand_pppmodel: "Expand the PPP Model"
  PHI_expand_pppmodel_desc: ""
- PHI_redtape: "Loosen Red Tape:
+ PHI_redtape: "Loosen Red Tape"
  PHI_redtape_desc: ""
   
   

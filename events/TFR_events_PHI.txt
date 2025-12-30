@@ -187,6 +187,10 @@ country_event = {
 		}
 		add_popularity = { ideology = conservative popularity = 0.15 }
 		add_ideas = PHI_marcos_family_idea
+		hidden_effect = {
+			#load_focus_tree = PHI_marcos_presidency
+			set_country_flag = PHI_marcos_presidency
+			}
 	}
 	option = {
 		name = philipines.3.b
@@ -214,6 +218,10 @@ country_event = {
        			election_frequency = 72
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.15 }
+			hidden_effect = {
+			#load_focus_tree = PHI_robredo_presidency
+			set_country_flag = PHI_robredo_presidency
+			}	
 	}
 	option = {
 		name = philipines.3.c
@@ -242,6 +250,49 @@ country_event = {
 		}
 		add_popularity = { ideology = social_democrat popularity = 0.15 }
 		add_ideas = PHI_man_of_destiny_idea
+			hidden_effect = {
+			#load_focus_tree = PHI_pacquiao_presidency
+			set_country_flag = PHI_pacquiao_presidency
+			}	
+	}
+	option = {
+		name = philipines.3.d
+		ai_chance = {
+			base = 10
+		    	modifier = {
+				    factor = 0
+				    OR = {
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_2
+					    }
+				        has_game_rule = {
+					        rule = The_Philippine_2022_Election
+					        option = The_Philippine_2022_Election_4
+					    }
+			        }
+			    }
+		}
+		retire_character = PHI_rodrigo_duterte_char
+		hidden_effect = {
+		promote_character = {
+			character = PHI_leody_de_guzman_char
+			ideology = social_democrat
+			}
+		set_party_name = { ideology = social_democrat long_name = Party of the Laboring Masses = PLM }
+		}
+		set_politics = {
+			ruling_party = social_democrat 
+       			elections_allowed = yes
+        		last_election = "2022.5.9"
+       			election_frequency = 72
+		}
+		add_popularity = { ideology = social_democrat popularity = 0.15 }
+		add_ideas = PHI_man_of_destiny_idea
+			hidden_effect = {
+			#load_focus_tree = PHI_leody_presidency
+			set_country_flag = PHI_leody_presidency
+			}	
 	}
 }
 
@@ -264,6 +315,55 @@ country_event = {
 	}
 }
 
+country_event = { #Independence Day
+	id = philipines.5
+	title = philipines.5.t
+	desc = philipines.5.d
+	picture = GFX_philippines_start
+	
+		is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PHI
+	}
+	immediate = {
+        hidden_effect = {
+            country_event = { id = philipines.5 days = 365 } # Repeat the event
+			}
+	}
+
+	option = {
+		name = philipines.5.a
+		add_political_power = 20
+		}
+	}
+}
+
+country_event = { #Metro Manila Film Festival
+	id = philipines.6
+	title = philipines.6.t
+	desc = philipines.6.d
+	picture = GFX_MMFF1
+	
+		is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = PHI
+	}
+	immediate = {
+        hidden_effect = {
+            country_event = { id = philipines.6 days = 365 } # Repeat the event
+			}
+	}
+	option = {
+		name = philipines.6.a
+		add_political_power = 20
+		}
+	}
+}
+
 ###------------------------------------###
 
 ######################################################
@@ -277,7 +377,7 @@ country_event = {
 	id = phi.1
 	title = phi.1.t
 	desc = phi.1.d
-	picture = GFX_Generic_Collapse
+	picture = GFX_manila_fireworks1
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
@@ -285,19 +385,21 @@ country_event = {
 	trigger = {
 		tag = PHI
 	}
+
 	immediate = {
 		hidden_effect = {
 			log = "[GetDateText]: [Root.GetName]: event phi.1 immediate"
 			country_event = {
-            days = 1
-        }
-    }
-}
+				id = phi.2 
+				days = 1
+			}
+		}
+	}
 		
 	option = {
 		name = phi.1.a
 		complete_national_focus = PHI_new_decade
-		}
+	}
 }
 
 #Fresh bibingka
@@ -305,7 +407,7 @@ country_event = {
 	id = phi.2
 	title = phi.2.t
 	desc = phi.2.d
-	picture = GFX_Generic_Collapse
+	picture = "GFX_bibingka"
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
@@ -524,33 +626,35 @@ country_event = {
 		name = phi_2acw.7.a
 		hidden_effect = {
 			country_event = {
-					id = phi_2acw.8
-					hours = 1
+				id = phi_2acw.8
+				hours = 1
 			}
 		}
 	}
+
 	option = {
 		name = phi_2acw.7.b
 		hidden_effect = {
 			country_event = {
-					id = phi_2acw.8
-					hours = 1
+				id = phi_2acw.8
+				hours = 1
 			}
 		}
 	}
+
 	option = {
 		name = phi_2acw.7.c
 		hidden_effect = {
 			country_event = {
-					id = phi_2acw.8
-					hours = 1
+				id = phi_2acw.8
+				hours = 1
 			}
+		} 
 		custom_effect_tooltip = revenge_legion
 		set_country_flag = PHI_revenge_legion
 		add_state_claim = 638
 		add_state_claim = 647
-		}
-	}
+	} 
 }
 
 ###PHILIPPINE CATASTROPHE TEST###
@@ -725,10 +829,11 @@ country_event = {
 				hidden_effect = {
 				PRC = {
 					add_to_faction = PHP
-				}
+						}
 				PHI = {
 					clr_country_flag = eadi_member
-					}		
+						}		
+					}
 				}
 			}
 		}
@@ -788,7 +893,8 @@ country_event = {
 				}
 				PHI = {
 					clr_country_flag = eadi_member
-					}		
+						}		
+					}
 				}
 			}
 		}
@@ -875,23 +981,17 @@ country_event = {
 			change_tag_from = PHI
 			if = {
 				limit = {
-					PHI = {
-						has_country_flag = pdto_member
-					}
+					PHI = { has_country_flag = pdto_member }
 				}
 				hidden_effect = {
-				JAP = {
-					add_to_faction = PHL
-				}
-				PHI = {
-					clr_country_flag = pdto_member
-						}		
+					JAP = { add_to_faction = PHL }
+					PHI = { clr_country_flag = pdto_member }		
+						}
 					}
-				}			
+				}
 			}
-		
 		}
-	}
+
 	
 	option = {
 		name = philcatastrophe.3.b
@@ -1237,13 +1337,13 @@ country_event = {
 			elections_allowed = no
 			last_election = "2028.5.10"
 			election_frequency = 72
-		}
+				}
 		add_popularity = {
 			ideology = authoritarian_democrat
 			popularity = 0.65
+				}
+			}	
 		}
-	}	
-	}
 	option = {
 		name = philcatastrophe.7.a
 		TAG = {
@@ -1313,7 +1413,7 @@ country_event = {
 			}
 		}
 	}
-}
+
 
 # Bangsamoro declares neutrality and stays out
 
@@ -1337,12 +1437,27 @@ country_event = {
 			add_state_core = 1281
 			add_state_core = 1491
 			add_state_core = 1942
+			inherit_technology = PHI
+			change_tag_from = PHI
 		}
+	}
+	option = {
+		name = philcatastrophe.8.b
+		BTA = {
+			transfer_state = 1281
+			transfer_state = 1491
+			transfer_state = 1942
+			add_state_core = 1281
+			add_state_core = 1491
+			add_state_core = 1942
+			inherit_technology = PHI
+		}
+	}
 }
 
 # Cordillera proclaims ARMM-style regional gov, also stays out
 
-#country_event = {
+country_event = {
 	id = philcatastrophe.9
 	title = philcatastrophe.9.t
 	desc = philcatastrophe.9.d
@@ -1353,14 +1468,34 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
-}
+	
+	option = {
+		name = philcatastrophe.9.a
+		CRD = {
+			transfer_state = 1273
+			add_state_core = 1273
+			inherit_technology = PHI
+			change_tag_from = PHI
+			}
+		}
+	
+	option = {
+		name = philcatastrophe.9.b
+		CRD = {
+			transfer_state = 1273
+			add_state_core = 1273
+			inherit_technology = PHI
+		}
+	}
+}	
+
 
 # Subic Bay declares neutrality, stays out
 
-#country_event = {
+country_event = {
 	id = philcatastrophe.10
-	title = philcatastrophe.9.t
-	desc = philcatastrophe.9.d
+	title = philcatastrophe.10.t
+	desc = philcatastrophe.10.d
 	picture = GFX_TAG_nationalist_rally
 	fire_only_once = yes
 	is_triggered_only = yes
@@ -1368,7 +1503,24 @@ country_event = {
 		is_ai = no
 		tag = PHI
 	}
-}
+	option = {
+		name = philcatastrophe.10.a
+		OSB = {
+			transfer_state = 1493
+			add_state_core = 1493
+			inherit_technology = PHI
+			change_tag_from = PHI
+		}
+	}
+	option = {
+		name = philcatastrophe.10.b
+		OSB = {
+			transfer_state = 1493
+			add_state_core = 1493
+			inherit_technology = PHI
+		}
+	}
+}		
 
 
 # EVENT 11: Civil War Begins

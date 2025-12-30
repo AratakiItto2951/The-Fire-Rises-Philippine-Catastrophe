@@ -1,4 +1,4 @@
-﻿capital = 1453
+﻿capital = 1487
 
 oob = "PHI_2020"
 
@@ -8,6 +8,7 @@ set_research_slots = 3
 set_convoys = 360
 set_stability = 0.3
 
+# Flavour Events
 country_event = {
 	id = phi.1
 	days = 1
@@ -17,9 +18,23 @@ country_event = {
 	id = philipines.3
 	days = 859
 }
+
+# Test Triggers
 country_event = {
 	id = philcatastrophe.1 # Philippine Catastrophe test
 	days = 3052
+}
+
+#Repeating events
+
+country_event = { #Independence Day
+	id = philipines.5
+	days = 163
+}
+
+country_event = { #Metro Manila Film Festival
+	id = philipines.6
+	days = 359
 }
 
 set_country_flag = country_language_filipino

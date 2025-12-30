@@ -2138,6 +2138,22 @@ TAG_reunified_KBL = {
 	color = rgb { 0 127 217 }
 	color_ui = rgb { 0 127 217 }
 }
+
+OSB_alt = {  
+	color = rgb { 108 191 150 }
+	color_ui = rgb { 108 191 150 }
+}
+
+OSB_anarchist = {
+	color = rgb {}
+	color_ui = rgb { }
+}
+
+OSB_UNN = {
+	color = rgb { 54 105 160 }
+	color_ui = rgb { 54 105 160 }
+}
+
 USA_maupin_blue = {
 	color = rgb { 63 98 152 }
 	color_ui = rgb { 63 98 152 }

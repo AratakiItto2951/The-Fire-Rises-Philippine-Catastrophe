@@ -43,6 +43,17 @@ characters = {
 			ideology = left_populism
 		}
 	}
+	PHI_leody_de_guzman_char = {
+		name = "Leodegario Quitain de Guzman"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/PHI/PHI_Leody_De_Guzman.png" 
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+		}
+	}
 		PHI_miljunta_jay_tarriela_char = {
 		name = "Jay Tarriela"
 		portraits={

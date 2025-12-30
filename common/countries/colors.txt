@@ -313,8 +313,8 @@ PHI = {
 	color_ui = rgb { 131 93 200 }
 }
 PHL = {
-	color = rgb { 110 160 255 }
-	color_ui = rgb { 110 160 255 }
+	color = rgb { 110 60 255 }
+	color_ui = rgb { 110 60 255 }
 }
 PHP = {
 	color = rgb { 0  128  128 }
@@ -1760,6 +1760,11 @@ CRD = { # Cordillera People's Committee
 BTA = { #Bangsamoro legit
 	color = rgb { 215 100 115 }
 	color_ui = rgb { 215 100 115 }
+}
+
+OSB = {  #Subic Bay 
+	color = rgb { 90 65 140 }
+	color_ui = rgb { 90 65 140 }
 }
 
 MIN = { 
