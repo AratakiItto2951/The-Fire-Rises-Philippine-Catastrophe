@@ -90,7 +90,7 @@ focus_tree = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		relative_position_id = PHI_new_decade
-		x = 0
+		x = -2
 		y = 2
 		cost = 5
 		
@@ -115,15 +115,16 @@ focus_tree = {
 			}
 			
 		}
+		
 		focus = {
-		id = PHI_taal
+		id =  PHI_expand_pppmodel
 		icon =  GFX_generic_communications
 		search_filters = {
-			FOCUS_FILTER_DISASTER_RESPONSE
+			FOCUS_FILTER_INDUSTRY
 		}
-		relative_position_id = PHI_new_decade
+		relative_position_id = PHI_buildx3
 		x = 0
-		y = 3
+		y = 1
 		cost = 5
 		
 		allow_branch = {
@@ -132,6 +133,73 @@ focus_tree = {
 		cancelable = no
         prerequisite = {
             focus = PHI_buildx3
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_cut_red_tape
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_DISASTER_RESPONSE
+		}
+		relative_position_id = PHI_expand_pppmodel
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_expand_pppmodel
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		
+#Disaster Relief		
+		focus = {
+		id = PHI_taal
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_DISASTER_RESPONSE
+		}
+		relative_position_id = PHI_new_decade
+		x = 2
+		y = 2
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_a_nation_at_the_brink
         }
         ai_will_do = {
             base = 1
@@ -149,14 +217,14 @@ focus_tree = {
 			
 		}
 		focus = {
-		id =  PHI_expand_pppmodel
+		id = PHI_lesson_of_typhoons
 		icon =  GFX_generic_communications
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_DISASTER_RESPONSE
 		}
-		relative_position_id = PHI_new_decade
+		relative_position_id = PHI_taal
 		x = 0
-		y = 4
+		y = 1
 		cost = 5
 		
 		allow_branch = {
@@ -164,7 +232,7 @@ focus_tree = {
 		available_if_capitulated = yes
 		cancelable = no
         prerequisite = {
-            focus = PHI_buildx3
+            focus = PHI_a_nation_at_the_brink
         }
         ai_will_do = {
             base = 1
@@ -175,6 +243,114 @@ focus_tree = {
 				character = PHI_rodrigo_duterte_char
 				ruling_only = yes
 			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_disaster_preparedness
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_DISASTER_RESPONSE
+		}
+		relative_position_id = PHI_lesson_of_typhoons
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_a_nation_at_the_brink
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+
+		focus = {
+		id = PHI_digital_shift
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_new_decade
+		x = 0
+		y = 5
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_disaster_preparedness
+				}
+		prerequisite = {
+			focus = PHI_cut_red_tape
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+
+		focus = {
+		id = PHI_contested_seas
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_digital_shift
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHI_digital_shift
+				}
+		prerequisite = {
+			focus = PHI_cut_red_tape
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
 		}
 		completion_reward = {
 			}

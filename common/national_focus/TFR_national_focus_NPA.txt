@@ -1,0 +1,93 @@
+######################################################
+# New People's Army (NPA) Focus Tree
+# By Tetsutetsu Tetsutetsu
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_EDUCATION}
+### search_filters = {FOCUS_FILTER_DISASTER_RESPONSE}
+### search_filters = {FOCUS_FILTER_CORRUPTION_REFORM}
+### search_filters = {FOCUS_FILTER_SOCIAL_MEDIA_CONTROL}
+### search_filters = {FOCUS_FILTER_YOUTH_AND_RADICALIZATION}
+
+focus_tree = {
+
+	id = NPA_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NPA
+		}
+	}	
+	default = no
+	
+		focus = {
+        id = NPA_3rd_congress_legacy
+        icon = GFX_generic_communications
+        x = 10
+        y = 0
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = NPA
+			
+			has_country_leader = {
+				character = NPA_jorge_madlos_char
+				ruling_only = yes
+			}
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: completed NPA_start_focus"
+            add_political_power = 50
+			set_country_flag = head_of_gov_ui_enabled
+			}
+		}
+focus = {
+		id = NPA_malaybalay_conference
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = NPA_3rd_congress_legacy
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = NPA_3rd_congress_legacy
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = NPA
+			has_country_leader = {
+				character = NPA_jorge_madlos_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			promote_character = {
+				character = recruit_character = NPA_politburo_char
+				ideology = communist
+				}		
+			}
+			
+		}
+
+
+}

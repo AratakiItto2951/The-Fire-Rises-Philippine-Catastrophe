@@ -32,8 +32,13 @@ spriteTypes = {
 	
 		
 	spriteType = {
-		name = "GFX_quiboloyGFX_quiboloy"
+		name = "GFX_quiboloy"
 		texturefile = "gfx/event_pictures/quiboloy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_quiboloy2"
+		texturefile = "gfx/event_pictures/quiboloy2.png"
 	}
 
 	spriteType = {
@@ -100,38 +105,14 @@ spriteTypes = {
 		name = "GFX_revgov2"
 		texturefile = "gfx/event_pictures/revgov_rally2.png"
 	}
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
-	}
 	
 	spriteType = {
 		name = "GFX_MMFF1"
 		texturefile = "gfx/event_pictures/MMFF1.png"
 	}
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
-	}
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
-	}
 	spriteType = {
 		name = "GFX_manila_fireworks1"
 		texturefile = "gfx/event_pictures/manila_fireworks1.png"
-	}
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
-	}	
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
-	}
-	#spriteType = {
-		name = "GFX_NAIA"
-		texturefile = "gfx/event_pictures/NAIA1.png"
 	}	
 
 

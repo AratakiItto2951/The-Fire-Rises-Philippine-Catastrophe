@@ -125,6 +125,8 @@ add_ideas = {
 	medium_industry
 	
 	low_society
+	
+	ZZZ_presidential_republic
 
 }
 

@@ -62,8 +62,11 @@
 	set_technology = {
 		
 	}
-	recruit_character = NPA_luis_jalandoni_char
-
+	recruit_character = NPA_jorge_madlos_char
+	recruit_character = NPA_juanito_magbanua_char
+	recruit_character = NPA_porferio_tuna_char
+	
+	
 	set_politics = {	
 		ruling_party = communist
 		last_election = "2020.11.3"
@@ -106,7 +109,26 @@
 		medium_industry
 		
 		low_society
+		
+		ZZZ_chaostic_economy
+		ZZZ_revolutionary_front
 
 	}
-
+	
+	add_opinion_modifier = {
+		target = TAG
+		modifier = NPA_opinion_state_fascism
+		}
+	add_opinion_modifier = {
+		target = TAG
+		modifier = opinion_fascistic_state
+		}
+	add_opinion_modifier = {
+		target = PHP
+		modifier = NPA_opinion_state_fascism
+		}		
+	add_opinion_modifier = {
+		target = UPH
+		modifier = NPA_opinion_state_fascism
+		}
 	

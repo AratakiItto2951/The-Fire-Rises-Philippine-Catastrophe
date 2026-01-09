@@ -177,3 +177,7 @@ set_popularities = {
 	authoritarian_democrat = 43
 }
 
+add_ideas = {
+	ZZZ_presidential_republic
+}
+

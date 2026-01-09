@@ -9,13 +9,14 @@ set_convoys = 360
 set_stability = 0.3
 
 # Flavour Events
+
 country_event = {
 	id = phi.1
 	days = 1
 }
 
 country_event = {
-	id = philipines.3
+	id = philipines.3 #2022 elections
 	days = 859
 }
 

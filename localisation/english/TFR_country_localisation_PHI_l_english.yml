@@ -208,4 +208,8 @@
  
  #Ministers
  
- 
+ #opinion modifers
+ opinion_communist_state: "Communist regime"
+ PHI_opinion_red_baiting: "Commie scums"
+ NPA_opinion_state_fascism: "Fascist scums"
+ PHI_opinion_anti_americanism: "Anti-American Sentiment"

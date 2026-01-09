@@ -1,7 +1,6 @@
-capital = 327
+capital = 1279
 
-oob = ""
-
+#	oob = ""
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -59,33 +58,26 @@ set_stability = 0.4
 set_war_support = 0.3
 
 set_country_flag = shithole_country
-recruit_character = TAG_ronald_cardema_char
-recruit_character = TAG_edmundo_casino_char
-recruit_character = TAG_larry_gadon_char 
-recruit_character = TAG_raymundo_ortega_char
 
 set_technology = {
 	
 }
 
 set_politics = {	
-	ruling_party = authoritarian_democrat
-	last_election = "2028.5.10"
-	election_frequency = 72
+	ruling_party = social_democrat
+	last_election = "2020.11.3"
+	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	conservative = 15
-	authoritarian_democrat = 65
+	authoritarian_democrat = 33
 	nationalist = 10
-	fascist = 6
-	national_socialist = 4
+	conservative = 5
+	social_democrat = 52
 }
 
 add_ideas = {
-	
-	#Laws
 	partial_mobilization
 	lower_trade
 	lower_welfare
@@ -97,54 +89,22 @@ add_ideas = {
 	higher_racial_integration
 	
 	
-
-	lower_immigration
+	
+	
+	low_immigration
 	lower_safety
 	lower_education
-	medium_race
-	medium_female
+	higher_race
+	high_female
 	high_prison
 	lower_police
-	medium_conscription
-	low_supervision
-	low_training
 	low_academic
 	low_farming
 	low_poverty
 	medium_industry
+	
 	low_society
-
-	ZZZ_chaostic_economy
-	ZZZ_revolutionary_front	
 
 }
 
-	add_opinion_modifier = {
-		target = PRC
-		modifier = opinion_communist_state
-	}
-	add_opinion_modifier = {
-		target = NPA
-		modifier = opinion_communist_state
-	}
-	add_opinion_modifier = {
-		target = PHL
-		modifier = PHI_opinion_red_baiting
-	}
-	add_opinion_modifier = {
-		target = NPA
-		modifier = PHI_opinion_red_baiting
-	}
-	add_opinion_modifier = {
-		target = KFH
-		modifier = opinion_begruding_ally
-	}
-	add_opinion_modifier = {
-		target = ILG
-		modifier = opinion_begruding_ally
-	}
-	add_opinion_modifier = {
-		target = PTF
-		modifier = fascistic_tendencies_positive
-	}
-
+	

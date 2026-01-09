@@ -1758,8 +1758,8 @@ CRD = { # Cordillera People's Committee
 }
 
 BTA = { #Bangsamoro legit
-	color = rgb { 215 100 115 }
-	color_ui = rgb { 215 100 115 }
+	color = rgb { 185 165 100 }
+	color_ui = rgb { 185 165 100 }
 }
 
 OSB = {  #Subic Bay 
@@ -1771,9 +1771,15 @@ MIN = {
 	color = rgb { 23 57 94 }
 	color_ui = rgb { 23 57 94 }
 }
+
 KFH = { # Kingdom Filipina Hacienda
 	color = rgb { 99 213 99 }
 	color_ui = rgb { 99 213 99 }
+}
+
+ILG = { #ILAGA
+	color = rgb {51 5 59}
+	color_ui = rgb {51 5 59}
 }
 
 VIS = { 

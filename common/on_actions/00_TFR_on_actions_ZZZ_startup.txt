@@ -314,6 +314,9 @@ on_actions = {
 						tag = SSD
 						tag = CPC
 						tag = ROJ
+						tag = TAG
+						tag = CRD
+						tag = BTA
 					}
 				}
 				add_ideas = ZZZ_provisional_government
