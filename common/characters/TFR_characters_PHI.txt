@@ -54,7 +54,7 @@ characters = {
 			ideology = left_populism
 		}
 	}
-		PHI_miljunta_jay_tarriela_char = {
+	PHI_miljunta_jay_tarriela_char = {
 		name = "Jay Tarriela"
 		portraits={
 			civilian = {
@@ -123,7 +123,7 @@ characters = {
 		}
 	}
 	PHI_rey_guerrero_char = {
-		name = "Re Guerrero"
+		name = "Rey Guerrero"
 		portraits={
 			army = {
 				large = "gfx/Leaders/PHI/generals/Rey_Guerrero.dds" 

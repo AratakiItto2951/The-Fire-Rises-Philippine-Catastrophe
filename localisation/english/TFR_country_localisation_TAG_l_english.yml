@@ -1,0 +1,64 @@
+﻿l_english:
+ #Focus
+ #Events
+ nra.1.t: "A quick briefing"
+ nra.1.d: "To start with a quick history lesson, the movement grew out of Ronald Cardema, a firebrand enthusiast with links to American white supremacists, through his £GFX_TAG_DYouth_texticon Duterte Youth party-list, originally aiming for an advocacy to group has expressed support for the revival of mandatory Reserve Officers' Training Corps program for college students as well as support for Citizenship Advancement Training for high school students and scouting for elementary students. \n\nAmong those who joined with Cardema are the following: \n\nThe £GFX_TAG_KDP_texticon Katipunan ng Demokratikong Pilipino, an ultranationalist party priding itself as a party of principle in a country whose politics run on personality cults, that grew out of the Citizen National Guard, a nationalist, anti-communist and anti-Islamist political advocacy group to catalyze a Philippine Renaissance; a sovereign nation of one people committed to the upliftment of the quality of life of each and every Filipino.\n\n£GFX_TAG_KBL_texticon The Kilusang Bagong Lipunan, the party the late former president Ferdinand Marcos Sr. himself set up as an umbrella coalition of parties and was his political vehicle during his 20-year regime, later reorganized into its current form as a political party in 1986. Similar to the KDP, they also pride themselves as a party steadfastly loyal to the vision of the late Marcos Sr. and his authoritarian ideology, though the Marcos family already moved on and already built new siege machines as a traditional political dynasty.\n\nNow, onto the £GFX_TAG_PNF_texticon Philippine National Front. Growing out of the edgiest corners of the Filipino underground metal scene in the 2000s, these groups coalesced together under the direction of Raymundo Ortega and Mark Dante Almazan, mostly based in Luzon, to promote the ideology of Fascism and National Socialism to the Filipino people and to fuse the Fascist thought with the culture and socio-political situation of the Filipino race. Their first physical action outside of Facebook organizing was joining the rallies against the Chinese in 2012 following the Bajo de Masinloc incident and had even organized a March of Independence on 2014 at Mendiola Peace Arch.\nThe £GFX_TAG_KA_texticon Kabataang Amangbayan (Youth of the Fatherland) originally started out as the youth wing of the PNF, until internal infighting from accusations of incompetence forced them to declare independence in 2021. Learning lessons from the successes of American white nationalist groups like the Patriot Front, The Base, and the Atomwaffen Division, coupled with contacts within the Philippine Military Academy and important people in government, they slowly, steadily, grew in silence.\n\nFinally, we have the £GFX_TAG_NPC_texticon Nationalist People's Coalition, a conservative political party which was founded in 1992, who constantly maintained a presence in both houses of Congress. But their real power, like the KBL, is their dominance of local governments. In essence they run the basic machinery of state while the Tuguegarao Congress can steer the movement’s direction. And this, is what makes them dangerous when angered, and we are better off to not annoy them."
+ nra.1.a: "Save the Nation!"
+ 
+ nra.2.t: "The Tuguegarao Convention"
+ nra.2.d: ""
+ nra.2.a: ""
+ 
+ nra.3.t: "Parliamentary Election - President of the Tuguegarao Congress"
+ nra.3.d: "While Ronald Cardema remains the undisputed commander-in-chief and head of the movement as Supremo, we must, as a congress, elect a presiding officer to oversee our day-to-day affairs and dispense the civilian administrative duties of the executive."
+ nra.3.a: "Duicelle Suarez-Cardema £GFX_TAG_DYouth_texticon"
+ nra.3.b: "Butch Valdes £GFX_TAG_KDP_texticon" 
+ nra.3.c: "Relly Jose £GFX_TAG_KBL_texticon"
+ nra.3.f: "Jose Larry Maquinana £GFX_TAG_PNF_texticon"
+  
+ nra.4.t: "Appointing the Advisory Cabinet - Secretary of Foreign Affairs"
+ nra.4.d: ""
+ nra.4.a: "Ado Paglinawan"
+ nra.4.b: "" 
+ nra.4.c: ""
+ nra.4.f: ""
+ 
+ nra.5.t: "Appointing the Advisory Cabinet - Secretary of Trade, Industry, Economy, Planning, and Development"
+ nra.5.d: ""
+ nra.5.a: "Rita Gadi"
+ nra.5.b: "Dr. Teodoro "Ted" Mendoza" 
+ nra.5.c: ""
+ nra.5.f: ""
+ 
+ nra.6.t: "Appointing the Advisory Cabinet - Secretary of the Interior and Local Government"
+ nra.6.d: ""
+ nra.6.a: "Aaron Soguilon £GFX_TAG_KDP_texticon"
+ nra.6.b: "Al Santillan £GFX_TAG_KDP_texticon" 
+ nra.6.c: "Ver Archivido £GFX_TAG_KDP_texticon"
+ nra.6.f: "Rey Valeros £GFX_TAG_KBL_texticon"
+ 
+ nra.7.t: "Appointing the Advisory Cabinet - National Security Adviser"
+ nra.7.d: ""
+ nra.7.a: "Jonathan Malaya"
+ nra.7.b: "Clarita Carlos £GFX_TAG_KDP_texticon" 
+ nra.7.c: "Lorraine Badoy"
+ nra.7.f: ""
+ 
+ nra.8.t: "Appointing the Advisory Cabinet - Secretary of Defense"
+ nra.8.d: ""
+ nra.8.a: "Antonio Parlade £GFX_TAG_KDP_texticon"
+ nra.8.b: "Nicanor Faeldon" 
+ nra.8.c: "Rey Valeros £GFX_TAG_KBL_texticon"
+ nra.8.f: ""
+ 
+ nra.9.t: "Appointing the Advisory Cabinet - Secretary of Education"
+ nra.9.d: ""
+ nra.9.a: "Aaron Soguilon £GFX_TAG_KDP_texticon" 
+ nra.9.b: "Aurika Abulencia £GFX_TAG_PNF_texticon"
+ nra.9.c: ""
+ nra.9.f: ""
+  
+ ##BOP loc
+ nra.10.t: "Foreign Policy Alignment"
+ nra.10.d: "While we nominally, and normally, adopt an independent foreign policy that best benefits us, we Filipinos, being a relatively small nation in the Asiatic continental shelf, should tread the delicate balance between the massive giants in our neighborhood.\n\nThe £GFX_TAG_sinophile_texticon Sinophiles, represented by the majority of the KDP and the KBL, as well as the Duterte Youth, acknowledges China’s undisputed primacy as the prime hegemon of Asia, in which a modern neo-tributary system focusing on Chinese exceptionalism and cultural assimilation as a central political strategy that requires us to play the part. \n\nWhile the Sinophiles modernized their doctrine to geopolitical realities of Russia and China being the main challengers of the liberal order, the £GFX_TAG_japanophile_texticon Japanophiles, on the other hand, represented by the more conservative halves of the KDP, KBL, retired military men, and the younger, more radical groups like the PNF and KA, tend to be more rigid and traditionalist, still wearing Cold War lenses of anti-communism, seeing modern China as an “unfit” hegemon tainted by Bolshevism.\nMake sure to maintain the delicate equilibrium at all costs; if the Sinophiles get too much influence in foreign affairs, elements of the officer corps and the Neo-Nazi groups would rise up in mutiny; if the Japanophiles do, fearing the influence of the Neo-Nazi groups, the Nationalist People’s Coalition would revolt."
+ nra.10.a: "Copy that."

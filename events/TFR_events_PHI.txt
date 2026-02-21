@@ -423,7 +423,7 @@ country_event = {
 }
 
 #Taal Volcano eruption
-country_event = {
+news_event = {
 	id = phi.3
 	title = phi.3.t
 	desc = phi.3.d
@@ -434,13 +434,117 @@ country_event = {
 	
 	trigger = {
 		tag = PHI
-		date > 2020.1.12
 	}
 		
 	option = {
-		name = phi.1.a
+		name = phi.3.a
 		custom_effect_tooltip = taal_boomboom
 		set_country_flag = PHI_taal_boomboom
+		}
+}
+
+#First COVID case
+news_event = {
+	id = phi.4
+	title = phi.4.t
+	desc = phi.4.d
+	picture = "GFX_1stCOVIDcase"
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.4.a
+		custom_effect_tooltip = PHI_COVID
+		set_country_flag = PHI_COVID
+		}
+}
+
+#First COVID death in PH soil
+news_event = {
+	id = phi.5
+	title = phi.5.t
+	desc = phi.5.d
+	picture = GFX_PHI_COVID_deaths
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.5.a
+		}
+}
+
+#Cory Aquino and Maria Ressa featured by TIME Magazine
+country_event = {
+	id = phi.6
+	title = phi.6.t
+	desc = phi.6.d
+	picture = GFX_Cory_MariaRessa
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.6.a
+		}
+		option = {
+		name = phi.6.b
+		}
+}
+
+#Greenhills Hostage Crisis
+news_event = {
+	id = phi.7
+	title = phi.7.t
+	desc = phi.7.d
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.7.a
+		}
+}
+
+#VFA decision
+news_event = {
+	id = phi.8
+	title = phi.8.t
+	desc = phi.8.d
+	picture = GFX_placeholder
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+	}
+		
+	option = {
+		name = phi.8.a
+		complete_national_focus = PHI_reaffirm_vfa
+		}
+	option = {
+		name = phi.8.b
+		complete_national_focus = PHI_junk_vfa
 		}
 }
 
@@ -908,7 +1012,7 @@ country_event = {
 			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
-			load_oob = MIN_civil_war
+			load_oob = PHP_2020
 			inherit_technology = PHI
 			if = {
 				limit = {

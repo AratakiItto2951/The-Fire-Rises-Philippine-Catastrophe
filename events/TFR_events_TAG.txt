@@ -1,0 +1,231 @@
+######################################################
+# National Revolutionary Army Events				 #
+# By Tetsutetsu Tetsutetsu, Rolm, Prexo4, Filipino   #
+######################################################
+
+
+add_namespace = nra
+
+country_event = {
+	#Factions of the NRA
+	id = nra.1
+	title = nra.1.t
+	desc = nra.1.d
+	picture = GFX_TAG_tejeros
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = { 
+		name = nra.1.a
+		add_political_power = 50
+	}
+}
+
+country_event = {
+	#Tuguegarao Convention
+	id = nra.2
+	title = nra.2.t
+	desc = nra.2.d
+	picture = GFX_TAG_cardema_meeting
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.2.a
+	}
+}
+
+country_event = {
+	#Tuguegarao Convention elections - President of the Government
+	id = nra.3
+	title = nra.3.t
+	desc = nra.3.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.3.a
+	}
+	option = {
+		name = nra.3.b
+	}
+	option = {
+		name = nra.3.c
+	}
+	option = {
+		name = nra.3.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Foreign Minister
+	id = nra.4
+	title = nra.4.t
+	desc = nra.4.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.4.a
+	}
+	option = {
+		name = nra.4.b
+	}
+	option = {
+		name = nra.4.c
+	}
+	option = {
+		name = nra.4.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Economic Minister
+	id = nra.5
+	title = nra.5.t
+	desc = nra.5.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.5.a
+	}
+	option = {
+		name = nra.5.b
+	}
+	option = {
+		name = nra.5.c
+	}
+	option = {
+		name = nra.5.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Interior Minister
+	id = nra.6
+	title = nra.6.t
+	desc = nra.6.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.6.a
+	}
+	option = {
+		name = nra.6.b
+	}
+	option = {
+		name = nra.6.c
+	}
+	option = {
+		name = nra.6.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Intel Minister
+	id = nra.7
+	title = nra.7.t
+	desc = nra.7.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.7.a
+	}
+	option = {
+		name = nra.7.b
+	}
+	option = {
+		name = nra.7.c
+	}
+	option = {
+		name = nra.7.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Defense Minister
+	id = nra.8
+	title = nra.8.t
+	desc = nra.8.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.8.a
+	}
+	option = {
+		name = nra.8.b
+	}
+	option = {
+		name = nra.8.c
+	}
+	option = {
+		name = nra.8.f
+	}	
+}
+
+country_event = {
+	#Tuguegarao Convention elections - Education Minister
+	id = nra.9
+	title = nra.9.t
+	desc = nra.9.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.9.a
+	}
+	option = {
+		name = nra.9.b
+	}
+	option = {
+		name = nra.9.c
+	}
+	option = {
+		name = nra.9.f
+	}	
+}
+
+country_event = {
+	#Forpol Balance of Power intro
+	id = nra.10
+	title = nra.10.t
+	desc = nra.10.d
+	picture = GFX_TAG_cardema_meeting
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.10.a
+	}
+}

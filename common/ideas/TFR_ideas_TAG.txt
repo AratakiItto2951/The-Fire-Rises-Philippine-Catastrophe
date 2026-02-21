@@ -1,0 +1,181 @@
+ideas = {
+
+	country = {
+		TAG_the_second_revolution_idea = {
+			picture = TAG_second_revolution
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				mobilization_speed = 0.01
+				army_morale_factor = 0.05
+				training_time_factor = -0.05
+				army_attack_factor = 0.1
+				army_defence_factor = 0.2
+				surrender_limit = 0.1
+			}
+		}
+        TAG_child_soldiers_idea = {
+            picture = 
+            traits = {
+                ZZZ_blank_idea_trait
+            }
+            name = 
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+                conscription_factor = 0.05
+                army_morale_factor = -0.05
+            }
+        }		
+	}
+
+    head_minister = {
+        TAG_ado_paglinawan_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_antonio_parlade_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_butch_valdes_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_clarita_carlos_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_duicelle_cardema_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_glenn_chong_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_larry_maquinana_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }		
+        TAG_joseph_delson_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_toti_casino_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }
+        TAG_relly_jose_hog = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+
+            }
+        }		
+		
+	}
+	
+	foreign_minister = {
+	
+	}
+	economic_minister = {
+	
+	}
+	interior_minister = {
+	
+	}
+	intelligence_minister = {
+	
+	}
+	education_minister = {
+	
+	}
+	theorist_minister = {
+	        TAG_antonio_parlade_mil = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = {
+            }
+            on_add = {
+                add_popularity = {
+                    ideology = 
+                    popularity = 0.03
+                }
+            }
+            on_remove = {
+                if = {
+                    limit = {
+                        NOT = { has_country_flag = remove_ideas_flag }
+                    }
+                    add_popularity = {
+                        ideology = 
+                        popularity = -0.03
+                    }
+                }
+            }
+        }
+	
+	}
+
+
+
+}

@@ -20,6 +20,16 @@ country_event = {
 	days = 859
 }
 
+##History##
+
+country_event = {id = phi.3 days = 12} #Taal eruption (Jan 12)
+country_event = {id = phi.4 days = 30} #First COVID case (Jan 30; activates COVID flag #PHI_COVID#)#
+country_event = {id = phi.5 days = 31} #First COVID death
+country_event = {id = phi.7 days = 61} #Greenhills Hostage crisis (March 2)
+country_event = {id = phi.6 days = 64} #Cory and Maria Ressa recognized by TIME Magazine (March 5)
+#Proclamation 922 (March 9)#
+#Luzon placed under ECQ (March 15)#
+
 # Test Triggers
 country_event = {
 	id = philcatastrophe.1 # Philippine Catastrophe test

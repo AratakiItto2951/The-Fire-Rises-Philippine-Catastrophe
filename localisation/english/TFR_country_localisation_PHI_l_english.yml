@@ -41,6 +41,30 @@
  phi.1.t: "A new year"
  phi.1.d: ""
  phi.1.a: "ok"
+ phi.2.t: "Fresh Bibingka"
+ phi.2.d: ""
+ phi.2.a: ""
+ phi.3.t: "Taal Volcano"
+ phi.3.d: ""
+ phi.3.a: ""
+ phi.4.t: ""
+ phi.4.d: ""
+ phi.4.a: ""
+ phi.5.t: ""
+ phi.5.d: ""
+ phi.5.a: ""
+ phi.6.t: "Filipino Women Named Among TIME’s Most Influential of the Century"
+ phi.6.d: "TIME Magazine has named former Philippine President Corazon Aquino and Rappler CEO Maria Ressa among its list of the 100 most influential women of the century. Aquino was recognized for restoring democratic institutions after decades of dictatorship, while Ressa was cited for her role in defending press freedom in the digital age.\n\nSupporters hailed the recognition as a reminder of the country’s democratic legacy and the importance of independent journalism. Critics, however, dismissed the list as Western moral posturing — accusing foreign media of meddling in Philippine politics and glorifying figures hostile to the current administration.\n\nThe announcement has reignited online debate over the nation’s identity, values, and the meaning of democracy in an age of crisis."
+ phi.6.a: "Their legacy reminds us why democracy must be defended."
+ phi.6.b: "Foreign media have no right to lecture us."
+ phi.7.t: "Gunman Takes Hostages in Greenhills Mall"
+ phi.7.d: "A routine morning in the upscale Greenhills shopping district descended into chaos when a disgruntled security guard opened fire inside a shopping mall, killing one person and taking several hostages. Claiming unpaid wages and workplace grievances, the gunman barricaded himself for hours as police negotiators scrambled to prevent further bloodshed.\n\nThe crisis ended with the suspect’s surrender, but not before reigniting public anxiety over urban security, labor disputes, and the growing sense that order in the capital is fraying under pressure."
+ phi.7.a: "A grim reminder of how thin the line between calm and chaos has become."
+ phi.8.t: "Philippines Moves to End Visiting Forces Agreement"
+ phi.8.d: "The Philippine government has formally notified Washington of its intent to terminate the Visiting Forces Agreement, a cornerstone of bilateral military cooperation for more than two decades. The move, ordered directly by President Duterte, follows months of escalating rhetoric against the United States and complaints over perceived slights to Philippine sovereignty.\n\nDefense officials and foreign policy analysts warn that scrapping the agreement could weaken the country’s deterrence posture and disrupt joint training, intelligence sharing, and disaster response. Supporters of the decision, however, hail it as a long-overdue assertion of independence — a signal that Manila will no longer accept unequal alliances.\n\nWith mounting pressure at home and abroad, the administration now faces a pivotal choice: walk back the decision and preserve the alliance, or follow through and chart a riskier, more uncertain course."
+ phi.8.a: "Reaffirm the alliance, we have bigger fish to fry"
+ phi.8.b: "We shall set our own course"
+ 
  ##2ACW shitshow
  phi_2acw.1.t: "The Foul-Mouthed Address"
  phi_2acw.1.d: "“Putang inang ‘yan [that motherfu**er], this is how America is dying from within”, Duterte said on his speech, ranting about how he snubbed the foremost former colonizer and close ally, during his time in the high castle while on TV.\n“THE UNITED STATES IS ALREADY IN DECLINE FOR YEARS AND THAT’S HOW I WITNESS THE PHENOMENON WHEN WE DECIDE TO BECOME NEUTRAL BY ENDING VFA BUT UNFORTUNATELY, IT IS APPARENT THAT SOME MY KABABAYANS [FELLOW CITIZENS] HAVE WITNESSED THE DOWNFALL,” the Philippine Punisher have lamented on his fellow during the public ceremony, spewing out first his foul-mouthed words but then addressing the situation about America.\n\n“Our ally was already divided and there’s no way to save America. I am feeling sorry for most Filipinos who lived in America whose lives are already trapped by the war,” he delivered his another lamenting speech when he described the fraught situation among the Filipino-Americans.\n“God has punished and cursed some warmongers but they admonished others. There’s a real judgement already happening today when someone who has already gone through deep division has reached its point of no return”, another speech brought from his mouth by the controversial president when he describes exactly about recent Chinese moves on the disputed South China Sea/West Philippine Sea in the early weeks of Second Civil War.\n\nThe once erstwhile ally in the Pacific stands alone amidst the reports of rival rebel groups, extremists, law enforcement officers, gang members, and soldiers begin fighting on what remains of the desecrated Continental United States with recent fighting in Chicago or APLA’s making moves near San Francisco or Patriot Front pushing for “liberation” of Boston.\nONLY TIME WILL TELL WHEN AMERICA IS GONE, someone in Tokyo will fill up the vacuum left as Beijing is emboldened, ready to eye on the rebellious island of Taiwan in hopes to use military force on enforcing reunification nor politicians in Taipei or Canberra could have plan to stop the reunification dream from becoming reality."
@@ -164,7 +188,7 @@
  PHI_country_paths: 
  PHI_country_other: 
 
-#Focus Tree
+##Focus Tree
  PHI_new_decade: "Facing the New Decade"
  PHI_new_decade_desc: "test"
  PHI_a_nation_at_the_brink: "A Nation at the Brink"
@@ -213,3 +237,11 @@
  PHI_opinion_red_baiting: "Commie scums"
  NPA_opinion_state_fascism: "Fascist scums"
  PHI_opinion_anti_americanism: "Anti-American Sentiment"
+ 
+ #Play as faction tooltips
+ play_PHL_tooltip: "§YProvisional Republic of the Philippines§!\n---------------\n\n\n\n\n£GFX_PHL_path_banner\n\n\n\n\n\n§gHonest Government, a Better Life for All\n\nFilipino, with hearts that would answer the call\nFilipino, with courage to rise when they fall\nFilipino, determined when they take a stand\nWho knows what's right and true\nI will be with you§!
+ play_PHI_miljunta_tooltip: "§YPhilippine Emergency Government§!\n---------------\n\n\n\n\n£GFX_PHI_miljunta_path_banner\n\n\n\n\n\n§gTo protect the people and secure the sovereignty of the state and the integrity of the national territory\n\nThe maintenance of peace and order, the protection of life, liberty, and property, and promotion of the general welfare are essential for the enjoyment by all the people of the blessings of democracy§!
+ play_PHP_tooltip: "§YGovernment of National Salvation§!\n---------------\n\n\n\n\n£GFX_PHP_path_banner\n\n\n\n\n\n§gChange has Come, through fearless solutions, fast action, courage, and compassion\n\nThe words have spread far and wide, The People have one wish\nShout to the skies, what we truly feel\nOur beloved Philippines, united once again!\nO Philippines, by Duterte we still stand firm!\nHe who truly loves us fully\nHis fight is also our fight§!
+ play_UPH_tooltip:
+ play_NPA_tooltip: "§YNew People's Army§!\n---------------\n\n\n\n\n£GFX_NPA_path_banner\n\n\n\n\n\n§gWorkers and Peasants, Unite!\n\nMarch forward my motherland, for we shall triumph\nFight for our rights, from the North, South, East and West\nIn every corner there is solidarity, the whole archipelago is the bridge\nUnited together, we shall never fall!§!
+ play_TAG_tooltip: "§YNational Revolutionary Army§!\n---------------\n\n\n\n\n£GFX_TAG_path_banner\n\n\n\n\n\n§gReclaim our Dignity, Stand Strong and Proud\n\nArise, ye Motherland\nChosen race in the Orient,\nLet us rescind the painful past,\nAnd embrace the new life.\n\nLong Live, Long Live, our Liberty, Liberty\nAnd let us promote Honor and Virtue.\n\nIn the spirit, we are all united,\nAnd we're going to face it, a great future!§!

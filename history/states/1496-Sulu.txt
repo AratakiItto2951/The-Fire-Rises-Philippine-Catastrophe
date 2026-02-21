@@ -1,0 +1,25 @@
+state=
+{
+	id=1496
+	name="STATE_1496"
+	manpower = 1000108
+	
+	state_category = town
+	
+	resources = {
+		oil = 3
+		rubber = 4
+	}
+	
+	history=
+	{
+		owner = PHI
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		10184 15003 15004 
+	}
+}

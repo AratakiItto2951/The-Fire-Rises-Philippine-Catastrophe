@@ -3867,6 +3867,12 @@ spriteTypes = {
 		name = "GFX_TAG_path_banner"
 		texturefile = "gfx/texticons/banners/TAG_path_banner.png"
 		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_TAG_path_banner_factions"
+		texturefile = "gfx/texticons/banners/TAG_path_banner_factions.png"
+		legacy_lazy_load = no
 	}	
 	
 }

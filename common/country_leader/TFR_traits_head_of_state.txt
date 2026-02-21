@@ -3298,4 +3298,141 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.15
 	}
+	
+	##Philippines stuff##
+	PHI_Revenge_Legion_Veteran_right = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+		
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "PTF"
+			value = 200
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	PHI_Revenge_Legion_Veteran_left = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+		
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "PTF"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "RRR"
+			value = 200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	PHI_Revenge_Legion_Veteran_conservative = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+	
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "PTF"
+			value = 200
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
 }

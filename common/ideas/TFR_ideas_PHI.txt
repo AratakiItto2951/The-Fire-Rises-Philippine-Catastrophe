@@ -126,5 +126,59 @@ ideas = {
 				surrender_limit = 0.1
 			}
 		}
+		TAG_abysmal_cohesion = {
+			picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+			division_organization_factor = -0.3
+            org_recovery_rate = -0.2
+            division_defense_factor = -0.25
+            reinforce_rate = -0.1
+			monthly_population = 0.02
+			}
+		}
+		IGP_santo_nino = {
+		picture = 
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+			add_stability = 0.2
+			add_compliance = -10
+			}
+		}
+			
+		
+		
+		
 	}
+	head_minister = {
+			PHI_hog_leni_robredo = {
+				picture = Leni_Robredo
+				
+				allowed = {
+					original_tag = PHI
+					
+				}
+				allowed_to_remove = {
+					hidden_trigger = {
+					always = no
+					}
+				}
+				visible = {
+					has_country_flag = VP_Robredo
+				}
+				
+				traits = { 
+				}
+			}
+		}
 }

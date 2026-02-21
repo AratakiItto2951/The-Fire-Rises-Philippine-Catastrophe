@@ -113,7 +113,28 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_manila_fireworks1"
 		texturefile = "gfx/event_pictures/manila_fireworks1.png"
+	}
+	spriteType = {
+		name = "GFX_taal_eruption"
+		texturefile = "gfx/event_pictures/news_event/taal_eruption.png"
+	}
+	spriteType = {
+		name = "GFX_PHtyphoon"
+		texturefile = "gfx/event_pictures/news_event/typhoon.png"
+	}
+	spriteType = {
+		name = "GFX_Cory_MariaRessa"
+		texturefile = "gfx/event_pictures/news_event/corymaria.png"
+	}
+	spriteType = {
+		name = "GFX_1stCOVIDcase"
+		texturefile = "gfx/event_pictures/news_event/1stcovidcase.png"
+	}
+	spriteType = {
+		name = "GFX_PHI_COVID_deaths"
+		texturefile = "gfx/event_pictures/news_event/covid_death.png"
 	}	
+			
 
 
 #Philippine Catastrophe Faction events
@@ -149,6 +170,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TAG_nationalist_rally2"
 		texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally2.png"
+	}
+	spriteType= {
+		name = "GFX_TAG_tejeros"
+		texturefile = "gfx/event_pictures/TAG/TAG_tejeros_convention.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_cardema_meeting"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_meeting.png"
 	}
 
 ##NPA
