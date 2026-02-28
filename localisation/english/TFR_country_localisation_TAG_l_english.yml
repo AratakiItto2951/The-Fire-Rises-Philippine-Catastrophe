@@ -2,7 +2,7 @@
  #Focus
  #Events
  nra.1.t: "A quick briefing"
- nra.1.d: "To start with a quick history lesson, the movement grew out of Ronald Cardema, a firebrand enthusiast with links to American white supremacists, through his £GFX_TAG_DYouth_texticon Duterte Youth party-list, originally aiming for an advocacy to group has expressed support for the revival of mandatory Reserve Officers' Training Corps program for college students as well as support for Citizenship Advancement Training for high school students and scouting for elementary students. \n\nAmong those who joined with Cardema are the following: \n\nThe £GFX_TAG_KDP_texticon Katipunan ng Demokratikong Pilipino, an ultranationalist party priding itself as a party of principle in a country whose politics run on personality cults, that grew out of the Citizen National Guard, a nationalist, anti-communist and anti-Islamist political advocacy group to catalyze a Philippine Renaissance; a sovereign nation of one people committed to the upliftment of the quality of life of each and every Filipino.\n\n£GFX_TAG_KBL_texticon The Kilusang Bagong Lipunan, the party the late former president Ferdinand Marcos Sr. himself set up as an umbrella coalition of parties and was his political vehicle during his 20-year regime, later reorganized into its current form as a political party in 1986. Similar to the KDP, they also pride themselves as a party steadfastly loyal to the vision of the late Marcos Sr. and his authoritarian ideology, though the Marcos family already moved on and already built new siege machines as a traditional political dynasty.\n\nNow, onto the £GFX_TAG_PNF_texticon Philippine National Front. Growing out of the edgiest corners of the Filipino underground metal scene in the 2000s, these groups coalesced together under the direction of Raymundo Ortega and Mark Dante Almazan, mostly based in Luzon, to promote the ideology of Fascism and National Socialism to the Filipino people and to fuse the Fascist thought with the culture and socio-political situation of the Filipino race. Their first physical action outside of Facebook organizing was joining the rallies against the Chinese in 2012 following the Bajo de Masinloc incident and had even organized a March of Independence on 2014 at Mendiola Peace Arch.\nThe £GFX_TAG_KA_texticon Kabataang Amangbayan (Youth of the Fatherland) originally started out as the youth wing of the PNF, until internal infighting from accusations of incompetence forced them to declare independence in 2021. Learning lessons from the successes of American white nationalist groups like the Patriot Front, The Base, and the Atomwaffen Division, coupled with contacts within the Philippine Military Academy and important people in government, they slowly, steadily, grew in silence.\n\nFinally, we have the £GFX_TAG_NPC_texticon Nationalist People's Coalition, a conservative political party which was founded in 1992, who constantly maintained a presence in both houses of Congress. But their real power, like the KBL, is their dominance of local governments. In essence they run the basic machinery of state while the Tuguegarao Congress can steer the movement’s direction. And this, is what makes them dangerous when angered, and we are better off to not annoy them."
+ nra.1.d: "The movement traces its roots to Ronald Cardema and the £GFX_TAG_DYouth_texticon Duterte Youth party-list, originally built around nationalist youth mobilization and the revival of mandatory ROTC, Citizenship Advancement Training, and scouting programs. What began as campus activism evolved into something broader—and harder.\nCardema’s network soon intersected with older nationalist forces.\nThe £GFX_TAG_KDP_texticon Katipunan ng Demokratikong Pilipino emerged from the Citizen National Guard, an ultranationalist, anti-communist, and anti-Islamist advocacy group pushing for a 'Philippine Renaissance'- a sovereign, culturally unified state built on discipline and national rebirth.\nAlongside them stands the £GFX_TAG_KBL_texticon Kilusang Bagong Lipunan, founded by Ferdinand Marcos Sr. as the political vehicle of his twenty-year rule. Though the Marcos family has since repositioned itself within mainstream politics, KBL loyalists remain ideologically committed to authoritarian order and centralized power.\nMore radical still is the £GFX_TAG_PNF_texticon Philippine National Front. Born from underground metal circles in the 2000s and organized by Raymundo Ortega and Mark Dante Almazan, the PNF fused European Fascist and National Socialist doctrine with Filipino nationalism. After organizing online for years, they appeared publicly during the 2012 anti-China protests and later staged a “March of Independence” in 2014.\nTheir former youth wing, the £GFX_TAG_KA_texticon Kabataang Amangbayan, split in 2021 after internal disputes. Studying American white nationalist movements such as Patriot Front and Atomwaffen Division, they adopted tighter organization, cultivated discreet ties within the PMA, and expanded quietly.\nFinally, the £GFX_TAG_NPC_texticon Nationalist People’s Coalition—founded in 1992—anchors the coalition within institutional politics. While others rally in the streets, NPC-aligned officials dominate local governments, essentially running the boring, yet important job of statecraft at base level.\nTaken together, they form a layered machine: youth mobilizers, ideological hardliners, street radicals, and political operators.\nAgitate one part—and the rest may move with it."
  nra.1.a: "Save the Nation!"
  
  nra.2.t: "The Tuguegarao Convention"
@@ -25,8 +25,8 @@
  
  nra.5.t: "Appointing the Advisory Cabinet - Secretary of Trade, Industry, Economy, Planning, and Development"
  nra.5.d: ""
- nra.5.a: "Rita Gadi"
- nra.5.b: "Dr. Teodoro "Ted" Mendoza" 
+ nra.5.a: "Rita Gadi £GFX_TAG_KDP_texticon"
+ nra.5.b: "Dr. Teodoro "Ted" Mendoza £GFX_TAG_KDP_texticon" 
  nra.5.c: ""
  nra.5.f: ""
  
@@ -62,3 +62,31 @@
  nra.10.t: "Foreign Policy Alignment"
  nra.10.d: "While we nominally, and normally, adopt an independent foreign policy that best benefits us, we Filipinos, being a relatively small nation in the Asiatic continental shelf, should tread the delicate balance between the massive giants in our neighborhood.\n\nThe £GFX_TAG_sinophile_texticon Sinophiles, represented by the majority of the KDP and the KBL, as well as the Duterte Youth, acknowledges China’s undisputed primacy as the prime hegemon of Asia, in which a modern neo-tributary system focusing on Chinese exceptionalism and cultural assimilation as a central political strategy that requires us to play the part. \n\nWhile the Sinophiles modernized their doctrine to geopolitical realities of Russia and China being the main challengers of the liberal order, the £GFX_TAG_japanophile_texticon Japanophiles, on the other hand, represented by the more conservative halves of the KDP, KBL, retired military men, and the younger, more radical groups like the PNF and KA, tend to be more rigid and traditionalist, still wearing Cold War lenses of anti-communism, seeing modern China as an “unfit” hegemon tainted by Bolshevism.\nMake sure to maintain the delicate equilibrium at all costs; if the Sinophiles get too much influence in foreign affairs, elements of the officer corps and the Neo-Nazi groups would rise up in mutiny; if the Japanophiles do, fearing the influence of the Neo-Nazi groups, the Nationalist People’s Coalition would revolt."
  nra.10.a: "Copy that."
+ 
+ nra.11.t: "Nationalist People's Coalition up in revolt!"
+ nra.11.d:
+ nra.11.a: "Crush the Traitors!"
+ nra.11.b: "I told you so."
+ 
+ nra.12.t: "Kabataang Amangbayan up in revolt!"
+ nra.12.d:
+ nra.12.a: "Crush the Traitors!"
+ nra.12.b: "I told you so."
+ 
+ ##Game Over
+ nra.13.t:
+ nra.13.d:
+ nra.13.a:
+ ###NPC coup success
+ nra.14.t:
+ nra.14.d:
+ nra.14.a:
+ ###KA coup success
+ nra.15.t:
+ nra.15.d:
+ nra.15.a:
+ 
+ #Tooltips
+ NPC_left_opposition_coup_tt: "By angering powers that shouldn't be angered, and with our lack of restraint, the Second Philippine Revolution lays dead, proving that we are our own worst enemies. We celebrate the fire until it gets too hot, then we execute the man who lit the match.\n§RYou've fucked it all up§!.\n\n§YOr maybe this is what you're going for.§!"
+ KAB_right_opposition_coup_tt: "By angering the young nationalists and betraying their trust, the Second Philippine Revolution lays dead, proving that we are our own worst enemies. We celebrate the fire until it gets too hot, then we execute the man who lit the match.\n§RYou've fucked it all up§!.\n\n§YOr maybe this is what you're going for.§!"
+ 

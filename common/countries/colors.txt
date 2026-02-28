@@ -1752,6 +1752,16 @@ TAG = { # National Revolutionary Army
 	color_ui = rgb { 76 58 87 }
 }
 
+NPC = { # Left Opposition aka Nationalist People's Coalition rebellion against NRA
+	color = rgb { 90 65 140 }
+	color_ui = rgb { 90 65 140 }
+}
+
+KAB = { # Right Opposition aka Kabataang Amangbayan rebellion against NRA
+	color = rgb { 4 23 1 }
+	color_ui = rgb { 4 23 1 }
+}
+
 CRD = { # Cordillera People's Committee
 	color = rgb { 145 140 110 }
 	color_ui { 145 140 110 }

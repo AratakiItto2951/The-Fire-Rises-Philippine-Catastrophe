@@ -275,8 +275,20 @@ characters = {
 		###The Internal Opposition###
 
 		#Left Opposition (Nationalist People's Coalition rebellion)
+		
+		NPC_manuel_mamba_char = {
+		name = "Manuel Mamba"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Manuel_Mamba" 
+				}
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}		
+		}
 
-		TAG_jv_ejercito_char = {
+		#TAG_jv_ejercito_char = {
 		name = "Joseph Victor Ejercito"
 		portraits={
 			civilian = {
@@ -294,7 +306,7 @@ characters = {
 			}		
 		}
 	
-		TAG_tito_sotto_char = {
+		#TAG_tito_sotto_char = {
 		name = "Vicente Sotto III"
 		portraits={
 			civilian = {
@@ -309,7 +321,7 @@ characters = {
 			}
 		}
 
-		TAG_gary_alejano_char = {
+		#TAG_gary_alejano_char = {
 		name = "Gary Alejano"
 		portraits={
 			civilian = {

@@ -179,6 +179,11 @@ spriteTypes = {
 		name = "GFX_TAG_cardema_meeting"
 		texturefile = "gfx/event_pictures/TAG/TAG_cardema_meeting.png"
 	}
+	
+	spriteType = {
+		name = "GFX_TAG_nazi_rally"
+		texturefile = "gfx/event_pictures/TAG/TAG_nazi_rally.png"
+	
 
 ##NPA
 	

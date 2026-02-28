@@ -227,5 +227,127 @@ country_event = {
 	}
 	option = {
 		name = nra.10.a
+		set_power_balance = {
+			id = TAG_forpol_balance
+			left_side = TAG_sinophile
+			right_side = TAG_japanophile
+			set_value = -1
+		}
 	}
 }
+
+country_event = {
+	#Sinophiles and Pedos get too much power, KA44 revolts
+	id = nra.11
+	title = nra.11.t
+	desc = nra.11.d
+	picture = GFX_TAG_nazi_rally
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.11.a
+		KAB = {}
+		declare_war_on = {
+			target = KAB
+			type = annex_everything
+		}
+		hidden_effect = { 
+			set_country_flag = TAG_KA44_rebellion_flag 
+		}
+		
+	}
+}
+	option = {
+		name = nra.11.b
+		KAB = {}
+		declare_war_on = {
+			target = KAB
+			type = annex_everything
+		}
+		hidden_effect = { 
+			set_country_flag = TAG_KA44_rebellion_flag 
+		}
+		
+	}
+}
+country_event = {
+	#Japanophiles and Nazis get too much power, NPC revolts
+	id = nra.12
+	title = nra.12.t
+	desc = nra.12.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.12.a
+		NPC = {}
+		declare_war_on = {
+			target = NPC
+			type = annex_everything
+		}
+		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag }
+	}
+	option = {
+		name = nra.12.b
+		NPC = {}
+		declare_war_on = {
+			target = NPC
+			type = annex_everything
+		}
+		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag }
+		
+		}
+	}
+}
+
+country_event = {
+	#Game Over as NRA, you lost to either KA or NPC
+	id = nra.13
+	title = nra.13.t
+	desc = nra.13.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.13.a
+	}
+	
+	#NPC won, Mamba shoots Cardema and PNF honchos
+	id = nra.14
+	title = nra.14.t
+	desc = nra.14.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.14.a
+		custom_effect_tooltip = NPC_left_opposition_coup_tt
+	}
+	
+	#KA won, Sinophile delegates handcuffed out of Congress a la Saddam 1979
+	id = nra.15
+	title = nra.15.t
+	desc = nra.15.d
+	picture = 
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+	}
+	option = {
+		name = nra.15.a
+		custom_effect_tooltip = KAB_right_opposition_coup_tt
+	}
+
