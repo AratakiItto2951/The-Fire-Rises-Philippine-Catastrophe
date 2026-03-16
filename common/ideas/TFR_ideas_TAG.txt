@@ -19,11 +19,11 @@ ideas = {
 			}
 		}
         TAG_child_soldiers_idea = {
-            picture = 
+            picture = child_soldiers  # create gfx/ideas/child_soldiers.png
             traits = {
                 ZZZ_blank_idea_trait
             }
-            name = 
+            name = TAG_child_soldiers_idea  # add to localisation
             allowed = {
                 always = no
             }
@@ -128,11 +128,39 @@ ideas = {
             traits = {
 
             }
-        }		
+        }
+	    TAG_manny_sd_lopez_hog = {  # Lead Convenor – Reformist/Socioeconomic
+        picture = manny_sd_lopez
+        allowed = { original_tag = TAG }
+        traits = { hog_great_unifier hog_pragmatic_statesman }
+		}
+
+		TAG_wilson_amad_hog = {  # IP Rep + Preacher
+        picture = wilson_amad
+        allowed = { original_tag = TAG }
+        traits = { hos_great_unifier sec_peacemaker hog_spiritual_leader }
+		}	
 		
 	}
 	
 	foreign_minister = {
+	   TAG_leo_hernandez_eco = {  # Management Professor
+        picture = leo_hernandez
+        allowed = { original_tag = TAG }
+        traits = { eco_experienced_capitalist eco_wise eco_administrative_genius }
+		}
+
+    TAG_pablito_villegas_eco = {  # Agro-Industrial Consultant
+        picture = pablito_villegas
+        allowed = { original_tag = TAG }
+        traits = { eco_war_industrialist eco_local_resources_factor eco_construction_magnate }  # agro-industrial boost
+		}
+
+    TAG_antonio_lo_tan_eco = {  # Jollibee Director
+        picture = antonio_lo_tan
+        allowed = { original_tag = TAG }
+        traits = { eco_captain_of_industry for_connected_businessman }
+		}
 	
 	}
 	economic_minister = {
@@ -149,11 +177,12 @@ ideas = {
 	}
 	theorist_minister = {
 	        TAG_antonio_parlade_mil = {
-            picture = 
+            picture = = antonio_parlade  # add png
             allowed = {
                 original_tag = TAG
             }
-            traits = {
+            traits = { 
+				military_theorist army_chief_offensive_2 
             }
             on_add = {
                 add_popularity = {
@@ -173,8 +202,7 @@ ideas = {
                 }
             }
         }
-	
-	}
+	}	
 
 
 

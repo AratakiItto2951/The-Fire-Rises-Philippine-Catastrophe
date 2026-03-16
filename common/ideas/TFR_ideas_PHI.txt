@@ -137,8 +137,8 @@ ideas = {
 			modifier = {
 			division_organization_factor = -0.3
             org_recovery_rate = -0.2
-            division_defense_factor = -0.25
-            reinforce_rate = -0.1
+            army_defence_factor = -0.25
+            land_reinforce_rate = -0.1
 			monthly_population = 0.02
 			}
 		}
@@ -151,8 +151,8 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-			add_stability = 0.2
-			add_compliance = -10
+			stability_factor = 0.2
+			compliance_growth = -10
 			}
 		}
 			

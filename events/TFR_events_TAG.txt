@@ -214,6 +214,7 @@ country_event = {
 	}	
 }
 
+##BALANCE OF POWER## 
 country_event = {
 	#Forpol Balance of Power intro
 	id = nra.10
@@ -231,7 +232,7 @@ country_event = {
 			id = TAG_forpol_balance
 			left_side = TAG_sinophile
 			right_side = TAG_japanophile
-			set_value = -1
+			set_value = -0.1
 		}
 	}
 }
@@ -249,20 +250,21 @@ country_event = {
 	}
 	option = {
 		name = nra.11.a
-		KAB = {}
+		KAB = {
 		declare_war_on = {
 			target = KAB
 			type = annex_everything
-		}
+			}
 		hidden_effect = { 
 			set_country_flag = TAG_KA44_rebellion_flag 
+			}
 		}
 		
 	}
 }
 	option = {
 		name = nra.11.b
-		KAB = {}
+		KAB = {
 		declare_war_on = {
 			target = KAB
 			type = annex_everything
@@ -270,6 +272,7 @@ country_event = {
 		hidden_effect = { 
 			set_country_flag = TAG_KA44_rebellion_flag 
 		}
+	}
 		
 	}
 }
@@ -278,7 +281,7 @@ country_event = {
 	id = nra.12
 	title = nra.12.t
 	desc = nra.12.d
-	picture = 
+	picture = GFX_TAG_revolt
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -286,22 +289,23 @@ country_event = {
 	}
 	option = {
 		name = nra.12.a
-		NPC = {}
+		NPC = {
 		declare_war_on = {
 			target = NPC
 			type = annex_everything
+			}
+		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag}
 		}
-		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag }
 	}
 	option = {
 		name = nra.12.b
-		NPC = {}
+		NPC = {
 		declare_war_on = {
 			target = NPC
 			type = annex_everything
-		}
-		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag }
-		
+			}
+		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag}
+			}		
 		}
 	}
 }
@@ -310,7 +314,18 @@ country_event = {
 	#Game Over as NRA, you lost to either KA or NPC
 	id = nra.13
 	title = nra.13.t
-	desc = nra.13.d
+	desc = {##You fucked up by giving Sinophiles too much power##
+		text =  { nra.13.d.npc
+		}
+		trigger = { has_country_flag = TAG_KA44_rebellion_flag
+		}
+	}
+	desc = {##You fucked up by giving Japanophiles too much power##
+		text =  { nra.13.d.ka44
+		}
+		trigger = { has_country_flag = TAG_NPC_uprising_flag
+		}
+	}
 	picture = 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -319,6 +334,30 @@ country_event = {
 	}
 	option = {
 		name = nra.13.a
+		hidden_effect = {
+			if = {
+				limit = {
+					TAG = {
+						has_country_flag = TAG_NPC_uprising_flag
+					}
+				}	
+			country_event = {
+				id = nra.14
+				days = 1
+				}
+			}
+			if = {
+				limit = {
+					TAG = {
+						has_country_flag = TAG_KA44_rebellion_flag
+					}
+				}	
+			country_event = {
+				id = nra.15
+				days = 1
+				}
+			}			
+		}		
 	}
 	
 	#NPC won, Mamba shoots Cardema and PNF honchos

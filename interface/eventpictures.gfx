@@ -184,6 +184,10 @@ spriteTypes = {
 		name = "GFX_TAG_nazi_rally"
 		texturefile = "gfx/event_pictures/TAG/TAG_nazi_rally.png"
 	
+	spriteType = {
+		name = "GFX_TAG_revolt"
+		texturefile = gfx/event_pictures/TAG/TAG_revolt.png
+	
 
 ##NPA
 	

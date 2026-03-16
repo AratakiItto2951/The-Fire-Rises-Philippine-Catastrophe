@@ -1,0 +1,43 @@
+add_namespace = provrep
+
+country_event = {
+	id = provrep.1
+	title = provrep.1.t
+	desc = provrep.1.d
+	picture = GFX_manila_fireworks1
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHL
+	}
+
+	immediate = {
+	}
+		
+	option = {
+		name = provrep.1.a
+	}
+}
+
+country_event = {
+	id = provrep.2
+	title = provrep.2.t
+	desc = provrep.2.d
+	picture = GFX_manila_fireworks1
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHL
+	}
+
+	immediate = {
+	}
+		
+	option = {
+		name = provrep.2.a
+	}
+}

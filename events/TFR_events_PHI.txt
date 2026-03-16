@@ -761,6 +761,36 @@ country_event = {
 		add_state_claim = 647
 	} 
 }
+##Augustus event
+
+##Cardema first pitches "Revenge Legion" idea
+
+##Cardema talks to Quiboloy, convinces Duterte
+
+##Duterte greenlights the project
+
+##Duterte greenlights project, but after initially turning down but convinced by Quibs and INC
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
+##
+
 
 ###PHILIPPINE CATASTROPHE TEST###
 
@@ -917,13 +947,13 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1486
-			transfer_state = 1489
-			transfer_state = 1490
-			transfer_state = 1491
 			transfer_state = 1492
+			transfer_state = 1495
+			transfer_state = 1496
+			transfer_state = 1498
+			transfer_state = 1499
 			add_state_core = 327
-						add_state_core = 327			
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -940,15 +970,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
-			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = PHP_2020
 			inherit_technology = PHI
 			change_tag_from = PHI			
@@ -982,12 +1011,13 @@ country_event = {
 			transfer_state = 1279
 			transfer_state = 1280
 			transfer_state = 1281
-			transfer_state = 1486
-			transfer_state = 1489
-			transfer_state = 1490
-			transfer_state = 1491
-			transfer_state = 1492			
-			add_state_core = 327			
+			transfer_state = 1492
+			transfer_state = 1495
+			transfer_state = 1496
+			transfer_state = 1498
+			transfer_state = 1499
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1004,14 +1034,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = PHP_2020
 			inherit_technology = PHI
 			if = {
@@ -1084,8 +1114,9 @@ country_event = {
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1488
-			add_state_core = 327			
+			transfer_state = 1494
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1102,14 +1133,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = PHL_2020
 			inherit_technology = PHI
 			change_tag_from = PHI
@@ -1135,8 +1166,9 @@ country_event = {
 			transfer_state = 625
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1488
-			add_state_core = 327			
+			transfer_state = 1494
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1153,14 +1185,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = PHL_2020
 			inherit_technology = PHI
 			if = {
@@ -1200,8 +1232,9 @@ country_event = {
 		name = philcatastrophe.4.a
 		NPA = {
 			NPA = {
-			transfer_state = 1489
-			add_state_core = 327			
+			transfer_state = 1495
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1218,14 +1251,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = NPA_civil_war
 			inherit_technology = PHI
 			change_tag_from = PHI
@@ -1236,8 +1269,9 @@ country_event = {
 		name = philcatastrophe.4.b
 		NPA = {
 			NPA = {
-			transfer_state = 1489
-			add_state_core = 327			
+			transfer_state = 1495
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1254,14 +1288,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = NPA_civil_war
 			inherit_technology = PHI
 			}
@@ -1290,7 +1324,8 @@ country_event = {
 			transfer_state = 623
 			transfer_state = 1272
 			transfer_state = 1273
-			add_state_core = 327			
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1307,14 +1342,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = TAG_civil_war
 			inherit_technology = PHI
 			change_tag_from = PHI
@@ -1328,7 +1363,8 @@ country_event = {
 			transfer_state = 623
 			transfer_state = 1272
 			transfer_state = 1273
-			add_state_core = 327			
+			add_state_core = 327
+			add_state_core = 623
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1345,14 +1381,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = TAG_civil_war
 			inherit_technology = PHI
 			}
@@ -1381,7 +1417,8 @@ country_event = {
 			IGP = {
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1488
+			transfer_state = 1494
+			add_state_claim = 327
 			add_state_claim = 623
 			add_state_claim = 624
 			add_state_claim = 625
@@ -1399,14 +1436,14 @@ country_event = {
 			add_state_claim = 1280
 			add_state_claim = 1281
 			add_state_claim = 1384
-			add_state_claim = 1486
-			add_state_claim = 1487
-			add_state_core = 1488
-			add_state_claim = 1489
-			add_state_claim = 1490
-			add_state_claim = 1491
 			add_state_claim = 1492
 			add_state_claim = 1493
+			add_state_core = 1494
+			add_state_claim = 1495
+			add_state_claim = 1496
+			add_state_claim = 1497
+			add_state_claim = 1498
+			add_state_claim = 1499
 			load_oob = VIS_civil_war
 			inherit_technology = PHI
 			change_tag_from = PHI
@@ -1420,7 +1457,8 @@ country_event = {
 			IGP = {
 			transfer_state = 628
 			transfer_state = 1276
-			transfer_state = 1488
+			transfer_state = 1494
+			add_state_claim = 327
 			add_state_claim = 623
 			add_state_claim = 624
 			add_state_claim = 625
@@ -1438,14 +1476,14 @@ country_event = {
 			add_state_claim = 1280
 			add_state_claim = 1281
 			add_state_claim = 1384
-			add_state_claim = 1486
-			add_state_claim = 1487
-			add_state_core = 1488
-			add_state_claim = 1489
-			add_state_claim = 1490
-			add_state_claim = 1491
 			add_state_claim = 1492
 			add_state_claim = 1493
+			add_state_core = 1494
+			add_state_claim = 1495
+			add_state_claim = 1496
+			add_state_claim = 1497
+			add_state_claim = 1498
+			add_state_claim = 1499
 			load_oob = VIS_civil_war
 			inherit_technology = PHI
 			}
@@ -1487,8 +1525,8 @@ country_event = {
 		name = philcatastrophe.7.a
 		TAG = {
 			transfer_state = 623
+			add_state_core = 327
 			add_state_core = 623
-			add_state_core = 327			
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1505,14 +1543,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = TAG_civil_war
 			inherit_technology = PHI
 			change_tag_from = PHI
@@ -1523,8 +1561,8 @@ country_event = {
 		name = philcatastrophe.7.b
 		TAG = {
 			transfer_state = 623
+			add_state_core = 327
 			add_state_core = 623
-			add_state_core = 327			
 			add_state_core = 624
 			add_state_core = 625
 			add_state_core = 626
@@ -1541,14 +1579,14 @@ country_event = {
 			add_state_core = 1280
 			add_state_core = 1281
 			add_state_core = 1384
-			add_state_core = 1486
-			add_state_core = 1487
-			add_state_core = 1488
-			add_state_core = 1489
-			add_state_core = 1490
-			add_state_core = 1491
 			add_state_core = 1492
 			add_state_core = 1493
+			add_state_core = 1494
+			add_state_core = 1495
+			add_state_core = 1496
+			add_state_core = 1497
+			add_state_core = 1498
+			add_state_core = 1499
 			load_oob = TAG_civil_war
 			inherit_technology = PHI
 			}
@@ -1631,7 +1669,7 @@ country_event = {
 }	
 
 
-# Subic Bay declares neutrality, stays out
+# Subic Bay declares neutrality, stays out until coup decides path
 
 country_event = {
 	id = philcatastrophe.10
@@ -1680,19 +1718,54 @@ country_event = {
 
 	option = {
 		name = philcatastrophe.11.a
+		
+		#North Luzon
+		UPH = {
+			declare_war_on = {
+				target = CRD
+				type = annex_everything
+			}
+		TAG = {
+			declare_war_on = {
+				target = CRD
+				type = annex_everything
+			}
+		CRD = {
+			declare_war_on = {
+				target = TAG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UPH
+				type = annex_everything
+			}
+		#South Luzon
 		PHI = {
 			declare_war_on = {
 				target = PHL
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = PHP
+				target = OSB
 				type = annex_everything
 			}
-			declare_war_on = {
-				target = NPA
-				type = annex_everything
-			}
+		}
+		PHL = {
+			declare_war_on = PHI
+			type = annex_everything
+		}
+		OSB = {
+			declare_war_on = PHI
+			type = annex_everything
+		}
+		#Mindanao
+		PHP = {
+			declare_war_on = NPA
+			type = annex_everything
+		}
+		NPA = {
+			declare_war_on = PHP
+			type = annex_everything
 		}
 	}
 }				

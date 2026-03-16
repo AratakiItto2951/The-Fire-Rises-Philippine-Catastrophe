@@ -61,20 +61,6 @@ characters = {
 			}
 	}	
 	
-	TAG_larry_gadon_char = {
-		name = "Lorenzo Gadon"
-		portraits={
-			civilian = {
-				large = "gfx/Leaders/TAG/TAG_Larry_Gadon.png" 
-			}
-			}
-		country_leader = {
-			ideology = right_populism
-			}
-		country_leader = {
-			ideology = sovereign_democracy
-			}
-		}
 	
 		TAG_raymundo_ortega_char = {
 		name = "Raymundo Ortega"
@@ -208,6 +194,70 @@ characters = {
 			ideology = sovereign_democracy
 			}
 		}
+		
+		TAG_simon_marcos_kaiser_char = {
+		name = "Simon Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Simon_Marcos_kaiser.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}		
+		
+		TAG_vincent_marcos_kaiser_char = {
+		name = "Vincent Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Vincent_Marcos_kaiser.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}		
+		
+		# KBL Prime Ministers
+		
+		TAG_larry_gadon_char = {
+		name = "Lorenzo Gadon"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Larry_Gadon.png" 
+			}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}
+
+		TAG_relly_jose_char = {
+		name = "Relly Nufable Jose Jr."
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Relly_Jose.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+				}
+		country_leader = {
+			ideology = sovereign_democracy
+				}
+		}		
+		
+		
 
 		#Hispanista
 
@@ -255,7 +305,7 @@ characters = {
 		}
 		
 	TAG_pepe_alas_char = {
-		name = "José Mario “Pepe” Alas"
+		name = "José Mario Alas"
 		portraits={
 			civilian = {
 				large = "gfx/Leaders/TAG/TAG_Pepe_Alas.png" 
@@ -366,15 +416,15 @@ characters = {
 				}
 			}
 		
-		TAG_ron_bawalan_char = {}
+		#TAG_ron_bawalan_char = {}
 		
-		TAG_vincent_bancangoy_char = {}
+		#TAG_vincent_bancangoy_char = {}
 		
-		TAG_nicanor_faeldon_char = {}
+		#TAG_nicanor_faeldon_char = {}
 		
-		TAG_aurika_abulencia_char = {}
+		#TAG_aurika_abulencia_char = {}
 		
-		TAG_juster_paterno_char = {}
+		#TAG_juster_paterno_char = {}
 		
 		TAG_generic_1_char = {
 			name = "John Rhenz Salvatierra"
