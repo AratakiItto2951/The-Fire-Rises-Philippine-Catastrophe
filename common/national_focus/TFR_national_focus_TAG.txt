@@ -1,0 +1,51 @@
+######################################################
+# National Revolutionary Army Focus Tree
+# By Tetsutetsu Tetsutetsu
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_EDUCATION}
+### search_filters = {FOCUS_FILTER_DISASTER_RESPONSE}
+### search_filters = {FOCUS_FILTER_CORRUPTION_REFORM}
+### search_filters = {FOCUS_FILTER_SOCIAL_MEDIA_CONTROL}
+### search_filters = {FOCUS_FILTER_YOUTH_AND_RADICALIZATION}
+focus_tree = {
+	id = TAG_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAG
+		}
+	}
+
+		focus = {
+        id = TAG_second_revolution
+        icon = GFX_generic_communications
+        x = 10
+        y = 0
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+			
+			#has_country_leader = {
+				character = TAG_
+				ruling_only = yes
+			}
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: completed PHI_start_focus"
+            add_political_power = 50
+			set_country_flag = head_of_gov_ui_enabled
+			}
+		}		

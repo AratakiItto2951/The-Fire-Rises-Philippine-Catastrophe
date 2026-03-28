@@ -1,5 +1,5 @@
 state={
-	id=1489
+	id=1495
 	name="STATE_1495"
 	history = {
 		owner = PHI
@@ -12,7 +12,7 @@ state={
 		}		
 	}
 	provinces={
-		12217 12273 14995
+		12217 12273 14994
 	}
 	manpower = 1541308
 	buildings_max_level_factor=1.000

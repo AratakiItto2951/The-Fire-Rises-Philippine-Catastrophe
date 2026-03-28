@@ -44,32 +44,80 @@ country_event = {
 	id = nra.3
 	title = nra.3.t
 	desc = nra.3.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 		original_tag = TAG
 	}
 	option = {
+		#madam cardema
 		name = nra.3.a
+		hidden_effect = {
+			add_ideas = TAG_duicelle_cardema_hog
+			country_event = {
+				id = nra.4
+				days = 2
+			}
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
 	}
 	option = {
+		#valdes
 		name = nra.3.b
+		hidden_effect = {
+			add_ideas = TAG_butch_valdes_hog
+			country_event = {
+				id = nra.4
+				days = 2
+			}
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
 	}
 	option = {
+		#relly jose
 		name = nra.3.c
+		hidden_effect = {
+			add_ideas = TAG_relly_jose_hog
+			country_event = {
+				id = nra.4
+				days = 2
+				}
+			}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+			}
 	}
+		
 	option = {
+		#maquinana
 		name = nra.3.f
-	}	
-}
-
+		hidden_effect = {
+			add_ideas = TAG_larry_maquinana_hog
+			country_event = {
+				id = nra.4
+				days = 2
+			}
+		}
+		add_popularity = {
+			ideology = authoritarian_democrat
+			popularity = 0.05
+		}
+	}
+}	
 country_event = {
 	#Tuguegarao Convention elections - Foreign Minister
 	id = nra.4
 	title = nra.4.t
 	desc = nra.4.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -94,7 +142,7 @@ country_event = {
 	id = nra.5
 	title = nra.5.t
 	desc = nra.5.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -119,7 +167,7 @@ country_event = {
 	id = nra.6
 	title = nra.6.t
 	desc = nra.6.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -144,7 +192,7 @@ country_event = {
 	id = nra.7
 	title = nra.7.t
 	desc = nra.7.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -169,7 +217,7 @@ country_event = {
 	id = nra.8
 	title = nra.8.t
 	desc = nra.8.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -194,7 +242,7 @@ country_event = {
 	id = nra.9
 	title = nra.9.t
 	desc = nra.9.d
-	picture = 
+	picture = GFX_generic_meeting_room
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -261,21 +309,20 @@ country_event = {
 		}
 		
 	}
-}
 	option = {
 		name = nra.11.b
 		KAB = {
 		declare_war_on = {
 			target = KAB
 			type = annex_everything
-		}
+			}
 		hidden_effect = { 
 			set_country_flag = TAG_KA44_rebellion_flag 
+			}
 		}
 	}
-		
-	}
 }
+
 country_event = {
 	#Japanophiles and Nazis get too much power, NPC revolts
 	id = nra.12
@@ -305,28 +352,25 @@ country_event = {
 			type = annex_everything
 			}
 		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag}
-			}		
 		}
 	}
-}
-
+}		
 country_event = {
 	#Game Over as NRA, you lost to either KA or NPC
+	#You fucked up by giving Sinophiles too much power, fires nra.13.d.ka44
+	#You fucked up by giving Japanophiles too much power, fires nra.13.d.npc
 	id = nra.13
 	title = nra.13.t
-	desc = {##You fucked up by giving Sinophiles too much power##
-		text =  { nra.13.d.npc
-		}
-		trigger = { has_country_flag = TAG_KA44_rebellion_flag
-		}
-	}
-	desc = {##You fucked up by giving Japanophiles too much power##
-		text =  { nra.13.d.ka44
-		}
-		trigger = { has_country_flag = TAG_NPC_uprising_flag
-		}
-	}
-	picture = 
+    desc = {
+        text = nra.13.d.npc
+        trigger = { has_country_flag = TAG_KA44_rebellion_flag }
+    }
+
+    desc = {
+        text = nra.13.d.ka44
+        trigger = { has_country_flag = TAG_NPC_uprising_flag }
+    }
+	picture = GFX_TAG_cardema_death_1
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -356,37 +400,128 @@ country_event = {
 				id = nra.15
 				days = 1
 				}
-			}			
-		}		
+			}
+		}
 	}
-	
+}
+						
+				
+		
 	#NPC won, Mamba shoots Cardema and PNF honchos
+	country_event = {
 	id = nra.14
 	title = nra.14.t
 	desc = nra.14.d
-	picture = 
+	picture = GFX_TAG_cardema_death_1
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 		original_tag = TAG
-	}
+		}
 	option = {
 		name = nra.14.a
 		custom_effect_tooltip = NPC_left_opposition_coup_tt
+		}
 	}
-	
+
 	#KA won, Sinophile delegates handcuffed out of Congress a la Saddam 1979
+	country_event = {
 	id = nra.15
 	title = nra.15.t
 	desc = nra.15.d
-	picture = 
+	picture = GFX_TAG_cardema_death_2
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
 		original_tag = TAG
-	}
+		}
 	option = {
 		name = nra.15.a
 		custom_effect_tooltip = KAB_right_opposition_coup_tt
+		}
 	}
+
+	#NRA Victory
+	
+	#North Luzon unification
+	country_event = {
+	id = nra.16
+	title = nra.16.t
+	desc = nra.16.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.16.a
+		}
+	}
+	
+	#Unification of Luzon
+	country_event = {
+	id = nra.17
+	title = nra.17.t
+	desc = nra.17.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.17.a
+		}
+	}
+	
+	#Oplan Malvar victory (Visayas)
+	country_event = {
+	id = nra.18
+	title = nra.18.t
+	desc = nra.18.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.18.a
+		}
+	}
+	
+	#Oplan Vibora victory (Mindanao)
+	country_event = {
+	id = nra.19
+	title = nra.19.t
+	desc = nra.19.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.19.a
+		}
+	}
+	
+	#Victory in the Catastrophe
+	country_event = {
+	id = nra.19
+	title = nra.19.t
+	desc = nra.19.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.19.a
+		}
+	}
+
+		
 

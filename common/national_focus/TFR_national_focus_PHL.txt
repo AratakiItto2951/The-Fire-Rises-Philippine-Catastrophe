@@ -1,0 +1,738 @@
+######################################################
+# Provisional Republic of the Philippines Focus Tree
+# By Tetsutetsu Tetsutetsu
+######################################################
+
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_EDUCATION}
+### search_filters = {FOCUS_FILTER_DISASTER_RESPONSE}
+### search_filters = {FOCUS_FILTER_CORRUPTION_REFORM}
+### search_filters = {FOCUS_FILTER_SOCIAL_MEDIA_CONTROL}
+### search_filters = {FOCUS_FILTER_YOUTH_AND_RADICALIZATION}
+focus_tree = {
+	id = PHL_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PHL
+		}
+	}
+	default = no
+
+	focus = {
+        id = PHL_inauguration
+        icon = GFX_generic_communications
+        x = 10
+        y = 0
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = PHL
+			
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: completed PHL_start_focus"
+            add_political_power = 50
+			set_country_flag = head_of_gov_ui_enabled
+			}
+		}
+#Unity Coalition
+		focus = {
+		id = PHL_wartime_unity_coalition
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_inauguration
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_wartime_unity_coalition
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_why_we_fight
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_wartime_unity_coalition
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_inauguration
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_militarize_roros
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_why_we_fight
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_why_we_fight
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_rifle
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_militarize_roros
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_militarize_roros
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+				focus = {
+		id = PHL_mass_recruitment
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_rifle
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_rifle
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_shining_examples
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_mass_recruitment
+		x = -1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_mass_recruitment
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_peer_pressure
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_mass_recruitment
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_mass_recruitment
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_forward_march
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_loose_arms
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_loose_arms
+        }
+		prerequisite = {
+			focus = PHL_lessons_of_mta
+		}
+		prerequisite = {
+			focus = PHL_into_the_light
+		}
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_loose_arms
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_mass_recruitment
+		x = 0
+		y = 2
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_shining_examples
+        }
+		prerequisite = {
+			focus = PHL_peer_pressure 
+		}
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_utilize_internet
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_why_we_fight
+		x = -3
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_why_we_fight
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_cyberwar
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_utilize_internet
+		x = -0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_utilize_internet
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_digital_soldiers
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_cyberwar
+		x = -0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_cyberwar
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_kalaban
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_digital_soldiers
+		x = -0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_digital_soldiers
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_lessons_of_mta
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_kalaban
+		x = -0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_kalaban
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_engage_the_media
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_why_we_fight
+		x = 3
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_why_we_fight
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_renew_abscbn_franchise
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_engage_the_media
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_engage_the_media
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_fight_fire_with_fire
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_renew_abscbn_franchise
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_renew_abscbn_franchise
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_out_of_darkness
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_fight_fire_with_fire
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_fight_fire_with_fire
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHL_into_the_light
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_out_of_darkness
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_out_of_darkness
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+#Negotiations with the Left
+		focus = {
+		id = PHL_makabayan_bloc
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_inauguration
+		x = -7
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_inauguration
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+#Negotiations with the Right 
+		focus = {
+		id = PHL_DND
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		relative_position_id = PHL_inauguration
+		x = 7
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = PHL_inauguration
+        }
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHL
+			has_country_leader = {
+				character = PHL_risa_hontiveros_char
+				ruling_only = yes
+			}
+		}
+		completion_reward = {
+			}
+			
+		}
+	
+}

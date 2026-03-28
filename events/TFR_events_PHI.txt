@@ -339,7 +339,6 @@ country_event = { #Independence Day
 		add_political_power = 20
 		}
 	}
-}
 
 country_event = { #Metro Manila Film Festival
 	id = philipines.6
@@ -363,7 +362,7 @@ country_event = { #Metro Manila Film Festival
 		add_political_power = 20
 		}
 	}
-}
+
 
 ###------------------------------------###
 
@@ -1714,7 +1713,7 @@ country_event = {
 		is_ai = no
 		tag = PHI
 		date > 2028.6.30
-	}
+		}
 
 	option = {
 		name = philcatastrophe.11.a
@@ -1730,6 +1729,7 @@ country_event = {
 				target = CRD
 				type = annex_everything
 			}
+		}
 		CRD = {
 			declare_war_on = {
 				target = TAG
@@ -1748,24 +1748,30 @@ country_event = {
 			declare_war_on = {
 				target = OSB
 				type = annex_everything
+				}
 			}
-		}
 		PHL = {
 			declare_war_on = PHI
 			type = annex_everything
-		}
+			}
 		OSB = {
 			declare_war_on = PHI
 			type = annex_everything
-		}
+			}
 		#Mindanao
 		PHP = {
 			declare_war_on = NPA
 			type = annex_everything
-		}
+				}
 		NPA = {
 			declare_war_on = PHP
 			type = annex_everything
+				}
+			}
 		}
 	}
-}				
+}
+
+
+		
+				

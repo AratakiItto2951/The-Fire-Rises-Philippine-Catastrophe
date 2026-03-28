@@ -1,0 +1,499 @@
+#characters = {
+	TAG_ronald_cardema_char = {
+		name = "Ronald Cardema"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Ronald_Cardema.png" 
+				}
+			army = {
+				large = "gfx/Leaders/TAG/TAG_Ronald_Cardema.png" 
+				}	
+			}
+		country_leader = {
+			ideology = military_democracy
+			}
+		country_leader = {
+			ideology = hybrid_regime
+			}
+		country_leader = {
+			ideology = military_junta
+			}
+		field_marshal = { 
+			traits = 
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			visible = {
+				has_government = military_democracy
+				has_government = hybrid_regime
+				has_government = military_junta
+			}
+		}
+		corps_commander={
+			skill=2
+		}
+	}
+		
+	
+	TAG_edmundo_casino_char = {
+		name = "Edmundo Casiño"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Edmundo_Toti_Casiño.png" 
+				}
+			}
+		country_leader = {
+			ideology = ultranationalism
+			}
+	}
+	
+	TAG_glenn_chong_char = {
+		name = "Glenn Chong"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Glenn_Chong.png" 
+			}
+			}
+		country_leader = {
+			ideology = ultranationalism
+			}
+	}	
+	
+	
+		TAG_raymundo_ortega_char = {
+		name = "Raymundo Ortega"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Raymundo_Ortega.png" 
+				}
+			}
+		country_leader = {
+			ideology = neonazism
+			}
+		}
+		TAG_jose_maquinana_char = {
+		name = "Jose Larry Maquinana"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Jose_Larry_Maquinana.png" 
+				}
+			}
+		country_leader = {
+			ideology = neonazism
+			}
+		
+		}
+		TAG_antonio_parlade_char = {
+		name = "Antonio Parlade"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Antonio_Parlade.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		corps_commander={
+			skill=2
+		}	
+	}
+		# Masked Man
+
+		TAG_raffy_delgado_char = {
+		name = "Rafael Delgado"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_notsimonriley.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		country_leader = {
+			ideology = military_democracy
+			}
+		country_leader = {
+			ideology = hybrid_regime
+			}
+		country_leader = {
+			ideology = military_junta
+			}
+		country_leader = {
+			ideology = autocrat
+			}
+		country_leader = {
+			ideology = ultranationalism
+			}		
+		country_leader = {
+			ideology =  classical_fascism
+			}
+		country_leader = {
+			ideology = neonazism
+			}		
+		country_leader = {
+			ideology =   national_spartanism
+			}
+		field_marshal = { 
+			traits = 
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 4
+			visible = {
+				has_government = military_democracy
+				has_government = hybrid_regime
+				has_government = military_junta
+				has_government = autocrat
+				has_government = ultranationalism
+				has_government = classical_fascism
+				has_government = neonazism
+				has_government = national_spartanism
+			}
+			corps_commander = {
+			traits = 
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			visible = {
+				has_government = military_democracy
+				has_government = hybrid_regime
+				has_government = military_junta
+				has_government = autocrat
+				has_government = ultranationalism
+				has_government = classical_fascism
+				has_government = neonazism
+				has_government = national_spartanism
+				
+				NOT = { }
+				}
+			}	
+		}
+	}	
+			
+		#KBL Marcoses
+		
+		TAG_sandro_marcos_kaiser_char = {
+		name = "Sandro Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Sandro_Marcos_kaiser.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}
+		
+		TAG_simon_marcos_kaiser_char = {
+		name = "Simon Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Simon_Marcos_kaiser.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}		
+		
+		TAG_vincent_marcos_kaiser_char = {
+		name = "Vincent Marcos"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Vincent_Marcos_kaiser.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}		
+		
+		# KBL Prime Ministers
+		
+		TAG_larry_gadon_char = {
+		name = "Lorenzo Gadon"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Larry_Gadon.png" 
+			}
+			}
+		country_leader = {
+			ideology = right_populism
+			}
+		country_leader = {
+			ideology = sovereign_democracy
+			}
+		}
+
+		TAG_relly_jose_char = {
+		name = "Relly Nufable Jose Jr."
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Relly_Jose.png" 
+				}
+			}
+		country_leader = {
+			ideology = right_populism
+				}
+		country_leader = {
+			ideology = sovereign_democracy
+				}
+		}		
+		
+		
+
+		#Hispanista
+
+		TAG_macario_ofilada_char = {
+		name = "Macario Ofilada"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Macario_Ofilada.png" 
+			}
+			}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =   clerical_fascism
+			}		
+		}
+
+	TAG_paul_dumol_char = {
+		name = "Paul Arvisu Dumol"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Paul_Dumol_hispanista.png" 
+			}
+		}
+		
+		advisor = {
+		slot = theorist
+		idea_token = my_character
+		ledger = army
+		traits = { military_theorist }      # Unspecified cost defaults to 150.
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =   clerical_fascism
+			}		
+		}
+		
+	TAG_pepe_alas_char = {
+		name = "José Mario Alas"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Pepe_Alas.png" 
+			}
+			}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =   clerical_fascism
+			}		
+		}		
+	
+		###The Internal Opposition###
+
+		#Left Opposition (Nationalist People's Coalition rebellion)
+		
+		NPC_manuel_mamba_char = {
+		name = "Manuel Mamba"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Manuel_Mamba" 
+				}
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}		
+		}
+
+		#TAG_jv_ejercito_char = {
+		name = "Joseph Victor Ejercito"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_JV_Ejercito.png" 
+				}
+			}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =  right_centrist
+			}		
+		}
+	
+		#TAG_tito_sotto_char = {
+		name = "Vicente Sotto III"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		}
+
+		#TAG_gary_alejano_char = {
+		name = "Gary Alejano"
+		portraits={
+			civilian = {
+				large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" 
+			}
+		}
+		country_leader = {
+			ideology =  christian_conservatism
+			}
+		country_leader = {
+			ideology =  classical_conservatism
+			}
+		country_leader = {
+			ideology =   supervised_democracy
+			}		
+		}
+		
+		#Right Opposition	(PNF rebellion)		
+	
+	
+		#Commanders
+		
+		TAG_berlin_lingwa_char = {
+			name = "Berlin Lingwa"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Berlin_Lingwa_masked.png}
+					large = {gfx/Leaders/TAG/TAG_Berlin_Lingwa_masked.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+		#TAG_ron_bawalan_char = {}
+		
+		#TAG_vincent_bancangoy_char = {}
+		
+		#TAG_nicanor_faeldon_char = {}
+		
+		#TAG_aurika_abulencia_char = {}
+		
+		#TAG_juster_paterno_char = {}
+		
+		TAG_generic_1_char = {
+			name = "John Rhenz Salvatierra"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG1.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+		TAG_generic_2_char = {
+			name = "Mark Francis Lejano"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG2.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+		TAG_generic_3_char = {
+			name = "Mike Quijanes"
+			portraits = {
+				army = {
+					small = {gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png}
+					large = {gfx/Leaders/TAG/TAG_Generic_TAG3B.png}
+				}
+			corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			traits = {
+				armor_officer
+				skilled_staffer
+				politically_connected
+						}
+					}						
+				}
+			}
+		
+}	
+	
+
+
+	

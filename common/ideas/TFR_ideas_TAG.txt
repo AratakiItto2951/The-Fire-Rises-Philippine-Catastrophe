@@ -99,7 +99,7 @@ ideas = {
                 original_tag = TAG
             }
             traits = {
-
+                
             }
         }		
         TAG_joseph_delson_hog = {
@@ -139,7 +139,13 @@ ideas = {
         picture = wilson_amad
         allowed = { original_tag = TAG }
         traits = { hos_great_unifier sec_peacemaker hog_spiritual_leader }
-		}	
+		}
+        
+        TAG_jonathan_malaya_hog = {
+        picture = jonathan_malaya
+        allowed = { original_tag = TAG }
+        traits = { hog_uncontested_prime_minister hog_great_unifier }
+    }    	
 		
 	}
 	
@@ -164,6 +170,29 @@ ideas = {
 	
 	}
 	economic_minister = {
+        TAG_leo_hernandez_eco = {  # Management Professor
+        picture = leo_hernandez
+        allowed = { original_tag = TAG }
+        traits = { eco_experienced_capitalist eco_wise eco_administrative_genius }
+    }
+
+    TAG_pablito_villegas_eco = {  # Agro-Industrial Consultant
+        picture = pablito_villegas
+        allowed = { original_tag = TAG }
+        traits = { eco_war_industrialist eco_local_resources_factor eco_construction_magnate }  # agro-industrial boost
+    }
+
+    TAG_antonio_lo_tan_eco = {  # Jollibee Director
+        picture = antonio_lo_tan
+        allowed = { original_tag = TAG }
+        traits = { eco_captain_of_industry for_connected_businessman }
+    }
+
+    TAG_teodoro_mendoza_eco = { #DTI Secretary
+        picture = teodoro_mendoza
+        allowed = { original_tag = TAG }
+        traits = { eco_former_government_experience eco_economic_organizer }
+    }
 	
 	}
 	interior_minister = {
@@ -186,7 +215,7 @@ ideas = {
             }
             on_add = {
                 add_popularity = {
-                    ideology = 
+                    ideology = right_populism
                     popularity = 0.03
                 }
             }
@@ -196,7 +225,7 @@ ideas = {
                         NOT = { has_country_flag = remove_ideas_flag }
                     }
                     add_popularity = {
-                        ideology = 
+                        ideology = right_populism
                         popularity = -0.03
                     }
                 }

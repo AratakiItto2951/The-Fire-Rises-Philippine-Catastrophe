@@ -1232,7 +1232,7 @@
 1231;6;15;240;sea;false;ocean;0
 1232;6;17;248;sea;false;ocean;0
 1233;6;18;40;land;false;plains;6
-1234;6;18;190;land;true;jungle;6
+1234;6;18;190;land;false;jungle;6
 1235;6;19;244;sea;false;ocean;0
 1236;6;20;232;sea;true;ocean;0
 1237;6;21;5;land;true;plains;4

@@ -179,6 +179,10 @@ spriteTypes = {
 		name = "GFX_TAG_cardema_meeting"
 		texturefile = "gfx/event_pictures/TAG/TAG_cardema_meeting.png"
 	}
+	spriteType = {
+		name = "GFX_TAG_cardema_parade"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_parade.png"
+	}
 	
 	spriteType = {
 		name = "GFX_TAG_nazi_rally"
@@ -186,8 +190,17 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_TAG_revolt"
-		texturefile = gfx/event_pictures/TAG/TAG_revolt.png
-	
+		texturefile = "gfx/event_pictures/TAG/TAG_revolt.png"
+	}
+
+	spriteType = {
+		name = "GFX_TAG_cardema_death_1"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_death_leftopposition.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_cardema_death_2"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_death_rightopposition.png"
+	}
 
 ##NPA
 	

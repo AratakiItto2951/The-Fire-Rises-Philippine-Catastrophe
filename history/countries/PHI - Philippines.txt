@@ -1,4 +1,4 @@
-﻿capital = 1487
+﻿capital = 1493 #Manila
 
 oob = "PHI_2020"
 

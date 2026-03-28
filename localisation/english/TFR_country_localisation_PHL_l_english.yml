@@ -4,8 +4,51 @@
 
 #Decisions
 
-#Focus tree
-
+#Focus Tree
+ PHL_inauguration: "Inauguration of the President"
+ PHL_inauguration_desc: "test"
+ PHL_wartime_unity_coalition: "Wartime Unity Coalition"
+ PHL_wartime_unity_coalition_desc: "test"
+ PHL_why_we_fight: "Fighting for Democracy"
+ PHL_why_we_fight_desc: "test"
+ PHL_militarize_roros: "Militarize the ROROs"
+ PHL_militarize_roros_desc: "test"
+ PHL_rifle: "Keep Your Rifle by Your Side"
+ PHL_rifle_desc: "test"
+ PHL_mass_recruitment: "Mass Recruitment"
+ PHL_mass_recruitment_desc: "test"
+ PHL_shining_examples: "Shining Examples"
+ PHL_shining_examples_desc: "test"
+ PHL_peer_pressure: "Peer Pressure"
+ PHL_peer_pressure_desc: "test"
+ PHL_loose_arms: "Requisition Loose Firearms"
+ PHL_loose_arms_desc: "test"
+ PHL_forward_march: "Marching into Battle"
+ PHL_forward_march_desc: "test"
+ PHL_utilize_internet: "Utilize Online Propaganda"
+ PHL_utilize_internet_desc: "test"
+ PHL_cyberwar: "Take the cyberwar on the Homefront"
+ PHL_cyberwar_desc: "test"
+ PHL_digital_soldiers: "Digital Soldiers of the Republic"
+ PHL_digital_soldiers_desc: "test"
+ PHL_kalaban: "Kilalanin ang Kalaban"
+ PHL_kalaban_desc: "test"
+ PHL_lessons_of_mta: "Lessons of the Milk Tea Alliance"
+ PHL_lessons_of_mta_desc: "test"
+ PHL_engage_the_media: "Engage the Media"
+ PHL_engage_the_media_desc: "test"
+ PHL_renew_abscbn_franchise: "Renew ABS-CBN franchise"
+ PHL_renew_abscbn_franchise_desc: "test"
+ PHL_fight_fire_with_fire: "Fight Fire with Fire"
+ PHL_fight_fire_with_fire_desc: "test"
+ PHL_out_of_darkness: "Out of the Darkness..."
+ PHL_out_of_darkness_desc: "test"
+ PHL_into_the_light: "...and Into the Light"
+ PHL_into_the_light_desc: "test"
+ PHL_makabayan_bloc: "Deals with the Makabayan Bloc"
+ PHL_makabayan_bloc_desc: "test"
+ PHL_DND: "Secure support of DND"
+ PHL_DND_desc: "test"
 #Events
 
 #Parties 
@@ -36,7 +79,7 @@
  PHL_suspended_party_long: "§RSUSPENDED§!"
  PHL_suspended_party: "§RSUSPENDED§!"
  
-  #Country
-  PHL_reunified_PHI: "Republic of the Philippines"
-  PHL_reunified_PHI_ADJ: "Filipino"
-  PHL_reunified_PHI_DEF: "the Republic of the Philippines"
+#Country
+PHL_reunified_PHI: "Republic of the Philippines"
+PHL_reunified_PHI_ADJ: "Filipino"
+PHL_reunified_PHI_DEF: "the Republic of the Philippines"
