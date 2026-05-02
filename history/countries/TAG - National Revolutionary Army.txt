@@ -1,4 +1,4 @@
-capital = 327
+capital = 623
 
 oob = ""
 
@@ -63,6 +63,13 @@ recruit_character = TAG_ronald_cardema_char
 recruit_character = TAG_edmundo_casino_char
 recruit_character = TAG_larry_gadon_char 
 recruit_character = TAG_raymundo_ortega_char
+recruit_character = TAG_antonio_parlade_char 
+recruit_character = TAG_ron_bawalan_char
+recruit_character = TAG_berlin_lingwa_char
+recruit_character = TAG_vince_bacangoy_char
+recruit_character = TAG_generic_1_char
+recruit_character = TAG_generic_2_char
+recruit_character = TAG_generic_3_char
 
 set_technology = {
 	
@@ -70,20 +77,29 @@ set_technology = {
 
 set_politics = {	
 	ruling_party = authoritarian_democrat
-	last_election = "2028.5.10"
+	last_election = "2020.5.10"
 	election_frequency = 72
 	elections_allowed = no
 }
 
 set_popularities = {
-	conservative = 15
-	authoritarian_democrat = 65
-	nationalist = 10
-	fascist = 6
-	national_socialist = 4
+	conservative = 10.2
+	market_liberal = 17
+	social_democrat = 0
+	social_liberal =0
+	communist = 0
+	nationalist = 15.6
+	fascist = 23.8
+	national_socialist = 2.8
+	authoritarian_democrat = 30.6
 }
 
 add_ideas = {
+
+	#National Spirits
+	TAG_the_second_revolution_idea
+	TAG_child_soldiers_idea
+	TAG_abysmal_cohesion
 	
 	#Laws
 	partial_mobilization

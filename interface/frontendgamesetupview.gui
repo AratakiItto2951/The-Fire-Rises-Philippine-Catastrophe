@@ -702,6 +702,19 @@ guiTypes = {
 			}
 		}
 
+		containerWindowType = {
+			name = "backdrop_6"
+			position = { x = 1230  y = 30 }
+			size = { width = 172  height = 380 }
+			
+
+			iconType = {
+				name = "backdrop_texture_5"
+				quadTextureSprite = "GFX_PRC_intro" # placeholder
+				position = { x = 2  y = 2 }
+			}
+		}
+
 	### END of SECTION ###
 	
 	### PATH FLAGS FOR MAJOR
@@ -971,6 +984,43 @@ guiTypes = {
 				quadTextureSprite = "GFX_PRC_nationalist_path"
 				position = { x = 0  y = 82 }
 				pdx_tooltip = PRC_nationalist_path_tt
+			}
+		}
+		containerWindowType = {
+			name = highlight_paths_7
+			position = { x = 1243 y = 50 }
+			## x: ± 172 to move one slot left or right
+			## y: ± 95 to move one slot up or down
+
+			iconType = {
+				name = "PHI_junta_path"
+				quadTextureSprite = "GFX_PHI_junta_path"
+				position = { x = 0  y = -5 }
+				pdx_tooltip = PHI_miljunta_path_tt
+			}
+			iconType = {
+				name = "PHI_PHL_path"
+				quadTextureSprite = "GFX_PHI_PHL_path"
+				position = { x = 0  y = 24 }
+				pdx_tooltip = PHI_PHL_path_tt
+			}
+			iconType = {
+				name = "PHI_PHP_path"
+				quadTextureSprite = "GFX_PHI_PHP_path"
+				position = { x = 0  y = 53 }
+				pdx_tooltip = PHI_PHP_path_tt
+			}
+			iconType = {
+				name = "PHI_TAG_path"
+				quadTextureSprite = "GFX_PHI_TAG_path"
+				position = { x = 0  y = 82 }
+				pdx_tooltip = PHI_TAG_path_tt
+			}
+			iconType = {
+				name = "PHI_NPA_path"
+				quadTextureSprite = "GFX_PHI_NPA_path"
+				position = { x = 0  y = 111 }
+				pdx_tooltip = PHI_NPA_path_tt
 			}
 		}
 		

@@ -2,7 +2,7 @@
  #Focus
  #Events
  nra.1.t: "A quick briefing"
- nra.1.d: "The movement traces its roots to Ronald Cardema and the £GFX_TAG_DYouth_texticon Duterte Youth party-list, originally built around nationalist youth mobilization and the revival of mandatory ROTC, Citizenship Advancement Training, and scouting programs. What began as campus activism evolved into something broader—and harder.\nCardema’s network soon intersected with older nationalist forces.\nThe £GFX_TAG_KDP_texticon Katipunan ng Demokratikong Pilipino emerged from the Citizen National Guard, an ultranationalist, anti-communist, and anti-Islamist advocacy group pushing for a 'Philippine Renaissance'- a sovereign, culturally unified state built on discipline and national rebirth.\nAlongside them stands the £GFX_TAG_KBL_texticon Kilusang Bagong Lipunan, founded by Ferdinand Marcos Sr. as the political vehicle of his twenty-year rule. Though the Marcos family has since repositioned itself within mainstream politics, KBL loyalists remain ideologically committed to authoritarian order and centralized power.\nMore radical still is the £GFX_TAG_PNF_texticon Philippine National Front. Born from underground metal circles in the 2000s and organized by Raymundo Ortega and Mark Dante Almazan, the PNF fused European Fascist and National Socialist doctrine with Filipino nationalism. After organizing online for years, they appeared publicly during the 2012 anti-China protests and later staged a “March of Independence” in 2014.\nTheir former youth wing, the £GFX_TAG_KA_texticon Kabataang Amangbayan, split in 2021 after internal disputes. Studying American white nationalist movements such as Patriot Front and Atomwaffen Division, they adopted tighter organization, cultivated discreet ties within the PMA, and expanded quietly.\nFinally, the £GFX_TAG_NPC_texticon Nationalist People’s Coalition—founded in 1992—anchors the coalition within institutional politics. While others rally in the streets, NPC-aligned officials dominate local governments, essentially running the boring, yet important job of statecraft at base level.\nTaken together, they form a layered machine: youth mobilizers, ideological hardliners, street radicals, and political operators.\nAgitate one part—and the rest may move with it."
+ nra.1.d: "The movement traces its roots to Ronald Cardema and the £GFX_TAG_DYouth_texticon Duterte Youth party-list, originally built around nationalist youth mobilization and the revival of mandatory ROTC, Citizenship Advancement Training, and scouting programs. What began as campus activism evolved into something broader—and harder.\nCardema's network soon intersected with older nationalist forces.\nThe £GFX_TAG_KDP_texticon Katipunan ng Demokratikong Pilipino emerged from the Citizen National Guard, an ultranationalist, anti-communist, and anti-Islamist advocacy group pushing for a 'Philippine Renaissance'- a sovereign, culturally unified state built on discipline and national rebirth.\nAlongside them stands the £GFX_TAG_KBL_texticon Kilusang Bagong Lipunan, founded by Ferdinand Marcos Sr. as the political vehicle of his twenty-year rule. Though the Marcos family has since repositioned itself within mainstream politics, KBL loyalists remain ideologically committed to authoritarian order and centralized power.\nMore radical still is the £GFX_TAG_PNF_texticon Philippine National Front. Born from underground metal circles in the 2000s and organized by Raymundo Ortega and Mark Dante Almazan, the PNF fused European Fascist and National Socialist doctrine with Filipino nationalism. After organizing online for years, they appeared publicly during the 2012 anti-China protests and later staged a \"March of Independence\" in 2014.\nTheir former youth wing, the £GFX_TAG_KA_texticon Kabataang Amangbayan, split in 2021 after internal disputes. Studying American white nationalist movements such as Patriot Front and Atomwaffen Division, they adopted tighter organization, cultivated discreet ties within the PMA, and expanded quietly.\nFinally, the £GFX_TAG_NPC_texticon Nationalist People's Coalition, founded in 1992, anchors the coalition within institutional politics. While others rally in the streets, or debate lofty policies at the higher tables, NPC-aligned officials dominate local governments, essentially running the boring, yet important job of statecraft at base level.\nTaken together, they form a layered machine: youth mobilizers, ideological hardliners, street radicals, and political operators.\nAgitate one part—and the rest may move with it."
  nra.1.a: "Save the Nation!"
  
  nra.2.t: "The Tuguegarao Convention"
@@ -26,7 +26,7 @@
  nra.5.t: "Appointing the Advisory Cabinet - Secretary of Trade, Industry, Economy, Planning, and Development"
  nra.5.d: ""
  nra.5.a: "Rita Gadi £GFX_TAG_KDP_texticon"
- nra.5.b: "Dr. Teodoro "Ted" Mendoza £GFX_TAG_KDP_texticon" 
+ nra.5.b: "Dr. Teodoro \"Ted\" Mendoza £GFX_TAG_KDP_texticon" 
  nra.5.c: "Antonio Tan"
  nra.5.f: ""
  
@@ -53,23 +53,23 @@
  
  nra.9.t: "Appointing the Advisory Cabinet - Secretary of Education"
  nra.9.d: ""
- nra.9.a: "Aaron Soguilon £GFX_TAG_KDP_texticon" 
- nra.9.b: "Aurika Abulencia £GFX_TAG_PNF_texticon"
- nra.9.c: ""
- nra.9.f: ""
+ nra.9.a: "Aurika Abulencia £GFX_TAG_PNF_texticon" 
+ nra.9.b: "Itos Valdes £GFX_TAG_KDP_texticon"
+ nra.9.c: "Dr. Homer Lim"
+ nra.9.f: "Dean Jemy Gatdula" 
   
  ##BOP loc
  nra.10.t: "Foreign Policy Alignment"
- nra.10.d: "While we nominally, and normally, adopt an independent foreign policy that best benefits us, we Filipinos, being a relatively small nation in the Asiatic continental shelf, should tread the delicate balance between the massive giants in our neighborhood.\n\nThe £GFX_TAG_sinophile_texticon Sinophiles, represented by the majority of the KDP and the KBL, as well as the Duterte Youth, acknowledges China’s undisputed primacy as the prime hegemon of Asia, in which a modern neo-tributary system focusing on Chinese exceptionalism and cultural assimilation as a central political strategy that requires us to play the part. \n\nWhile the Sinophiles modernized their doctrine to geopolitical realities of Russia and China being the main challengers of the liberal order, the £GFX_TAG_japanophile_texticon Japanophiles, on the other hand, represented by the more conservative halves of the KDP, KBL, retired military men, and the younger, more radical groups like the PNF and KA, tend to be more rigid and traditionalist, still wearing Cold War lenses of anti-communism, seeing modern China as an “unfit” hegemon tainted by Bolshevism.\nMake sure to maintain the delicate equilibrium at all costs; if the Sinophiles get too much influence in foreign affairs, elements of the officer corps and the Neo-Nazi groups would rise up in mutiny; if the Japanophiles do, fearing the influence of Western intelligence ops or the rage of the Neo-Nazi groups, the Nationalist People’s Coalition would revolt."
+ nra.10.d: "While we nominally, and normally, adopt an independent foreign policy that best benefits us, we Filipinos, being a relatively small nation in the Asiatic continental shelf, should tread the delicate balance between the massive giants in our neighborhood.\n\nThe £GFX_TAG_sinophile_texticon Sinophiles, represented by the majority of the KDP and the KBL, as well as the Duterte Youth, acknowledges China's undisputed primacy as the prime hegemon of Asia, in which a modern neo-tributary system focusing on Chinese exceptionalism and cultural assimilation as a central political strategy that requires us to play the part. \n\nWhile the Sinophiles modernized their doctrine to geopolitical realities of Russia and China being the main challengers of the liberal order, the £GFX_TAG_japanophile_texticon Japanophiles, on the other hand, represented by the more conservative halves of the KDP, KBL, retired military men, and the younger, more radical groups like the PNF and KA, tend to be more rigid and traditionalist, still wearing Cold War lenses of anti-communism, seeing modern China as an “unfit” hegemon tainted by Bolshevism.\nMake sure to maintain the delicate equilibrium at all costs; if the Sinophiles get too much influence in foreign affairs, elements of the officer corps and the Neo-Nazi groups would rise up in mutiny; if the Japanophiles do, fearing the influence of Western intelligence ops or the rage of the Neo-Nazi groups, the Nationalist People's Coalition would revolt."
  nra.10.a: "Copy that."
  
  nra.11.t: "Nationalist People's Coalition up in revolt!"
- nra.11.d:
+ nra.11.d: ""
  nra.11.a: "Crush the Traitors!"
  nra.11.b: "I told you so."
  
  nra.12.t: "Kabataang Amangbayan up in revolt!"
- nra.12.d:
+ nra.12.d: ""
  nra.12.a: "Crush the Traitors!"
  nra.12.b: "I told you so."
  
@@ -91,4 +91,34 @@
  #Tooltips
  NPC_left_opposition_coup_tt: "By angering powers that shouldn't be angered, and with our lack of restraint, the Second Philippine Revolution lays dead, proving that we are our own worst enemies. We celebrate the fire until it gets too hot, then we execute the man who lit the match.\n§RYou've fucked it all up§!.\n\n§YOr maybe this is what you're going for.§!"
  KAB_right_opposition_coup_tt: "By angering the young nationalists and betraying their trust, the Second Philippine Revolution lays dead, proving that we are our own worst enemies. We celebrate the fire until it gets too hot, then we execute the man who lit the match.\n§RYou've fucked it all up§!.\n\n§YOr maybe this is what you're going for.§!"
+
+  #### TAG National Republic tags ####
+ TAG_reunified_PHI_national_socialist_party: "PNF"
+ TAG_reunified_PHI_national_socialist_party_long: "Philippine National Front"
+ TAG_reunified_PHI_fascist_party: "KDP"
+ TAG_reunified_PHI_fascist_party_long: "Katipunan ng Demokratikong Pilipino" 
+ TAG_reunified_PHI_nationalist_party: "KBL"
+ TAG_reunified_PHI_nationalist_party_long: "New Society Movement"
+ TAG_reunified_PHI_authoritarian_democrat_party: "Kanan-PSCM"
+ TAG_reunified_PHI_authoritarian_democrat_party_long: "Alyansa Ng Mga Maka-Kanang Pilipino - Philippine Social Conservative Movement"
+ TAG_reunified_PHI_conservative_party: "CoRRECT"
+ TAG_reunified_PHI_conservative_party_long: "Constitutional Reform and Rectification for Economic Competitiveness and Transformation" 
+ TAG_reunified_PHI_market_liberal_party: "NPC"
+ TAG_reunified_PHI_market_liberal_party_long: "Nationalist People's Coalition"
+ TAG_reunified_PHI_social_liberal_party: "§ROUTLAWED§!"
+ TAG_reunified_PHI_social_liberal_party_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_social_democrat_party: "§ROUTLAWED§!"
+ TAG_reunified_PHI_social_democrat_party_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_libertarian_socialist_party: "§ROUTLAWED§!"
+ TAG_reunified_PHI_libertarian_socialist_party_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_communist_party: "§ROUTLAWED§!"
+ TAG_reunified_PHI_communist_party_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_totalitarian_socialist_party: "§ROUTLAWED§!"
+ TAG_reunified_PHI_totalitarian_socialist_party_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_outlawed_long: "§ROUTLAWED§!"
+ TAG_reunified_PHI_outlawed_short: "§ROUTLAWED§!"
+
+ #TAG Hispanista parties
+ 
+  
  

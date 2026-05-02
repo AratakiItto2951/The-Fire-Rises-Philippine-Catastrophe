@@ -156,21 +156,6 @@ characters = {
         country_leader = { ideology = classical_conservatism }
     }
 
-    TAG_jv_ejercito_char = {
-        name = "Joseph Victor Ejercito"
-        portraits = { civilian = { large = "gfx/Leaders/TAG/TAG_JV_Ejercito.png" } }
-        country_leader = { ideology = christian_conservatism }
-        country_leader = { ideology = classical_conservatism }
-        country_leader = { ideology = right_centrist }
-    }
-
-    TAG_tito_sotto_char = {
-        name = "Vicente Sotto III"
-        portraits = { civilian = { large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" } }
-        country_leader = { ideology = christian_conservatism }
-        country_leader = { ideology = classical_conservatism }
-    }
-
     TAG_gary_alejano_char = {
         name = "Gary Alejano"
         portraits = { civilian = { large = "gfx/Leaders/TAG/TAG_Tito_Sotto.png" } }
@@ -197,13 +182,52 @@ characters = {
             traits = { armor_officer skilled_staffer politically_connected }
         }
     }
+    TAG_ron_bawalan_char = {
+        name = "Ron Godfrey Bawalan"
+        portraits = {
+            army = {
+                small = " "
+                large = "gfx\Leaders/TAG/TAG_Ron_Bawalan_masked.png"
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 3
+            traits = { armor_officer skilled_staffer politically_connected }
+        }
+    }
+        TAG_vince_bacangoy_char = {
+        name = "Vincent Louie Bacangoy"
+        portraits = {
+            army = {
+                small = " "
+                large = "gfx\Leaders\TAG\TAG_Vincent_Louie_Bacangoy_masked.png"
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 3
+			traits = {
+				infantry_officer
+				politically_connected
+				infantry_leader
+			}
+        }
+    }
+    
 
     TAG_generic_1_char = {
         name = "John Rhenz Salvatierra"
         portraits = {
             army = {
                 small = "gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png"
-                large = "gfx/Leaders/TAG/TAG_Generic_TAG1.png"
+                large = "gfx/Leaders/TAG/Generic_TAG1.png"
             }
         }
         corps_commander = {
@@ -221,7 +245,7 @@ characters = {
         portraits = {
             army = {
                 small = "gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png"
-                large = "gfx/Leaders/TAG/TAG_Generic_TAG2.png"
+                large = "gfx/Leaders/TAG/Generic_TAG2.png"
             }
         }
         corps_commander = {
@@ -239,7 +263,7 @@ characters = {
         portraits = {
             army = {
                 small = "gfx/interface/ideas/TAG/advisors/TAG_Generic_TAG1.png"
-                large = "gfx/Leaders/TAG/TAG_Generic_TAG3B.png"
+                large = "gfx/Leaders/TAG/Generic_TAG3B.png"
             }
         }
         corps_commander = {

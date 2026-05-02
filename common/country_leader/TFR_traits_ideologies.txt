@@ -240,4 +240,18 @@ leader_traits = {
 	FPR_ide_melenchon = {
 		random = 0
 	}
+	#Philippines
+	##TAG
+	TAG_faction_sinophile = { 
+		random = 0
+	}
+	TAG_faction_japanophile = { 
+		random = 0
+	}
+	TAG_faction_rizalian = { 
+		random = 0
+	}
+	TAG_faction_bonifacian = { 
+		random = 0
+	}		
 }

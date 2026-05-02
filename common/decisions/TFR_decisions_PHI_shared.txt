@@ -1,5 +1,4 @@
-PHI_unification = {
-    PHI_reunification = {
+ PHI_reunification = {
 		available = {
 		    OR = {
 				AND = {
@@ -61,24 +60,37 @@ PHI_unification = {
 				limit = {
 					tag = NPA
 				}
-				add_state_core = 625
-				add_state_core = 624
-				add_state_core = 1274
-				add_state_core = 1275
-				add_state_core = 327
-				add_state_core = 1272
-				add_state_core = 1273
-				add_state_core = 623
-				add_state_core = 626
-				add_state_core = 1276
-				add_state_core = 627
-				add_state_core = 628
-				add_state_core = 1277
-				add_state_core = 1278
-				add_state_core = 1279
-				add_state_core = 1280
-				add_state_core = 1281
-				add_state_core = 1384
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
 				NPA = {
 					annex_country = {
 						target = TAG
@@ -88,10 +100,305 @@ PHI_unification = {
 						target = VIS
 						transfer_troops = no
 					}
-					set_cosmetic_tag = PHI_communist
+					set_cosmetic_tag = NPA_PHI
 					set_capital = {
-						state = 1274
+						state = 1493
 					}
+				}
+			}
+			if = {
+				limit = {
+					tag = PHL
+				}
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
+				PHL = {
+					set_cosmetic_tag = PHL_PHI
+					set_capital = {
+						state = 1493
+					}
+					annex_country = {
+						target = PHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHP
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = UPH
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = IGP
+						transfer_troops = yes
+					}
+					#add event here
+				}
+			}
+			if = {
+				limit = {
+					tag = PHP
+				}
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
+				PHP = {
+					set_cosmetic_tag = PHP_PHI
+					set_capital = {
+						state = 1493
+					}
+					annex_country = {
+						target = PHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHL
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = UPH
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = IGP
+						transfer_troops = yes
+					}
+					#add event here
+				}
+			}
+			if = {
+				limit = {
+					tag = UPH
+				}
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
+				UPH = {
+					set_cosmetic_tag = UPH_PHI
+					set_capital = {
+						state = 1493
+					}
+					annex_country = {
+						target = PHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHP
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHL
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = IGP
+						transfer_troops = yes
+					}
+					#add event here
+				}
+			}
+			if = {
+				limit = {
+					tag = IGP
+				}
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
+				IGP = {
+					set_cosmetic_tag = IGP_PHI
+					set_capital = {
+						state = 1493
+					}
+					annex_country = {
+						target = PHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHP
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = UPH
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHL
+						transfer_troops = yes
+					}
+					#add event here
+				}
+			}
+			if = {
+				limit = {
+					tag = TAG
+				}
+				#Luzon
+				add_state_core = 327 #Central Luzon
+				add_state_core = 624 #Bicol
+				add_state_core = 1275 #Mindoro
+				add_state_core = 626 #Palawan
+				add_state_core = 1493 #Metro Manila
+				add_state_core = 1272 #Ilocos
+				add_state_core = 1273 #Cordillera
+				add_state_core = 1274 #CALABARZON
+				add_state_core = 623 #Cagayan Valley
+				add_state_core = 1499 #Subic
+				#Visayas
+				add_state_core = 1276 #Western Visayas
+				add_state_core = 1494 #Negros
+				add_state_core = 628 #Central Visayas
+				add_state_core = 625 #Eastern Visayas
+				#Mindanao 
+				add_state_core = 627 #Northern Mindanao
+				add_state_core = 1277 #CARAGA
+				add_state_core = 1280 #Zamboanga
+				add_state_core = 1281 #Bangsamoro
+				add_state_core = 1279 #SOCSKARGEN
+				add_state_core = 1278 #Davao Region
+				add_state_core = 1492 #City of Davao 
+				add_state_core = 1495 #Bukidnon
+				add_state_core = 1496 #Sulu
+				add_state_core = 1497 #Basilan
+				add_state_core = 1498 #Tawi-Tawi
+				#Others
+				add_state_core = 1384 #Spratlys
+				
+				TAG = {
+					set_cosmetic_tag = TAG_PHI
+					set_capital = {
+						state = 1493
+					}
+					annex_country = {
+						target = PHI
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = PHP
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = UPH
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = IGP
+						transfer_troops = yes
+					}
+					#add event here
 				}
 			}
 			if = {
@@ -110,55 +417,233 @@ PHI_unification = {
 				add_state_core = 1276
 				add_state_core = 628
 				add_state_core = 1384
-				MIN = {
-					annex_country = {
-						target = VIS
-						transfer_troops = yes
-					}
-					set_cosmetic_tag = PHI
-					set_capital = {
-						state = 1274
-					}
-					add_ideas = ASEAN_member
-					set_politics = {
-						ruling_party = social_democrat 
-       					elections_allowed = yes
-        				last_election = "2022.5.9"
-       					election_frequency = 72
-					}
-					add_popularity = {
-						ideology = conservative
-						popularity = 0.08
-					}
-					add_popularity = {
-						ideology = social_liberal
-						popularity = 0.08
-					}
-					add_popularity = {
-						ideology = market_liberal
-						popularity = 0.05
-					}
-				}
-			}
-			if = {
-				limit = {
-					tag = PHI
-				}
-				PHI = {
-					annex_country = {
-						target = VIS
-						transfer_troops = yes
-					}
-					remove_ideas = PHI_increasing_chinese_influence_idea
-					drop_cosmetic_tag = yes
-				}
-				every_state = {
-					limit = {
-						is_core_of = PHI
-					}
-					transfer_state_to = PHI
-				}
-			}
+			#	MIN = {
+			#		annex_country = {
+			#			target = VIS
+			#			transfer_troops = yes
+			#		}
+			#		set_cosmetic_tag = PHI
+			#		set_capital = {
+			#			state = 1274
+			#		}
+			#		add_ideas = ASEAN_member
+			#		set_politics = {
+			#			ruling_party = social_democrat 
+       		#			elections_allowed = yes
+        	#			last_election = "2022.5.9"
+       		#			election_frequency = 72
+			#		}
+			#		add_popularity = {
+			#			ideology = conservative
+			#			popularity = 0.08
+			#		}
+			#		add_popularity = {
+			#			ideology = social_liberal
+			#			popularity = 0.08
+			#		}
+			#		add_popularity = {
+			#			ideology = market_liberal
+			#			popularity = 0.05
+			#		}
+			#	}
+			#}
+			#if = {
+			#	limit = {
+			#		tag = PHI
+			#	}
+			#	PHI = {
+			#		annex_country = {
+			#			target = VIS
+			#			transfer_troops = yes
+			#		}
+			#		remove_ideas = PHI_increasing_chinese_influence_idea
+			#		drop_cosmetic_tag = yes
+			#	}
+			#	every_state = {
+			#		limit = {
+			#			is_core_of = PHI
+			#		}
+			#		transfer_state_to = PHI
+			#	}
+			#}
 		}
 	}
 }
+
+
+#Pre-Civil War buff decisions
+
+#Emergency Gov buffs
+
+#PHL Buffs
+
+#PHP Buffs
+
+#UPH Buffs
+
+#Subic buffs
+
+#TAG Buffs
+
+	##Active Club setup
+	active_club_manila = { 
+		icon = 
+		allowed = {
+			OR = {
+				tag = PHI
+			}
+		}
+		available = {
+			controls_state = 327 #Central Luzon
+			controls_state = 1274 #CALABARZON	
+			controls_state = 1493 #Metro Manila
+			controls_state = 1499 #Subic
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+			state = 327 #Central Luzon
+			state = 1274 #CALABARZON	
+			state = 1493 #Metro Manila
+			state = 1499 #Subic
+			}
+		}
+		fire_only_once = yes
+		days_remove = 15
+
+		complete_effect = {
+			hidden_effect = {
+				log = "[GetLogRoot]: Decision complete active_club_manila"
+				add_popularity = {
+						ideology = national_socialist
+						popularity = 0.05
+					}
+			}
+			set_global_flag = TAG_active_club_manila
+			
+		}				
+	}
+	active_club_cebu = { 
+		icon = 
+		allowed = {
+			OR = {
+				tag = PHI
+			}
+		}
+		available = {
+			controls_state = 625 #Eastern Visayas
+			controls_state = 628 #Central Visayas
+			controls_state = 1276 #Western Visayas
+			controls_state = 1494 #Negros
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+			state = 625 #Eastern Visayas
+			state = 628 #Central Visayas
+			state = 1276 #Western Visayas
+			state = 1494 #Negros
+			}
+		}
+		fire_only_once = yes
+		days_remove = 15
+
+		complete_effect = {
+			hidden_effect = {
+				log = "[GetLogRoot]: Decision complete active_club_cebu"
+				add_popularity = {
+						ideology = national_socialist
+						popularity = 0.05
+					}
+			}
+			set_global_flag = TAG_active_club_cebu
+			
+		}				
+	}
+	active_club_davao = { 
+		icon = 
+		allowed = {
+			OR = {
+				tag = PHI
+			}
+		}
+		available = {
+			controls_state = 1278 
+			controls_state = 1492
+		}
+		highlight_states = {
+			highlight_state_targets = { 
+			state = 1278
+			state = 1492
+
+			}
+		}
+		fire_only_once = yes
+		days_remove = 15
+
+		complete_effect = {
+			hidden_effect = {
+				log = "[GetLogRoot]: Decision complete active_club_davao"
+				add_popularity = {
+						ideology = national_socialist
+						popularity = 0.05
+					}
+			}
+			set_global_flag = TAG_active_club_davao
+			
+		}				
+	}
+
+	##KDP public rallies
+
+	##NTF-ELCAC seminars
+
+	##Church Activism
+
+	##Red-pill the DDS Crowd (milk and ride on the social media echo chamber to recruit attack dogs)
+	 redpill_dutertards = {
+		icon = {decision_generic_civil_support}
+		allowed = {
+			OR = {
+				tag = PHI
+			}
+		}
+		fire_only_once = no
+		days_remove = 25
+		complete_effect = {
+			hidden_effect = {
+				log = "[GetLogRoot]: Decision complete redpill_dutertards"
+				add_popularity = {
+						ideology = national_socialist
+						popularity = 0.002
+					}
+			}
+		}
+	}
+	##Interview on PGMN
+	pgmn_interview = {
+		icon =  {decision_generic_civil_support}
+		allowed = {
+			OR = {
+				tag = PHI
+			}
+		}
+		fire_only_once = yes
+		days_remove = 10
+		complete_effect = {
+			hidden_effect = {
+				add_popularity = {
+					ideology = fascist
+					popularity = 0.005
+				}
+
+				add_popularity = {
+					ideology = nationalist
+					popularity = 0.008
+				}
+				add_popularity = {
+					ideology = national_socialist
+					popularity = 0.002
+				}
+				#Insert event about interview here
+			}
+		}
+	}

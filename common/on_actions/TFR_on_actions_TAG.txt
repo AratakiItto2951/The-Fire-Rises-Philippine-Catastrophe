@@ -1,0 +1,63 @@
+on_actions = {
+    on_annex = {
+			effect = {
+				if = { #North Luzon unification
+					limit = {
+						has_global_flag = 
+						ROOT = {
+							original_tag = TAG
+						}
+						FROM = {
+							OR = {
+								original_tag = UPH
+								original_tag = CRD
+							}
+						}
+						NOT = {
+							country_exists = UPH
+							country_exists = CRD
+						}
+					}
+					country_event = {
+						id = 
+					}
+				}
+			}
+		}
+    on_startup = {
+        effect ={
+            if = { #Set up "Kalansag" AC in Manila
+                limit = {
+                    tag = TAG
+                    has_global_flag = TAG_active_club_manila
+                }
+                add_manpower = 5000
+                clr_global_flag = TAG_active_club_manila
+            }
+        }
+    }
+    on_startup = {
+        effect ={
+            if = { #Set up "Lapu-Lapu" AC in Cebu
+                limit = {
+                    tag = TAG
+                    has_global_flag = TAG_active_club_cebu
+                }
+                add_manpower = 5000
+                clr_global_flag = TAG_active_club_cebu
+            }
+        }
+    }
+    on_startup = {
+        effect ={
+            if = { #Set up "Kampilan" AC in Davao
+                limit = {
+                    tag = TAG
+                    has_global_flag = TAG_active_club_davao
+                }
+                add_manpower = 5000
+                clr_global_flag = TAG_active_club_davao
+            }
+        }
+    }
+}

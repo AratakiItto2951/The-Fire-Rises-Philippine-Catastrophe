@@ -401,19 +401,19 @@ spriteTypes = {
 	}
 	#TAG
 	SpriteType = {
-		name = "TAG_sinophile"
+		name = "GFX_bop_TAG_sinophile"
 		texturefile = "gfx/interface/bop/TAG/TAG_sinophile.png"
 		}
 	SpriteType = {
-		name = "TAG_japanophile"
+		name = "GFX_bop_TAG_japanophile"
 		texturefile = "gfx/interface/bop/TAG/TAG_japanophile.png"
 		}
 	SpriteType = {
-		name = "TAG_sinophile_2"
+		name = "GFX_bop_TAG_sinophile_2"
 		texturefile = "gfx/interface/bop/TAG/TAG_sinophile_alt.png"
 		}
 	SpriteType = {
-		name = "TAG_japanophile_2"
+		name = "GFX_bop_TAG_japanophile_2"
 		texturefile = "gfx/interface/bop/TAG/TAG_japanophile_alt.png"
 		}		
 }

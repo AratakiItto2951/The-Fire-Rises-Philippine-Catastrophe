@@ -15,6 +15,9 @@
 ### search_filters = {FOCUS_FILTER_CORRUPTION_REFORM}
 ### search_filters = {FOCUS_FILTER_SOCIAL_MEDIA_CONTROL}
 ### search_filters = {FOCUS_FILTER_YOUTH_AND_RADICALIZATION}
+
+#gfx:interface\TFR_goals.gfx
+#localization:localisation\english\TFR_country_localisation_PHI_l_english.yml
 focus_tree = {
 	id = PHI_focus
 	country = {
@@ -355,7 +358,409 @@ focus_tree = {
 		completion_reward = {
 			}
 			
-		}		
+		}
+		focus = {
+		id = PHI_junk_VFA
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_contested_seas
+		x = 2
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_contested_seas
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_reaffirm_VFA
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_contested_seas
+		x = -2
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_contested_seas
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		#Fate of ABS-CBN
+		focus = {
+		id = PHI_thorn_in_the_bush
+		icon =  GFX_generic_communications
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_junk_VFA
+		x = 6
+		y = 0
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_junk_VFA
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_pull_the_plug
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_thorn_in_the_bush
+		x = -2
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_thorn_in_the_bush
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_reward_spoils
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_pull_the_plug
+		x = -1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_pull_the_plug
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_launch_ALLTV
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_reward_spoils
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_reward_spoils
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_smother_the_masses
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_launch_ALLTV
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_launch_ALLTV
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		
+		focus = {
+		id = PHI_improve_PTV
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_pull_the_plug
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_pull_the_plug
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_reinvent_PTV
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_improve_PTV
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_improve_PTV
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_patriotic_media
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_reinvent_PTV
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_reinvent_PTV
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_control_media_narrative
+		icon =  GFX_focus_PHI_abscbnshutdown
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_smother_the_masses
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_smother_the_masses
+				}
+		prerequisite = {
+			focus = PHI_patriotic_media
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+		focus = {
+		id = PHI_seize_them
+		icon =  GFX_focus_PHI_abscbnseize
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = PHI_thorn_in_the_bush
+		x = 2
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+		prerequisite = {
+			focus = PHI_thorn_in_the_bush
+				}		
+        ai_will_do = {
+            base = 1
+        }
+		available = {
+			tag = PHI
+			has_country_leader = {
+				character = PHI_rodrigo_duterte_char
+				ruling_only = yes
+			}
+			
+		}
+		completion_reward = {
+			}
+			
+		}
+
 		
 		
 	}		

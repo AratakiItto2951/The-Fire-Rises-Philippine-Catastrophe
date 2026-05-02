@@ -22987,6 +22987,153 @@ spriteTypes = {
 		name = "GFX_focus_AST_taking_the_dragon_down_unda"
 		texturefile = "gfx/interface/goals/AST/AST_taking_the_dragon_down_unda.png"
 	}
+	#### Philippines crap ####
+	#PHI
+	SpriteType = {
+		name = "GFX_focus_PHI_abscbnseize"
+		texturefile = "gfx/interface/goals/PHI/PHI_abscbnseize.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_abscbnshutdown"
+		texturefile = "gfx/interface/goals/PHI/PHI_abscbnshutdown.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_factfindingcommission"
+		texturefile = "gfx/interface/goals/PHI/PHI_factfindingcommission.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_gunfire"
+		texturefile = "gfx/interface/goals/PHI/PHI_gunfire.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_highestbidder"
+		texturefile = "gfx/interface/goals/PHI/PHI_highestbidder.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_miljunta_adress"
+		texturefile = "gfx/interface/goals/PHI/PHI_miljunta_adress.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_miljunta_calmthechildren"
+		texturefile = "gfx/interface/goals/PHI/PHI_miljunta_calmthechildren.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_robredo"
+		texturefile = "gfx/interface/goals/PHI/PHI_robredo.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_sideagainstsara"
+		texturefile = "gfx/interface/goals/PHI/PHI_sideagainstsara.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_sidewithsara"
+		texturefile = "gfx/interface/goals/PHI/PHI_sidewithsara.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_startimpeachment"
+		texturefile = "gfx/interface/goals/PHI/PHI_startimpeachment.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_unifier_proclaim6Rep"
+		texturefile = "gfx/interface/goals/PHI/PHI_unifier_proclaim6Rep.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHI_uniteam"
+		texturefile = "gfx/interface/goals/PHI/PHI_uniteam.png"
+	}
+
+	#PHL
+	SpriteType = {
+		name = "GFX_focus_PHL_friends_north"
+		texturefile = "gfx/interface/goals/PHL/PHL_friends_north.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHL_friends_south"
+		texturefile = "gfx/interface/goals/PHL/PHL_friends_south.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHL_friends_west"
+		texturefile = "gfx/interface/goals/PHL/PHL_friends_west.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHL_lodi"
+		texturefile = "gfx/interface/goals/PHL/PHL_lodi.png"
+	}
+
+	#PHP
+	SpriteType = {
+		name = "GFX_focus_PHP_deathtoamerica"
+		texturefile = "gfx/interface/goals/PHP/PHP_deathtoamerica.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHP_PHIyankeepuppet"
+		texturefile = "gfx/interface/goals/PHP/PHP_PHIyankeepuppet.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_PHP_UPHcorrupt"
+		texturefile = "gfx/interface/goals/PHP/PHP_UPHcorrupt.png"
+	}
+
+	#UPH
+
+
+	#IGP
+
+
+	#NPA
+	SpriteType = {
+		name = "GFX_focus_NPA_buildthenavy"
+		texturefile = "gfx/interface/goals/NPA/NPA_buildthenavy.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_NPA_continuerevolution"
+		texturefile = "gfx/interface/goals/NPA/NPA_continuerevolution.png"
+	}
+	SpriteType = {
+		name = "GFX_focus_NPA_mindanao"
+		texturefile = "gfx/interface/goals/NPA/NPA_mindanao.png"
+	}
+
+
+	#TAG
+	SpriteType = {
+		name = "GFX_focus_TAG_attackUPH"
+		texturefile = "gfx/interface/goals/TAG/TAG_attackUPH.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_dugoatdangal"
+		texturefile = "gfx/interface/goals/TAG/TAG_dugoatdangal.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_enemiescloser"
+		texturefile = "gfx/interface/goals/TAG/TAG_enemiescloser.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_overthehump"
+		texturefile = "gfx/interface/goals/TAG/TAG_overthehump.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_southluzon"
+		texturefile = "gfx/interface/goals/TAG/TAG_southluzon.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_unifier_proclaim6Rep"
+		texturefile = "gfx/interface/goals/TAG/TAG_unifier_proclaim6Rep.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_TAG_unifier_proclaim6Rep_var2"
+		texturefile = "gfx/interface/goals/TAG/TAG_unifier_proclaim6Rep_var2.png"
+	}
+
+
+
+	####
 	######Don't put shit down here, organize it!############
 	SpriteType = {
 		name = "GFX_NRT_SRN_califas_unidas"

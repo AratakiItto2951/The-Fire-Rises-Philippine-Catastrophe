@@ -1,0 +1,278 @@
+# Raise Men
+
+raise_men_north_mindanao = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 627
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 627
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_north_mindanao"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_north_mindanao"
+		random_controlled_state = {
+			prioritize = { 627 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+}
+raise_men_caraga = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 1277
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 1277
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_caraga"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_caraga"
+		random_controlled_state = {
+			prioritize = { 1277 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+} 
+raise_men_davao = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 1278
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 1278
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_davao"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_davao"
+		random_controlled_state = {
+			prioritize = { 1278 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+}
+raise_men_socccskargen = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 1279
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 1279
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_socccskargen"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_socccskargen"
+		random_controlled_state = {
+			prioritize = { 1279 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+}
+raise_men_bangsamoro = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 1281
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 1281
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_north_mindanao"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_north_mindanao"
+		random_controlled_state = {
+			prioritize = { 1281 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+}
+raise_men_west_mindanao = {
+    icon =
+    allowed = {
+        OR = {
+            tag = NPA
+        }
+    }
+    available =
+    highlight_state_targets = {
+        state = 1280
+		state = 1496
+		state = 1497
+		state = 1498
+    }
+    ai_will_do = {
+			factor = 10000
+			modifier = {
+				factor = 0
+			}
+	}
+    fire_only_once = yes
+	days_remove = 15
+
+	cancel_trigger = {
+		OR = {
+			NOT = {
+                controls_state = 1280
+				controls_state = 1496
+				controls_state = 1497
+				controls_state = 1498
+            }
+		}
+	}
+    complete_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_west_mindanao"
+		hidden_effect = {
+		}
+	}
+
+	remove_effect = {
+		log = "[GetLogRoot]: Decision complete raise_men_west_mindanao"
+		random_controlled_state = {
+			prioritize = { 1280 }
+			create_unit = {
+				division = "division_template = \"NPA Guerilla\" start_experience_factor = 0.4"
+				owner = ROOT
+				id = 1911
+			}
+		}
+	}
+}    

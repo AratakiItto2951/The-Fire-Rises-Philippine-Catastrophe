@@ -6,7 +6,7 @@ TAG_forpol_balance = {
 	
 	#Middle
 	range = {
-		id = PTF_balance_range
+		id = TAG_zero
 		min = -0.1
 		max = 0.1
 		modifier = {
@@ -21,7 +21,7 @@ TAG_forpol_balance = {
 	#Sinophiles
 	side = {
 		id = TAG_sinophile
-		icon = TAG_sinophile_2
+		icon = GFX_bop_TAG_sinophile_2
 		range = {
 			id = TAG_authdem_total_control_range
 			min = -1
@@ -43,7 +43,7 @@ TAG_forpol_balance = {
 	#Japanophiles
 	side = {
 		id = TAG_japanophile
-		icon = TAG_japanophile_2
+		icon = GFX_bop_TAG_japanophile_2
 		range = {
 			id = TAG_fascist_total_control_range
 			min = 0.85

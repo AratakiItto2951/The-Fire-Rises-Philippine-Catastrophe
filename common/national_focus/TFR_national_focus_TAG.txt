@@ -1,6 +1,6 @@
 ######################################################
 # National Revolutionary Army Focus Tree
-# By Tetsutetsu Tetsutetsu
+# By Tetsutetsu Tetsutetsu, AstroRangerBeans, Rolm
 ######################################################
 
 ### search_filters = {FOCUS_FILTER_POLITICAL}
@@ -37,15 +37,617 @@ focus_tree = {
         }
         available = {
             tag = TAG
-			
-			#has_country_leader = {
-				character = TAG_
-				ruling_only = yes
-			}
+		
         }
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: completed PHI_start_focus"
+            log = "[GetDateText]: [Root.GetName]: completed TAG_start_focus"
             add_political_power = 50
 			set_country_flag = head_of_gov_ui_enabled
+			hidden_effect = {
+				country_event = {
+					id = nra.1	# Factions of the NRA
+					}
+				}
+			}
+		}
+#Political and governance
+		focus = {
+        id = TAG_dangal
+        icon = GFX_generic_communications
+        relative_position_id = TAG_second_revolution
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_second_revolution
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_tuguegarao_convention
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dangal
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dangal
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = nra.2	# Congress Starts
+					}
+				}
+			}
+		}
+		focus = {
+        id = TAG_broad_front
+        icon = GFX_generic_communications
+        relative_position_id = TAG_tuguegarao_convention
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_tuguegarao_convention
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_dealing_mil_problem
+        icon = GFX_generic_communications
+        relative_position_id = TAG_tuguegarao_convention
+		x = -4
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_tuguegarao_convention
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_governance
+        icon = GFX_generic_communications
+        relative_position_id = TAG_tuguegarao_convention
+		x = 4
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_tuguegarao_convention
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_dnr
+        icon = GFX_generic_communications
+        relative_position_id = TAG_governance
+		x = 4
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_governance
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_laws_of_the_land
+        icon = GFX_generic_communications
+        relative_position_id = TAG_governance
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_governance
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_reshuffle_pnp
+        icon = GFX_generic_communications
+        relative_position_id = TAG_laws_of_the_land
+		x = -1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_laws_of_the_land
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_purge_pnp
+        icon = GFX_generic_communications
+        relative_position_id = TAG_reshuffle_pnp
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_reshuffle_pnp
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_deputize_KAB
+        icon = GFX_generic_communications
+        relative_position_id = TAG_laws_of_the_land
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_laws_of_the_land
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_anti_commie_brigades
+        icon = GFX_generic_communications
+        relative_position_id = TAG_deputize_KAB
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_deputize_KAB
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_reorganize_ntf_elcac
+        icon = GFX_generic_communications
+        relative_position_id = TAG_purge_pnp
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_purge_pnp
+				}
+		prerequisite = {
+            focus = TAG_anti_commie_brigades
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_internal_security
+        icon = GFX_generic_communications
+        relative_position_id = TAG_reorganize_ntf_elcac
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_reorganize_ntf_elcac
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_new_fil_culture
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dnr
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dnr
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_reopen_schools
+        icon = GFX_generic_communications
+        relative_position_id = TAG_new_fil_culture
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_new_fil_culture
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_reshuffle_deped
+        icon = GFX_generic_communications
+        relative_position_id = TAG_reopen_schools
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_reopen_schools
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
 			}
 		}		
+
+
+
+#Fighting the war
+		focus = {
+        id = TAG_dugo
+        icon = GFX_generic_communications
+        relative_position_id = TAG_second_revolution
+		x = -9
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_second_revolution
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_over_the_hump
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dugo
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dugo
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_bypass_cordillera
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dugo
+		x = 3
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dugo
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_form_coalition
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dugo
+		x = -1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dugo
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+		focus = {
+        id = TAG_on_our_own
+        icon = GFX_generic_communications
+        relative_position_id = TAG_dugo
+		x = -3
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_dugo
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {}
+		}
+#Economic
+		focus = {
+        id = TAG_lupa
+        icon = GFX_generic_communications
+        relative_position_id = TAG_second_revolution
+		x = 9
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_second_revolution
+				}
+        cost = 5
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+		}
+	}
+}		

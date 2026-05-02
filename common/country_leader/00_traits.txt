@@ -9,5 +9,9 @@ leader_traits = {
         consumer_goods_factor = 0.02
         local_resources_factor = 0.02
         industrial_capacity_factory = 0.02
+        ai_will_do = {
+			factor = 1
+		}
     }
+    
 }

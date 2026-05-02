@@ -1,0 +1,186 @@
+focus_tree = {
+	id = TAG_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TAG
+		}
+	}
+	focus = {
+        id = TAG_coup
+        icon = GFX_generic_communications
+        x = 10
+        y = 0
+        cost = 1
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+            add_stability = -0.2
+			set_country_flag = TAG_faeldon_coup
+			#add event here later on
+		}
+	}
+	focus = {
+        id = TAG_rule_by_decree
+        icon = GFX_generic_communications
+        relative_position_id = TAG_coup
+		x = -1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_coup
+				}
+		mutually_exclusive = {
+			focus = TAG_scare_concom
+		}
+        cost = 3
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_scare_concom
+        icon = GFX_generic_communications
+        relative_position_id = TAG_coup
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = TAG_rule_by_decree
+		}
+		cost = 5
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_coup
+				}
+        cost = 3
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_hasten_consti_writing
+        icon = GFX_generic_communications
+        relative_position_id = TAG_rule_by_decree
+		x = 1
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_rule_by_decree
+				}
+        prerequisite = {
+            focus = TAG_scare_concom
+				}		
+        cost = 3
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			}
+		}
+		focus = {
+        id = TAG_maykumakatoksapinto
+        icon = GFX_generic_communications
+        relative_position_id = TAG_hasten_consti_writing
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_rule_by_decree
+				}
+		available = {
+			has_completed_focus = TAG_coup
+			has_completed_focus = TAG_rule_by_decree
+			has_completed_focus = TAG_scare_concom
+		}				
+        cost = 3
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			#insert event about someone knocking on door, player can pick between KBL and Hispanista path here by choosing who is the knocking guest between Ofilada and Relly Jose
+			}
+		}
+		focus = {
+        id = TAG_kopiko
+        icon = GFX_generic_communications
+        relative_position_id = TAG_maykumakatoksapinto
+		x = 0
+		y = 1
+		cost = 5
+		
+		allow_branch = {
+		}
+		available_if_capitulated = yes
+		cancelable = no
+        prerequisite = {
+            focus = TAG_maykumakatoksapinto
+				}
+		available = {
+			has_completed_focus = TAG_coup
+			has_completed_focus = TAG_rule_by_decree
+			has_completed_focus = TAG_scare_concom
+			has_completed_focus = TAG_maykumakatoksapinto
+		}				
+        cost = 3
+        available_if_capitulated = yes
+        ai_will_do = {
+            base = 1
+        }
+        available = {
+            tag = TAG
+		
+        }
+        completion_reward = {
+			#insert event here about meeting over cup of coffee between Faeldon and chosen person, chosen path takes over
+			}
+		}
+}

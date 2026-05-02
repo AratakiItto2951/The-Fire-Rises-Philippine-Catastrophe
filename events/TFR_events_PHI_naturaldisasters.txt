@@ -1,0 +1,560 @@
+#natural disaster events
+add_namespace = phi_typhoon
+add_namespace = phi_earthquake
+add_namespace = phi_drought
+
+
+
+#Typhoons
+
+##2020
+
+#Vongfong/Ambo
+news_event = {
+	id = phi_typhoon.1
+	title = phi_typhoon.1.t
+	desc = phi_typhoon.1.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+
+	}
+		
+	option = {
+		name = phi_typhoon.1.a
+            add_timed_modifier = {
+                    modifier = pacific_typhoon_active
+				    days = 5
+                }
+            #Signal No.1
+            ##Cagayan
+            623 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+            }
+            ##Mindoro
+            1275 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+            }
+            ##Panay
+            1276 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+            }
+            ##Leyte
+            625 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+            }
+            ##Cebu
+            628 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+            }
+            #Signal No.2
+            ##Ilocos
+            1272 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2_eco
+                    days = 15
+                }
+            }
+            ##Cordillera
+            1273 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2_eco
+                    days = 15
+                }
+            }
+            ##Metro Manila
+            1493 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2_eco
+                    days = 15
+                }
+            }
+            #Signal No.3
+            ##Bicol
+            624 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3_eco
+                    days = 15
+                }
+            }
+            ##CALABARZON
+            1274 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3_eco
+                    days = 15
+                }
+            }
+            ##Central Luzon
+            327 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_3_eco
+                    days = 15
+                }
+            }
+            ##Subic
+            1499 = {
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_2_eco
+                    days = 15
+                }
+            }
+            
+        
+	}
+}
+
+#Nuri/Butchoy
+news_event = {
+	id = phi_typhoon.2
+	title = phi_typhoon.2.t
+	desc = phi_typhoon.2.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.2.a
+    }
+}
+#Carina
+news_event = {
+	id = phi_typhoon.3
+	title = phi_typhoon.3.t
+	desc = phi_typhoon.3.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.3.a
+        ##Ilocos
+        1272 = {
+            add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+        }
+        ##Cordillera
+        1273 = {
+            add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+        }
+        ##Cagayan Valley
+        623 = {
+            add_timed_modifier = {
+                    modifier = pagasa_tsws_1
+				    days = 5
+                }
+                add_timed_modifier = {
+                    modifier = pagasa_tsws_1_eco
+                    days = 15
+                }
+        }
+        ##Southwest Monsoon
+        add_timed_modifier = {
+            modifier = pacific_typhoon_active
+            days = 7
+        }
+    }
+}
+#Hagupit/Dindo
+news_event = {
+	id = phi_typhoon.4
+	title = phi_typhoon.4.t
+	desc = phi_typhoon.4.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.4.a
+    }
+}
+#Jangmi/Enteng
+news_event = {
+	id = phi_typhoon.5
+	title = phi_typhoon.5.t
+	desc = phi_typhoon.5.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.5.a
+    }
+}
+#06W/Gener
+news_event = {
+	id = phi_typhoon.6
+	title = phi_typhoon.6.t
+	desc = phi_typhoon.6.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.6.a
+    }
+}
+#Ofel
+news_event = {
+	id = phi_typhoon.7
+	title = phi_typhoon.7.t
+	desc = phi_typhoon.7.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.7.a
+    }
+}
+#Saudel/Pepito
+news_event = {
+	id = phi_typhoon.8
+	title = phi_typhoon.8.t
+	desc = phi_typhoon.8.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.8.a
+    }
+}
+#Molave/Quinta
+news_event = {
+	id = phi_typhoon.9
+	title = phi_typhoon.9.t
+	desc = phi_typhoon.9.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.9.a
+    }
+}
+#Goni/Rolly
+news_event = {
+	id = phi_typhoon.10
+	title = phi_typhoon.10.t
+	desc = phi_typhoon.10.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.10.a
+    }
+}
+#Etau/Tonyo
+news_event = {
+	id = phi_typhoon.11
+	title = phi_typhoon.11.t
+	desc = phi_typhoon.11.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.11.a
+    }
+}
+#Vamco/Ulysses
+news_event = {
+	id = phi_typhoon.12
+	title = phi_typhoon.12.t
+	desc = phi_typhoon.12.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.12.a
+    }
+}
+#Krovanh/Vicky
+news_event = {
+	id = phi_typhoon.13
+	title = phi_typhoon.13.t
+	desc = phi_typhoon.13.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_typhoon.13.a
+    }
+}
+
+
+##2021
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+
+
+##2022
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+
+
+##2023
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+
+
+##2024
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+
+
+##2025
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+#/
+
+
+------
+#Earthquakes#
+
+##2020
+
+#Masbate Earthquake
+news_event = {
+	id = phi_earthquake.1
+	title = phi_earthquake.1.t
+	desc = phi_earthquake.1.d
+	picture = GFX_PHtyphoon
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = no
+	
+	trigger = {
+		tag = PHI
+        PHI_is_civil_war_faction = yes
+	}
+		
+	option = {
+		name = phi_earthquake.13.a
+    }
+}
+
+##2021
+
+##2022
+
+##2023
+
+##2024
+
+##2025

@@ -26,8 +26,9 @@ characters = {
 			country_leader = {
 			ideology = military_democracy
 			traits = {
+				}
 			}
-		}
+		} 
 	}
 	IGP_afp_viscom_junta_char = {
 	name = "Visayan Military Administration"
@@ -100,6 +101,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = right_populism
+			}
 		}
 	}
 }	

@@ -1,0 +1,84 @@
+PHI_is_civil_war_faction = {
+	OR = {
+		tag = PHI
+		tag = PHL
+		tag = PHP
+		tag = UPH
+		tag = IGP
+		tag = BTA
+		tag = BAG
+		tag = CRD
+		tag = NPA
+		tag = TAG 
+		tag = KFH 
+		tag = ILG 
+		tag = KAB 
+		tag = NPC
+		tag = NPA
+		tag = OSB
+		}
+}
+
+PHI_is_rival_tag = {
+	OR = {
+		tag = PHI
+		tag = PHL
+		tag = PHP
+		tag = UPH
+		tag = IGP
+	}
+}
+
+PHI_is_commie_tag = {
+	OR = {
+		tag = NPA
+	}
+}
+
+PHI_is_nationalist_tag = {
+	OR = {
+		tag = TAG
+		tag = KFH
+		tag = ILG
+	}
+}
+
+PHI_north_luzon_tag = {
+	OR = {
+		tag = UPH
+		tag = CRD
+		tag = TAG
+	}
+}
+
+
+PHI_south_luzon_tag ={
+	OR = {
+		tag = OSB
+		tag = PHI
+		tag = PHL
+
+	}
+}
+
+PHI_visayas_tag ={
+	OR = {
+		tag = IGP
+	}
+}
+
+PHI_mindanao_tag ={
+	OR = {
+		tag = PHP
+		tag = NPA
+		tag = KFH
+		tag = ILG
+	}
+}
+
+PHI_PHP_implosion_spawn_tag = {
+	OR = {
+		tag = KFH
+		tag = ILG
+	}
+}

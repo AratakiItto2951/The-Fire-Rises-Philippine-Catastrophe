@@ -64,9 +64,13 @@ country_event = {
 			ideology = authoritarian_democrat
 			popularity = 0.05
 		}
+		add_power_balance_value = {
+    	id = TAG_forpol_balance
+    	value = -0.1 #favors the Sinophiles
+		}
 	}
 	option = {
-		#valdes
+		#valdes the elder
 		name = nra.3.b
 		hidden_effect = {
 			add_ideas = TAG_butch_valdes_hog
@@ -79,6 +83,10 @@ country_event = {
 			ideology = authoritarian_democrat
 			popularity = 0.05
 		}
+		add_power_balance_value = {
+    	id = TAG_forpol_balance
+    	value = -0.1 #favors the Sinophiles
+		}
 	}
 	option = {
 		#relly jose
@@ -88,14 +96,13 @@ country_event = {
 			country_event = {
 				id = nra.4
 				days = 2
-				}
 			}
+		}
 		add_popularity = {
 			ideology = authoritarian_democrat
 			popularity = 0.05
-			}
+		}
 	}
-		
 	option = {
 		#maquinana
 		name = nra.3.f
@@ -107,11 +114,17 @@ country_event = {
 			}
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = national_socialist
 			popularity = 0.05
 		}
+		add_power_balance_value = {
+    		id = TAG_forpol_balance
+    		value = 0.15 #favors the Japanophiles
+		}
 	}
-}	
+}
+
+
 country_event = {
 	#Tuguegarao Convention elections - Foreign Minister
 	id = nra.4
@@ -123,17 +136,41 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#paglinawan
 	option = {
 		name = nra.4.a
+		add_power_balance_value = {
+    		id = TAG_forpol_balance
+    		value = -0.2 #favors the Sinophiles
+		}
+		country_event = {
+			id = nra.5
+			days = 2
+		}
 	}
+	#
 	option = {
 		name = nra.4.b
+		country_event = {
+			id = nra.5
+			days = 2
+		}
 	}
+	#
 	option = {
 		name = nra.4.c
+		country_event = {
+			id = nra.5
+			days = 2
+		}
 	}
+	#
 	option = {
 		name = nra.4.f
+		country_event = {
+			id = nra.5
+			days = 2
+		}
 	}	
 }
 
@@ -148,17 +185,37 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#gadi
 	option = {
 		name = nra.5.a
+		country_event = {
+			id = nra.6
+			days = 2
+		}
 	}
+	#mendoza
 	option = {
 		name = nra.5.b
+		country_event = {
+			id = nra.6
+			days = 2
+		}
 	}
+	#tan
 	option = {
 		name = nra.5.c
+		country_event = {
+				id = nra.6
+				days = 2
+			}
 	}
+	#
 	option = {
 		name = nra.5.f
+		country_event = {
+			id = nra.6
+			days = 2
+		}
 	}	
 }
 
@@ -173,17 +230,37 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#soguilon
 	option = {
 		name = nra.6.a
+		country_event = {
+			id = nra.7
+			days = 2
+		}
 	}
+	#santillan
 	option = {
 		name = nra.6.b
+		country_event = {
+			id = nra.7
+			days = 2
+		}
 	}
+	#archivido
 	option = {
 		name = nra.6.c
+		country_event = {
+			id = nra.7
+			days = 2
+		}
 	}
+	#valeros
 	option = {
 		name = nra.6.f
+		country_event = {
+			id = nra.7
+			days = 2
+		}
 	}	
 }
 
@@ -198,17 +275,37 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#malaya
 	option = {
 		name = nra.7.a
+		country_event = {
+			id = nra.8
+			days = 2
+		}
 	}
+	#claros
 	option = {
 		name = nra.7.b
+		country_event = {
+			id = nra.8
+			days = 2
+		}
 	}
+	#badoy
 	option = {
 		name = nra.7.c
+		country_event = {
+			id = nra.8
+			days = 2
+		}
 	}
+	#
 	option = {
 		name = nra.7.f
+		country_event = {
+			id = nra.8
+			days = 2
+		}
 	}	
 }
 
@@ -223,17 +320,45 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#parlade
 	option = {
 		name = nra.8.a
+		add_power_balance_value = {
+    			id = TAG_forpol_balance
+    			value = 0.2 #favors the Japanophiles
+			}
+		country_event = {
+			id = nra.9
+			days = 2
+		}
 	}
+	#faeldon
 	option = {
 		name = nra.8.b
+		add_power_balance_value = {
+    		id = TAG_forpol_balance
+    		value = -0.15 #favors the Sinophiles
+		}
+		country_event = {
+			id = nra.9
+			days = 2
+		}
 	}
+	#valeros
 	option = {
 		name = nra.8.c
+		country_event = {
+				id = nra.9
+				days = 2
+			}
 	}
+	#
 	option = {
 		name = nra.8.f
+		country_event = {
+			id = nra.9
+			days = 2
+		}
 	}	
 }
 
@@ -248,18 +373,27 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 	}
+	#abulencia
 	option = {
 		name = nra.9.a
 	}
+	#valdes the younger
 	option = {
 		name = nra.9.b
 	}
+	#lim
 	option = {
 		name = nra.9.c
 	}
+	#gatdula
 	option = {
 		name = nra.9.f
-	}	
+		add_power_balance_value = {
+    			id = TAG_forpol_balance
+    			value = 0.1 #favors the Japanophiles
+			}
+	}
+			
 }
 
 ##BALANCE OF POWER## 
@@ -299,26 +433,27 @@ country_event = {
 	option = {
 		name = nra.11.a
 		KAB = {
-		declare_war_on = {
-			target = KAB
-			type = annex_everything
-			}
-		hidden_effect = { 
-			set_country_flag = TAG_KA44_rebellion_flag 
+			declare_war_on = {
+				target = KAB
+				type = annex_everything
 			}
 		}
-		
+		hidden_effect = { 
+			set_country_flag = TAG_KA44_rebellion_flag
+			transfer_state = 327 
+		}
 	}
 	option = {
 		name = nra.11.b
 		KAB = {
-		declare_war_on = {
-			target = KAB
-			type = annex_everything
+			declare_war_on = {
+				target = KAB
+				type = annex_everything
 			}
+		}
 		hidden_effect = { 
-			set_country_flag = TAG_KA44_rebellion_flag 
-			}
+			set_country_flag = TAG_KA44_rebellion_flag
+			transfer_state = 327 
 		}
 	}
 }
@@ -337,21 +472,31 @@ country_event = {
 	option = {
 		name = nra.12.a
 		NPC = {
-		declare_war_on = {
-			target = NPC
-			type = annex_everything
+			declare_war_on = {
+				target = NPC
+				type = annex_everything
 			}
-		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag}
+		}
+		hidden_effect = {
+			set_country_flag = TAG_NPC_uprising_flag
+			transfer_state = 1272
+			transfer_state =  1273
+			transfer_state = 327
 		}
 	}
 	option = {
 		name = nra.12.b
 		NPC = {
-		declare_war_on = {
-			target = NPC
-			type = annex_everything
+			declare_war_on = {
+				target = NPC
+				type = annex_everything
 			}
-		hidden_effect = { set_country_flag = TAG_NPC_uprising_flag}
+		}
+		hidden_effect = { 
+			set_country_flag = TAG_NPC_uprising_flag
+			transfer_state = 1272
+			transfer_state =  1273
+			transfer_state = 327
 		}
 	}
 }		
@@ -365,12 +510,11 @@ country_event = {
         text = nra.13.d.npc
         trigger = { has_country_flag = TAG_KA44_rebellion_flag }
     }
-
     desc = {
         text = nra.13.d.ka44
         trigger = { has_country_flag = TAG_NPC_uprising_flag }
     }
-	picture = GFX_TAG_cardema_death_1
+	picture = GFX_TAG_game_over
 	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
@@ -384,10 +528,10 @@ country_event = {
 					TAG = {
 						has_country_flag = TAG_NPC_uprising_flag
 					}
-				}	
-			country_event = {
-				id = nra.14
-				days = 1
+				}
+				country_event = {
+					id = nra.14
+					days = 1
 				}
 			}
 			if = {
@@ -395,19 +539,17 @@ country_event = {
 					TAG = {
 						has_country_flag = TAG_KA44_rebellion_flag
 					}
-				}	
-			country_event = {
-				id = nra.15
-				days = 1
+				}
+				country_event = {
+					id = nra.15
+					days = 1
 				}
 			}
 		}
 	}
 }
-						
-				
-		
-	#NPC won, Mamba shoots Cardema and PNF honchos
+
+#NPC won, Mamba shoots Cardema and PNF honchos
 	country_event = {
 	id = nra.14
 	title = nra.14.t
@@ -418,9 +560,23 @@ country_event = {
 	trigger = {
 		original_tag = TAG
 		}
+	immediate = { 
+		TAG_ronald_cardema_char = { kill_character = yes }
+		kill_country_leader = yes
+		add_country_leader_role = {
+			character = NPC_manuel_mamba_char
+			promote_leader = yes
+			country_leader = {
+				ideology = classical_conservatism
+				expire = "1.1.1.1"
+				id = -1
+			}
+		}
+	}
 	option = {
 		name = nra.14.a
 		custom_effect_tooltip = NPC_left_opposition_coup_tt
+		
 		}
 	}
 
@@ -437,6 +593,7 @@ country_event = {
 		}
 	option = {
 		name = nra.15.a
+		TAG_ronald_cardema_char = { kill_character = yes }
 		custom_effect_tooltip = KAB_right_opposition_coup_tt
 		}
 	}
@@ -509,9 +666,9 @@ country_event = {
 	
 	#Victory in the Catastrophe
 	country_event = {
-	id = nra.19
-	title = nra.19.t
-	desc = nra.19.d
+	id = nra.20
+	title = nra.20.t
+	desc = nra.20.d
 	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -519,9 +676,40 @@ country_event = {
 		original_tag = TAG
 		}
 	option = {
-		name = nra.19.a
+		name = nra.20.a
 		}
 	}
 
-		
+	# Victory news event
+	country_event = {
+	id = nra.21
+	title = nra.21.t
+	desc = nra.21.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.21.a
+		}
+	}
 
+	#Faeldon coup
+	country_event = {
+	id = nra.22
+	title = nra.22.t
+	desc = nra.22.d
+	picture = GFX_TAG_cardema_parade #Temporary photo, replace with something more appropriate
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		original_tag = TAG
+		}
+	option = {
+		name = nra.22.a
+		set_country_flag = TAG_faeldon_coup
+		load_focus_tree = TAG_faeldoncoup
+		}
+}

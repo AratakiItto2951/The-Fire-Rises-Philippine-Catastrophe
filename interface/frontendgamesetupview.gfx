@@ -579,5 +579,44 @@ spriteTypes = {
         name = "GFX_new_this_update"
         texturefile = "gfx/menu_setup_image/Major_Path_Flags/new_this_update.png"
     }
+
+    spriteType = {
+        name = "GFX_PHI_PHP_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_gns_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_junta_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_junta_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_PHL_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_phl_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_IGP_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_igp_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_KFH_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_kfh_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_TAG_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_nationalist_path.png"
+    }
+    
+    spriteType = {
+        name = "GFX_PHI_NPA_path"
+        texturefile = "gfx/menu_setup_image/Major_Path_Flags/PHI_npa_path.png"
+    }
+    
+    
+    	
+	
 	
 }

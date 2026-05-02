@@ -760,7 +760,205 @@ country_event = {
 		add_state_claim = 647
 	} 
 }
+##Soldier dad struggles to explain to daughter
+country_event = {
+	id = phi_2acw.8
+	title = phi_2acw.8.t
+	desc = phi_2acw.8.d
+	picture = GFX_NAIA1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.8.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.9
+					hours = 2
+			}
+		}
+	}
+}
+
+##Enter the Gremlin, Fil-Canadian kid goofs around fashy hothead for Reddit gold. That's not Simon Riley, you moron!
+country_event = {
+	id = phi_2acw.9
+	title = phi_2acw.9.t
+	desc = phi_2acw.9.d
+	picture = GFX_ghostmask
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.9.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.10
+					hours = 2
+			}
+		}
+	}
+}
+
+## Sermon in the Bathroom
+country_event = {
+	id = phi_2acw.10
+	title = phi_2acw.10.t
+	desc = phi_2acw.10.d
+	picture = GFX_naia_restrooms
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.10.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.11
+					hours = 2
+			}
+		}
+	}
+}
+
+## Cousin tells kid's parents about stupid act
+country_event = {
+	id = phi_2acw.11
+	title = phi_2acw.11.t
+	desc = phi_2acw.11.d
+	picture = GFX_jolibee1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.11.a
+		hidden_effect = {
+
+		}
+	}
+}
+
+## Canadian kid scrolls Reddit on couch, chooses which sub to post the fash Ghost pic
+country_event = {
+	id = phi_2acw.12
+	title = phi_2acw.12.t
+	desc = phi_2acw.12.d
+	picture = GFX_reddit1
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	#r/philippines
+	option = {
+		name = phi_2acw.12.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.13
+					hours = 2
+			}
+		}
+	}
+	#r/onguardforthee
+	option = {
+		name = phi_2acw.12.b
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.14
+					hours = 2
+			}
+		}
+	}
+	#r/gaming
+	option = {
+		name = phi_2acw.12.a
+		hidden_effect = {
+			country_event = {
+					id = phi_2acw.15
+					hours = 2
+			}
+		}
+	}
+}
+
+## Chooses r/Philippines
+country_event = {
+	id = phi_2acw.13
+	title = phi_2acw.13.t
+	desc = phi_2acw.13.d
+	picture = GFX_reddit2
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.13.a
+		hidden_effect = {
+		}
+	}
+}
+
+## Chooses r/onguardforthee (Canadian progressive subreddit)
+country_event = {
+	id = phi_2acw.14
+	title = phi_2acw.14.t
+	desc = phi_2acw.14.d
+	picture = GFX_reddit2
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.14.a
+		hidden_effect = {
+		}
+	}
+}
+
+## Chooses r/Gaming
+country_event = {
+	id = phi_2acw.15
+	title = phi_2acw.15.t
+	desc = phi_2acw.15.d
+	picture = GFX_reddit2
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		tag = PHI
+		has_global_flag = USA_american_civil_war_global
+	}
+	option = {
+		name = phi_2acw.15.a
+		hidden_effect = {
+		}
+	}
+}
+
+##
+
+
 ##Augustus event
+
+##Augustus event
+
+##Augustus event
+
 
 ##Cardema first pitches "Revenge Legion" idea
 
@@ -853,16 +1051,16 @@ country_event = {
 
 		promote_character = {
 			character = PHI_miljunta_jay_tarriela_char
-			ideology = authoritarian_democrat
+			ideology = constitutionalist
 		}
 		set_politics = {
-			ruling_party = authoritarian_democrat
+			ruling_party = constitutionalist
 			elections_allowed = no
 			last_election = "2028.5.10"
 			election_frequency = 72
 		}
 		add_popularity = {
-			ideology = authoritarian_democrat
+			ideology = constitutionalist
 			popularity = 0.50
 		}
 
@@ -1718,56 +1916,8 @@ country_event = {
 	option = {
 		name = philcatastrophe.11.a
 		
-		#North Luzon
-		UPH = {
-			declare_war_on = {
-				target = CRD
-				type = annex_everything
-			}
-		TAG = {
-			declare_war_on = {
-				target = CRD
-				type = annex_everything
-			}
-		}
-		CRD = {
-			declare_war_on = {
-				target = TAG
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = UPH
-				type = annex_everything
-			}
-		#South Luzon
-		PHI = {
-			declare_war_on = {
-				target = PHL
-				type = annex_everything
-			}
-			declare_war_on = {
-				target = OSB
-				type = annex_everything
-				}
-			}
-		PHL = {
-			declare_war_on = PHI
-			type = annex_everything
-			}
-		OSB = {
-			declare_war_on = PHI
-			type = annex_everything
-			}
-		#Mindanao
-		PHP = {
-			declare_war_on = NPA
-			type = annex_everything
-				}
-		NPA = {
-			declare_war_on = PHP
-			type = annex_everything
-				}
-			}
+		hidden_effect = {
+			PHI_civil_war_begins = yes
 		}
 	}
 }

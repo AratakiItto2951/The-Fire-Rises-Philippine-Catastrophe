@@ -1,0 +1,207 @@
+#Typhoon modifiers
+pacific_typhoon_active = {
+	# --- AIR PENALTIES ---
+	# Typhoons feature extreme winds that make flight impossible.
+	air_accidents = 0.15                  # 5x worse than heavy rain
+	air_bombing_targetting = -0.95        # Effectively zeros out bombing
+	air_detection = -0.80                 # Massive visibility drop
+	air_mission_efficiency = -0.90        # Planes are effectively grounded
+	carrier_traffic = -1.00               # 100% stop to carrier operations
+
+	# --- NAVAL PENALTIES ---
+	# Massive waves scatter fleets and make combat highly erratic.
+	naval_detection = -0.60               # Fleets cannot find each other
+	naval_hit_chance = -0.70              # Aiming in a storm surge is impossible
+	naval_retreat_speed = 0.30            # Fleets will actively try to scatter and run
+	naval_speed_factor = -0.40            # Massive waves slow down ships
+	naval_strike = -0.90                  # Naval strikes are useless
+	positioning = -0.50                   # Fleets lose all cohesion
+
+	# --- LAND PENALTIES ---
+	# Torrential rain causing extreme mud and washing away roads.
+	army_attack_factor = -0.60            # Worse than vanilla mud (-0.4)
+	army_speed_factor = -0.70             # Movement is a crawl
+	attrition = 1.00                      # 100% equipment loss from flooding
+	local_org_regain = -0.50              # Troops cannot rest or reorganize
+	org_loss_when_moving = 0.50           # Moving in this destroys unit cohesion
+	
+	# --- SUPPLY & LOGISTICS ---
+	# Ports and supply lines are completely overwhelmed by the weather.
+	supply_consumption_factor = 0.30      # Troops burn resources just surviving
+	supply_factor = -0.50                 # 50% supply throughput drop
+	truck_attrition_factor = 10.0         # Flooded roads destroy motorized equipment
+}
+pagasa_tsws_1 = {
+	# Air
+	air_accidents = 0.02
+	air_bombing_targetting = -0.15
+	air_detection = -0.10
+	
+	# Land & Naval
+	army_speed_factor = -0.10
+	naval_hit_chance = -0.05
+}
+pagasa_tsws_2 = {
+	# Air
+	air_accidents = 0.05
+	air_bombing_targetting = -0.40
+	air_mission_efficiency = -0.30
+	carrier_traffic = -0.40
+	
+	# Land
+	army_speed_factor = -0.25
+	land_attrition = 0.10
+	
+	# Logistics
+	supply_factor = -0.10
+}
+pagasa_tsws_3 = {
+	# Air
+	air_accidents = 0.08
+	air_bombing_targetting = -0.70
+	air_mission_efficiency = -0.60
+	carrier_traffic = -0.70
+	
+	# Land
+	army_attack_factor = -0.30
+	army_speed_factor = -0.45
+	land_attrition = 0.30
+	org_loss_when_moving = 0.15
+	
+	# Logistics
+	truck_attrition_factor = 2.0
+	supply_factor = -0.25
+}
+pagasa_tsws_4 = {
+	# Air
+	air_accidents = 0.12
+	air_bombing_targetting = -0.90
+	air_mission_efficiency = -0.80
+	carrier_traffic = -1.00 # 100% grounded
+	
+	# Land
+	army_attack_factor = -0.50
+	army_speed_factor = -0.60
+	land_attrition = 0.60
+	org_loss_when_moving = 0.35
+	
+	# Naval
+	naval_detection = -0.40
+	naval_hit_chance = -0.50
+	
+	# Logistics
+	truck_attrition_factor = 6.0
+	supply_factor = -0.40
+}
+pagasa_tsws_5 = {
+	# Air
+	air_accidents = 0.20                  # Massive non-combat flight loss
+	air_bombing_targetting = -0.99
+	air_mission_efficiency = -0.95
+	carrier_traffic = -1.00               # 100% grounded
+	
+	# Land
+	army_attack_factor = -0.75            # Offensives will fail
+	army_speed_factor = -0.80             # Armies frozen in place
+	land_attrition = 1.00                 # Attrition cap reached
+	org_loss_when_moving = 0.60
+	local_org_regain = -0.50
+	
+	# Naval
+	naval_detection = -0.70
+	naval_hit_chance = -0.80
+	naval_retreat_speed = 0.40            # Ships scatter
+	positioning = -0.60
+	
+	# Logistics
+	truck_attrition_factor = 12.0          # Floods swallow trucks
+	supply_consumption_factor = 0.40      # Scarcity forces higher consumption
+	supply_factor = -0.60                 # Extreme supply lines bottleneck
+}
+
+tsws_1_aftermath = {
+    production_speed_buildings_factor = -0.05 # 5% slower construction
+}
+tsws_2_aftermath = {
+    production_speed_buildings_factor = -0.15 # 15% slower construction
+}
+tsws_3_aftermath = {
+    production_speed_buildings_factor = -0.30 # 30% slower construction
+}
+tsws_4_aftermath = {
+    production_speed_buildings_factor = -0.60 # 60% slower construction
+}
+tsws_5_aftermath = {
+    production_speed_buildings_factor = -0.90 # 90% slower construction
+}
+
+pagasa_tsws_1_eco = {
+	consumer_goods_factor = 0.005
+	misc_expense = 0.01
+	poverty_development_monthly = -0.001
+	
+	# Slight slowdown in construction
+	production_speed_buildings_factor = -0.05
+	production_speed_office_park_factor = -0.05
+	production_speed_industrial_complex_factor = -0.05
+	
+	# Minor value drops
+	personal_value_factor = -0.05
+	business_value_factor = -0.10
+}
+pagasa_tsws_2_eco = {
+	consumer_goods_factor = 0.025            # Your baseline
+	misc_expense = 0.05                      # Your baseline
+	poverty_development_monthly = -0.005     # Your baseline
+	
+	# Moderate construction delays (flipped your 15% buff to a 15% nerf)
+	production_speed_buildings_factor = -0.15
+	production_speed_office_park_factor = -0.15
+	production_speed_industrial_complex_factor = -0.15
+	
+	personal_value_factor = -0.20
+	business_value_factor = -0.30
+}
+pagasa_tsws_3_eco = {
+	consumer_goods_factor = 0.05
+	misc_expense = 0.15
+	poverty_development_monthly = -0.015
+	
+	# Massive construction delays
+	production_speed_buildings_factor = -0.50
+	production_speed_office_park_factor = -0.40
+	production_speed_industrial_complex_factor = -0.50
+	
+	personal_value_factor = -0.50
+	business_value_factor = -0.60
+}
+pagasa_tsws_4_eco = {
+	consumer_goods_factor = 0.10
+	misc_expense = 0.30
+	poverty_development_monthly = -0.05
+	
+	# Construction effectively frozen
+	production_speed_buildings_factor = -0.80
+	production_speed_office_park_factor = -0.80
+	production_speed_industrial_complex_factor = -0.80
+	
+	# Deployment of your extreme values
+	personal_value_factor = -0.90
+	business_value_factor = -0.90
+	personal_expense_factor = -0.50
+}
+pagasa_tsws_5_eco = {
+	consumer_goods_factor = 0.20             # Massive drain on national economy
+	misc_expense = 0.60                      # Astronomical emergency expenses
+	poverty_development_monthly = -0.10      # Rapid spike in poverty
+	
+	# Complete construction paralysis
+	production_speed_buildings_factor = -0.95
+	production_speed_office_park_factor = -0.95
+	production_speed_industrial_complex_factor = -0.95
+	
+	# Total loss of value and collapse of personal overhead
+	personal_value_factor = -0.95
+	business_value_factor = -1.12            # Your commented out extreme value!
+	personal_expense_factor = -0.90          # Your baseline
+}

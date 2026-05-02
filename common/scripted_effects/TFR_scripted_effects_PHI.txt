@@ -1,29 +1,87 @@
+###Note to self###
+# At the end of each global block, set the skip_default_capitulation GLOBAL flag
+# FROM = winner 
+# ROOT = country being capitulated/loser
+
+###############################
+
+#### PHILIPPINE CATASTROPHE - GENERAL ####
 PHI_civil_war_begins = {
 	set_global_flag = PHI_philippine_catastrophe_global
 	
-	PHI = {
-		declare_war_on = {
-			target = UPH
+	#North Luzon
+		UPH = {
+			declare_war_on = {
+				target = CRD
+				type = civil_war
+			}
+		}
+		TAG = {
+			declare_war_on = {
+				target = CRD
+				type = civil_war
+			}
+		}
+		CRD = {
+			declare_war_on = {
+				target = TAG
+				type = civil_war
+			}
+			declare_war_on = {
+				target = UPH
+				type = civil_war
+			}
+		}
+		#South Luzon
+		PHI = {
+			declare_war_on = {
+				target = PHL
+				type = civil_war
+			}
+			declare_war_on = {
+				target = OSB
+				type = civil_war
+				}
+			}
+		PHL = {
+			declare_war_on = PHI
 			type = civil_war
-		}		
-	}
-	PHL = {
-		declare_war_on = {
-			target = PHL
+			}
+		OSB = {
+			declare_war_on = PHI
 			type = civil_war
-		}		
-	}
+			}
+		#Mindanao
+		PHP = {
+			declare_war_on = NPA
+			type = civil_war
+			}
+		NPA = {
+			declare_war_on = PHP
+			type = civil_war
+			}
+}
 
-	TAG = {
-		declare_war_on = {
-			target = CRD
-			type = civil_war
-		}		
-	}
-	PHP = {
-		declare_war_on = {
-			target = NPA
-			type = civil_war
-		}		
-	}	
-}		
+
+#### PHILIPPINE CATASTROPHE - NORTH LUZON ####
+
+#### PHILIPPINE CATASTROPHE - SOUTH LUZON ####
+
+#### PHILIPPINE CATASTROPHE - VISAYAS ####
+
+#### PHILIPPINE CATASTROPHE - MINDANAO ####
+
+#PHP
+
+##NPA successfully killed
+
+##NPA failed to be killed
+
+##Bangsamoro regime change
+
+#NPA
+
+#KFH
+
+#ILG
+

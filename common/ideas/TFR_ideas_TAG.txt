@@ -167,6 +167,10 @@ ideas = {
         allowed = { original_tag = TAG }
         traits = { eco_captain_of_industry for_connected_businessman }
 		}
+    TAG_scott_ritter
+        picture = 
+        allowed = {original_tag = TAG }
+        traits = {sex_offender for_soviet_revanchist for_ideological_crusader int_former_spy}
 	
 	}
 	economic_minister = {
@@ -199,6 +203,14 @@ ideas = {
 	
 	}
 	intelligence_minister = {
+    TAG_lorraine_badoy = {
+            picture = 
+            allowed = {
+                original_tag = TAG
+            }
+            traits = { 
+			sec_hardline_ideologue sec_propaganda_master sec_political_architect int_ideological_enforcer hog_controversial_politican 
+            }
 	
 	}
 	education_minister = {
@@ -217,7 +229,7 @@ ideas = {
                 add_popularity = {
                     ideology = right_populism
                     popularity = 0.03
-                }
+                    }
             }
             on_remove = {
                 if = {
@@ -227,12 +239,10 @@ ideas = {
                     add_popularity = {
                         ideology = right_populism
                         popularity = -0.03
+                        }
                     }
                 }
             }
-        }
-	}	
-
-
-
+	    }	
+    }
 }
