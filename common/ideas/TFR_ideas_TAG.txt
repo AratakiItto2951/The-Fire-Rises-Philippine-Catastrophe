@@ -40,7 +40,7 @@ ideas = {
 
     head_minister = {
         TAG_ado_paglinawan_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -49,7 +49,7 @@ ideas = {
             }
         }
         TAG_antonio_parlade_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -58,7 +58,7 @@ ideas = {
             }
         }
         TAG_butch_valdes_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -67,7 +67,7 @@ ideas = {
             }
         }
         TAG_clarita_carlos_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -76,7 +76,7 @@ ideas = {
             }
         }
         TAG_duicelle_cardema_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -85,7 +85,7 @@ ideas = {
             }
         }
         TAG_glenn_chong_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -94,7 +94,7 @@ ideas = {
             }
         }
         TAG_larry_maquinana_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -103,7 +103,7 @@ ideas = {
             }
         }		
         TAG_joseph_delson_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -112,7 +112,7 @@ ideas = {
             }
         }
         TAG_toti_casino_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -121,7 +121,7 @@ ideas = {
             }
         }
         TAG_relly_jose_hog = {
-            picture = 
+            #picture = 
             allowed = {
                 original_tag = TAG
             }
@@ -130,22 +130,34 @@ ideas = {
             }
         }
 	    TAG_manny_sd_lopez_hog = {  # Lead Convenor – Reformist/Socioeconomic
-        picture = manny_sd_lopez
-        allowed = { original_tag = TAG }
-        traits = { hog_great_unifier hog_pragmatic_statesman }
+			picture = manny_sd_lopez
+			allowed = { 
+				original_tag = TAG 
+			}
+			traits = { 
+				hog_great_unifier hog_pragmatic_statesman 
+			}
 		}
 
 		TAG_wilson_amad_hog = {  # IP Rep + Preacher
-        picture = wilson_amad
-        allowed = { original_tag = TAG }
-        traits = { hos_great_unifier sec_peacemaker hog_spiritual_leader }
+			picture = wilson_amad
+			allowed = { 
+				original_tag = TAG 
+			}
+			traits = { 
+				hos_great_unifier sec_peacemaker hog_spiritual_leader 
+			}
 		}
         
         TAG_jonathan_malaya_hog = {
-        picture = jonathan_malaya
-        allowed = { original_tag = TAG }
-        traits = { hog_uncontested_prime_minister hog_great_unifier }
-    }    	
+			picture = jonathan_malaya
+			allowed = { 
+				original_tag = TAG 
+			}
+			traits = { 
+				hog_uncontested_prime_minister hog_great_unifier 
+			}
+		}    	
 		
 	}
 	
@@ -203,46 +215,46 @@ ideas = {
 	
 	}
 	intelligence_minister = {
-    TAG_lorraine_badoy = {
-            picture = 
-            allowed = {
-                original_tag = TAG
-            }
-            traits = { 
-			sec_hardline_ideologue sec_propaganda_master sec_political_architect int_ideological_enforcer hog_controversial_politican 
-            }
-	
+		TAG_lorraine_badoy = {
+				picture = 
+				allowed = {
+					original_tag = TAG
+				}
+				traits = { 
+				sec_hardline_ideologue sec_propaganda_master sec_political_architect int_ideological_enforcer hog_controversial_politican 
+				}
+		
+		}
 	}
 	education_minister = {
 	
 	}
 	theorist_minister = {
-	        TAG_antonio_parlade_mil = {
-            picture = = antonio_parlade  # add png
-            allowed = {
-                original_tag = TAG
-            }
-            traits = { 
-				military_theorist army_chief_offensive_2 
-            }
-            on_add = {
-                add_popularity = {
-                    ideology = right_populism
-                    popularity = 0.03
-                    }
-            }
-            on_remove = {
-                if = {
-                    limit = {
-                        NOT = { has_country_flag = remove_ideas_flag }
-                    }
-                    add_popularity = {
-                        ideology = right_populism
-                        popularity = -0.03
-                        }
-                    }
-                }
-            }
-	    }	
-    }
+		TAG_antonio_parlade_mil = {
+		picture = = antonio_parlade  # add png
+		allowed = {
+			original_tag = TAG
+		}
+		traits = { 
+			military_theorist army_chief_offensive_2 
+		}
+		on_add = {
+			add_popularity = {
+				ideology = right_populism
+				popularity = 0.03
+				}
+		}
+		on_remove = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = remove_ideas_flag }
+				}
+				add_popularity = {
+					ideology = right_populism
+					popularity = -0.03
+					}
+				}
+			}
+		}
+	}	
 }

@@ -213,9 +213,9 @@
  VIS_social_democrat_party_long: "Philippine Democratic Party - People's Power"
  
  #Summary
- PHI_country_summary: "For centuries, the Philippines has been a nation caught between foreign dominion and internal struggle—from Spanish colonization in 1521 to American rule in 1898, through Japanese occupation in World War II, and finally into an independent but politically tumultuous republic. The 20th century saw the country swinging between dictatorship and democracy, with the fall of Marcos Sr. in 1986 marking a return to civilian rule, but corruption and stagnation remained endemic. \nThe Philippines was always a nation caught between forces greater than itself. A land shaped by the tides of empire, the weight of history pressing from above, and the restless embers of defiance smoldering from below. But as the new decade rolled in, it was no longer just the invisible hands of geopolitics or the ghosts of old wars pressing in.\n\nIn spite of the growing nationalist wave that has swept the Asian continent, the Filipino people, still chained by the pangs of hunger and poverty, had no time to spare about being Filipino, the pride of nationhood, while their families starve and subsist on measly wages. And this is where the power brokers, the traditional elites of the cacique oligarchy, come in. In exchange for a livable amount of subsistence, the peasant gives all his allegiance to the lord, never to care about his misdeeds out of gratitude. Meanwhile the lords refuse to grant any significant progress, like education, for they prefer to keep the peasantry needy and ignorant, and industrial investments for they rely on the fragile global trade network to profit. \n\nCombined with an increasingly polarized population, a backslide to autocracy, deteriorating economic situation, and murmurs of a new virus in Wuhan, the Filipino still bares his head up, optimistic for the future. The flames have died down now, but the embers still glow, in the streets, in the factories, in the fields, the anger of a people long suppressed burns hotter with each passing day. And as the winds shift, the fire may yet return."
- PHI_country_paths: 
- PHI_country_other: 
+ PHI_country_summary: "§YCountry Summary:§!\nFor centuries, the Philippines has been a nation caught between foreign dominion and internal struggle—from Spanish colonization in 1521 to American rule in 1898, through Japanese occupation in World War II, and finally into an independent but politically tumultuous republic. The 20th century saw the country swinging between dictatorship and democracy, with the fall of Marcos Sr. in 1986 marking a return to civilian rule, but corruption and stagnation remained endemic. \nThe Philippines was always a nation caught between forces greater than itself. A land shaped by the tides of empire, the weight of history pressing from above, and the restless embers of defiance smoldering from below. But as the new decade rolled in, it was no longer just the invisible hands of geopolitics or the ghosts of old wars pressing in.\n\nIn spite of the growing nationalist wave that has swept the Asian continent, the Filipino people, still chained by the pangs of hunger and poverty, had no time to spare about being Filipino, the pride of nationhood, while their families starve and subsist on measly wages. And this is where the power brokers, the traditional elites of the cacique oligarchy, come in. In exchange for a livable amount of subsistence, the peasant gives all his allegiance to the lord, never to care about his misdeeds out of gratitude. Meanwhile the lords refuse to grant any significant progress, like education, for they prefer to keep the peasantry needy and ignorant, and industrial investments for they rely on the fragile global trade network to profit. \n\nCombined with an increasingly polarized population, a backslide to autocracy, deteriorating economic situation, and murmurs of a new virus in Wuhan, the Filipino still bares his head up, optimistic for the future. The flames have died down now, but the embers still glow, in the streets, in the factories, in the fields, the anger of a people long suppressed burns hotter with each passing day. And as the winds shift, the fire may yet return."
+ PHI_country_paths: ""
+ PHI_country_other: ""
 
 ##Focus Tree
  PHI_new_decade: "Facing the New Decade"
@@ -266,3 +266,16 @@
  PHI_opinion_red_baiting: "Commie scums"
  NPA_opinion_state_fascism: "Fascist scums"
  PHI_opinion_anti_americanism: "Anti-American Sentiment"
+
+
+#HEAD OF GOVERNMENTS
+ #PHI
+ PHI_hog_leni_robredo: "Vice President: §HLeni Robredo§!\n\n\n\n\n\n\n\n   £GFX_PHI_leni_robredo_por\n\n\n\n\n\n\n\n\n-------------------------------------"
+ PHI_hog_sara_duterte: "Vice President: §HSara Duterte§!\n\n\n\n\n\n\n\n   £GFX_PHI_sara_duterte_por\n\n\n\n\n\n\n\n\n-------------------------------------"
+ PHI_hog_migz_zubiri: "Vice President: §Juan Miguel Zubiri§!\n\n\n\n\n\n\n\n   £GFX_PHI_juan_miguel_zubiri_por\n\n\n\n\n\n\n\n\n-------------------------------------" 
+ ##Philippine Catastrophe factions####
+ #PHL
+ #PHP
+ PHP_hog_rodrigo_duterte: "Senior Adviser to the President: §HRodrigo Duterte§!\n\n\n\n\n\n\n\n   £GFX_PHP_rodrigo_duterte_dowager_por\n\n\n\n\n\n\n\n\n-------------------------------------"
+ #NPA
+ #TAG

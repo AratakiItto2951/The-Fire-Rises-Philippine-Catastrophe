@@ -91,7 +91,6 @@ has_skeleton_tag = {
 		#tag = KOS
 		#tag = MOL
 		tag = TAL
-		
 	}
 }
 
@@ -1364,4 +1363,8 @@ ai_has_completed_naval_doctrine = {
 
 anti_submarine_strategy_required_trigger = {
 	convoy_threat > 0.3
+}
+
+debug_entity = {
+	always = yes
 }

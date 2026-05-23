@@ -1,0 +1,609 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_adobo_1"
+		texturefile = "gfx/event_pictures/adobo_1.png"
+	}
+
+	spriteType = {
+		name = "GFX_adobo_2"
+		texturefile = "gfx/event_pictures/adobo_2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_bibingka"
+		texturefile = "gfx/event_pictures/bibingka.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_naboang_si_gojo"
+		texturefile = "gfx/event_pictures/naboang_si_gojo.png"
+	}
+		
+	spriteType = {
+		name = "GFX_Philippine_CW"
+		texturefile = "gfx/event_pictures/Philippine CW.png"
+	}
+
+	spriteType = {
+		name = "GFX_PH_Civil_war"
+		texturefile = "gfx/event_pictures/PH_Civil_war.png"
+	}
+		
+	spriteType = {
+		name = "GFX_quiboloy"
+		texturefile = "gfx/event_pictures/quiboloy.png"
+	}
+	
+	spriteType = {
+		name = "GFX_quiboloy2"
+		texturefile = "gfx/event_pictures/quiboloy2.png"
+	}
+
+	spriteType = {
+		name = "GFX_philippines_start"
+		texturefile = "gfx/event_pictures/philippines_start.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_familydinner1"
+		texturefile = "gfx/event_pictures/familydinner1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_familydinner2"
+		texturefile = "gfx/event_pictures/familydinner2.png"
+	}		
+	spriteType = {
+		name = "GFX_jolibee1"
+		texturefile = "gfx/event_pictures/jolibee1.png"
+	}		
+	spriteType = {
+		name = "GFX_codcosers1"
+		texturefile = "gfx/event_pictures/codcosers_1.png"
+	}	
+	spriteType = {
+		name = "GFX_codcosers2"
+		texturefile = "gfx/event_pictures/codcosers_2.png"
+	}	
+	spriteType = {
+		name = "GFX_npa_marching"
+		texturefile = "gfx/event_pictures/npa_marching.png"
+	}	
+	spriteType = {
+		name = "GFX_NAIA1"
+		texturefile = "gfx/event_pictures/NAIA1.png"
+	}	
+	spriteType = {
+		name = "duterte_speech"
+		texturefile = "gfx/event_pictures/duterte_speech.png"
+	}
+	
+	spriteType = {
+		name = "GFX_reddit1"
+		texturefile = "gfx/event_pictures/reddit1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_reddit2"
+		texturefile = "gfx/event_pictures/reddit2.png"
+	}
+	spriteType = {
+		name = "GFX_revgov1"
+		texturefile = "gfx/event_pictures/revgov_rally1.png"
+	}
+	
+	spriteType = {
+		name = "GFX_revgov2"
+		texturefile = "gfx/event_pictures/revgov_rally2.png"
+	}
+	
+	spriteType = {
+		name = "GFX_MMFF1"
+		texturefile = "gfx/event_pictures/MMFF1.png"
+	}
+	spriteType = {
+		name = "GFX_manila_fireworks1"
+		texturefile = "gfx/event_pictures/manila_fireworks1.png"
+	}
+	spriteType = {
+		name = "GFX_taal_eruption"
+		texturefile = "gfx/event_pictures/news_event/taal_eruption.png"
+	}
+	spriteType = {
+		name = "GFX_PHtyphoon"
+		texturefile = "gfx/event_pictures/news_event/typhoon.png"
+	}
+	spriteType = {
+		name = "GFX_Cory_MariaRessa"
+		texturefile = "gfx/event_pictures/news_event/corymaria.png"
+	}
+	spriteType = {
+		name = "GFX_1stCOVIDcase"
+		texturefile = "gfx/event_pictures/news_event/1stcovidcase.png"
+	}
+	spriteType = {
+		name = "GFX_PHI_COVID_deaths"
+		texturefile = "gfx/event_pictures/news_event/covid_death.png"
+	}
+	spriteType = {
+		name = "GFX_NAIA_restrooms"
+		texturefile = "gfx/event_pictures/naia_restrooms.png"
+	}
+	
+	spriteType = {
+			name = "GFX_balikatan"
+			texturefile = "gfx/event_pictures/balikatan.png"
+	}
+
+	spriteType = {
+			name = "GFX_broken_toys"
+			texturefile = "gfx/event_pictures/broken_toys.png"
+	}
+
+	spriteType = {
+			name = "GFX_codghost"
+			texturefile = "gfx/event_pictures/codghost.png"
+	}
+
+	spriteType = {
+			name = "GFX_codposter1"
+			texturefile = "gfx/event_pictures/codposter1.png"
+	}
+
+	spriteType = {
+			name = "GFX_codposter2"
+			texturefile = "gfx/event_pictures/codposter2.png"
+	}
+
+	spriteType = {
+			name = "GFX_congress_empty"
+			texturefile = "gfx/event_pictures/congress_empty.png"
+	}
+
+	spriteType = {
+			name = "GFX_corymaria"
+			texturefile = "gfx/event_pictures/corymaria.png"
+	}
+
+	spriteType = {
+			name = "GFX_cyberml_protest"
+			texturefile = "gfx/event_pictures/cyberml_protest.png"
+	}
+
+	spriteType = {
+			name = "GFX_cyberml_protest2"
+			texturefile = "gfx/event_pictures/cyberml_protest2.png"
+	}
+
+	spriteType = {
+			name = "GFX_duterte_augustus1"
+			texturefile = "gfx/event_pictures/duterte_augustus1.png"
+	}
+
+	spriteType = {
+			name = "GFX_duterte_augustus2"
+			texturefile = "gfx/event_pictures/duterte_augustus2.png"
+	}
+
+	spriteType = {
+			name = "GFX_duterte_speech"
+			texturefile = "gfx/event_pictures/duterte_speech.png"
+	}
+
+	spriteType = {
+			name = "GFX_duterte_speech_2"
+			texturefile = "gfx/event_pictures/duterte_speech_2.png"
+	}
+
+	spriteType = {
+			name = "GFX_empty_graduation1"
+			texturefile = "gfx/event_pictures/empty_graduation1.png"
+	}
+
+	spriteType = {
+			name = "GFX_empty_graduation2"
+			texturefile = "gfx/event_pictures/empty_graduation2.png"
+	}
+
+	spriteType = {
+			name = "GFX_familydinner1"
+			texturefile = "gfx/event_pictures/familydinner1.png"
+	}
+
+	spriteType = {
+			name = "GFX_familydinner2"
+			texturefile = "gfx/event_pictures/familydinner2.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_game_over"
+			texturefile = "gfx/event_pictures/game_over.png"
+	}
+
+	spriteType = {
+			name = "GFX_gunfire_president_dead"
+			texturefile = "gfx/event_pictures/gunfire_president_dead.png"
+	}
+
+	spriteType = {
+		name = "GFX_ghostmask"
+		texturefile = "gfx/event_pictures/ghostmask1.png"
+	}
+
+	spriteType = {
+			name = "GFX_kid_saved_from_sickos"
+			texturefile = "gfx/event_pictures/kid_saved_from_sickos.png"
+	}
+
+	spriteType = {
+			name = "GFX_leo_lastimosa_streaming"
+			texturefile = "gfx/event_pictures/leo_lastimosa_streaming.png"
+	}
+
+	spriteType = {
+			name = "GFX_leo_lastimosa_streaming_2"
+			texturefile = "gfx/event_pictures/leo_lastimosa_streaming_2.png"
+	}
+
+	spriteType = {
+			name = "GFX_magdalena"
+			texturefile = "gfx/event_pictures/magdalena_anong_problema.png"
+	}
+
+	spriteType = {
+			name = "GFX_malacanang_lockdown"
+			texturefile = "gfx/event_pictures/malacanang_lockdown.png"
+	}
+
+	spriteType = {
+			name = "GFX_manila_fireworks2"
+			texturefile = "gfx/event_pictures/manila_fireworks2.png"
+	}
+
+	spriteType = {
+			name = "GFX_ muslimprayer"
+			texturefile = "gfx/event_pictures/muslimprayer.png"
+	}
+
+	spriteType = {
+			name = "GFX_naia_restrooms"
+			texturefile = "gfx/event_pictures/naia_restrooms.png"
+	}
+
+	spriteType = {
+			name = "GFX_NAIA1"
+			texturefile = "gfx/event_pictures/NAIA1.png"
+	}
+
+	spriteType = {
+			name = "GFX_NBI_busts_diddler_1"
+			texturefile = "gfx/event_pictures/NBI_busts_diddler_1.png"
+	}
+
+	spriteType = {
+			name = "GFX_neonazi_assassin"
+			texturefile = "gfx/event_pictures/neonazi_assassin.png"
+	}
+
+	spriteType = {
+			name = "GFX_npa_marching"
+			texturefile = "gfx/event_pictures/npa_marching.png"
+	}
+
+	spriteType = {
+			name = "GFX_npa_national_assembly"
+			texturefile = "gfx/event_pictures/NPA_national_assembly.png"
+	}
+
+	spriteType = {
+			name = "GFX_philippines_start"
+			texturefile = "gfx/event_pictures/philippines_start.dds"
+	}
+
+	spriteType = {
+			name = "GFX_PHrecruits"
+			texturefile = "gfx/event_pictures/PHrecruits.png"
+	}
+
+	spriteType = {
+			name = "GFX_riot1"
+			texturefile = "gfx/event_pictures/riot1.png"
+	}
+
+	spriteType = {
+			name = "GFX_riot2"
+			texturefile = "gfx/event_pictures/riot2.png"
+	}
+
+	spriteType = {
+			name = "GFX_riot3"
+			texturefile = "gfx/event_pictures/riot3.png"
+	}
+
+	spriteType = {
+			name = "GFX_roblox_1"
+			texturefile = "gfx/event_pictures/roblox1.png"
+	}
+
+	spriteType = {
+			name = "GFX_roblox_2"
+			texturefile = "gfx/event_pictures/roblox2.png"
+	}
+
+	spriteType = {
+			name = "GFX_roblox_3"
+			texturefile = "gfx/event_pictures/roblox3.png"
+	}
+
+	spriteType = {
+			name = "GFX_roblox_4"
+			texturefile = "gfx/event_pictures/roblox4.png"
+	}
+
+	spriteType = {
+			name = "GFX_sad_graduation"
+			texturefile = "gfx/event_pictures/sad_graduation.png"
+	}
+
+	spriteType = {
+			name = "GFX_sara_assassins_arrested"
+			texturefile = "gfx/event_pictures/sara_assassins_arrested.png"
+	}
+
+	spriteType = {
+			name = "GFX_schoolchildren_1"
+			texturefile = "gfx/event_pictures/schoolchildren_1.png"
+	}
+	spriteType = {
+			name = "GFX_survivors_guilt"
+			texturefile = "gfx/event_pictures/survivors_guilt.png"
+	}
+
+	spriteType = {
+			name = "GFX_tvpatrol_2acw"
+			texturefile = "gfx/event_pictures/tvpatrol_2acw.png"
+	}
+
+	spriteType = {
+			name = "GFX_wineclink1"
+			texturefile = "gfx/event_pictures/wineclink1.png"
+	}
+
+	spriteType = {
+			name = "GFX_wineclink2"
+			texturefile = "gfx/event_pictures/wineclink2.png"
+	}
+
+	spriteType = {
+			name = "GFX_ww2memorial"
+			texturefile = "gfx/event_pictures/ww2memorial.png"
+	}
+			
+
+
+#Philippine Catastrophe Faction events
+
+##PHL
+	spriteType = {
+		name = "GFX_PHL_Risa_rally"
+		texturefile = "gfx/event_pictures/PHL/PHL_Risa_rally.png"
+	}
+
+##PHP
+	
+	spriteType = {
+		name = "GFX_PHP_Sara_speech"
+		texturefile = "gfx/event_pictures/PHP/PHP_Sara_speech.png"
+	}
+
+##UPH
+
+##IGP
+
+##TAG
+	spriteType = {
+		name = "GFX_TAG_nationalist_rally"
+		texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_cardema_inspecting_troops"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_inspecting_troops.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_nationalist_rally2"
+		texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally2.png"
+	}
+	spriteType= {
+		name = "GFX_TAG_tejeros"
+		texturefile = "gfx/event_pictures/TAG/TAG_tejeros_convention.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_cardema_meeting"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_meeting.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_cardema_parade"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_parade.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_nazi_rally"
+		texturefile = "gfx/event_pictures/TAG/TAG_nazi_rally.png"
+	}
+	
+	spriteType = {
+		name = "GFX_TAG_revolt"
+		texturefile = "gfx/event_pictures/TAG/TAG_revolt.png"
+	}
+
+	spriteType = {
+		name = "GFX_TAG_cardema_death_1"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_death_leftopposition.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_cardema_death_2"
+		texturefile = "gfx/event_pictures/TAG/TAG_cardema_death_rightopposition.png"
+	}
+	spriteType = {
+		name = "GFX_TAG_ado_president"
+		texturefile = "gfx/event_pictures/TAG/TAG_adopaglinawan_president.png"
+    }
+	spriteType = {
+			name = "GFX_TAG_bbmfate"
+			texturefile = "gfx/event_pictures/TAG/TAG_bbm_fate.png"
+	}	
+	spriteType = {
+			name = "GFXTAG__bonfire"
+			texturefile = "gfx/event_pictures/TAG/TAG_bonfire.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_boni"
+			texturefile = "gfx/event_pictures/TAG/TAG_bonifacio_mural.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_claritacarlos_president"
+			texturefile = "gfx/event_pictures/TAG/TAG_carlos_president.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_chong_president"
+			texturefile = "gfx/event_pictures/TAG/TAG_chong_president.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_chong_president_alt"
+			texturefile = "gfx/event_pictures/TAG/TAG_chong_president_old.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_drixie_cardema_president"
+			texturefile = "gfx/event_pictures/TAG/TAG_drixie_cardema_president.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_dugyouth"
+			texturefile = "gfx/event_pictures/TAG/TAG_dugyouth.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_digong_fate"
+			texturefile = "gfx/event_pictures/TAG/TAG_duterte_fate.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_faeldon_coup"
+			texturefile = "gfx/event_pictures/TAG/TAG_faeldon_caudillo.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_graffiti"
+			texturefile = "gfx/event_pictures/TAG/TAG_graffiti.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_gymboys"
+			texturefile = "gfx/event_pictures/TAG/TAG_gymboys.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_KABboys1`"
+			texturefile = "gfx/event_pictures/TAG/TAG_kabataang_amangbayan_boys.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_KABboys2"
+			texturefile = "gfx/event_pictures/TAG/TAG_kabataang_amangbayan_boys2.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_toti"
+			texturefile = "gfx/event_pictures/TAG/TAG_kdp_toti.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_notoCP"
+			texturefile = "gfx/event_pictures/TAG/TAG_kidsagainstCP.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_makapili"
+			texturefile = "gfx/event_pictures/TAG/TAG_makapili.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_masked_men"
+			texturefile = "gfx/event_pictures/TAG/TAG_masked_men.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_nationalist_rally_1"
+			texturefile = "gfx/event_pictures/TAG/TAG_nationalist_rally.png"
+	}
+
+
+	spriteType = {
+			name = "GFX_TAG_nazi_rally2"
+			texturefile = "gfx/event_pictures/TAG/TAG_nazi_rally2.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_cardema_parade_news"
+			texturefile = "gfx/event_pictures/TAG/TAG_news_cardema_parade.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_nightmeeting"
+			texturefile = "gfx/event_pictures/TAG/TAG_night_meeting.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_parlade_president"
+			texturefile = "gfx/event_pictures/TAG/TAG_parlade_president.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_rewriting_history"
+			texturefile = "gfx/event_pictures/TAG/TAG_rewriting_history.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_"
+			texturefile = "gfx/event_pictures/TAG/TAG_skullmaskboys.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_students_cheering_bonfire"
+			texturefile = "gfx/event_pictures/TAG/TAG_students_cheering_bonfire.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_tejeros"
+			texturefile = "gfx/event_pictures/TAG/TAG_tejeros_convention.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_toti_president"
+			texturefile = "gfx/event_pictures/TAG/TAG_toti_president.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_tuguegarao_conference"
+			texturefile = "gfx/event_pictures/TAG/TAG_tuguegarao_conference.png"
+	}
+
+	spriteType = {
+			name = "GFX_TAG_vibora"
+			texturefile = "gfx/event_pictures/TAG/TAG_vibora.png"
+	}
+
+##NPA
+
+}
+	
+
+	

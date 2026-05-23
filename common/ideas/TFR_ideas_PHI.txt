@@ -127,7 +127,7 @@ ideas = {
 			}
 		}
 		TAG_abysmal_cohesion = {
-			picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -143,7 +143,7 @@ ideas = {
 			}
 		}
 		IGP_santo_nino = {
-		picture = 
+			#picture = 
 			allowed = {
 				always = no
 			}
@@ -155,30 +155,26 @@ ideas = {
 			compliance_growth = -10
 			}
 		}
-			
-		
-		
-		
 	}
 	head_minister = {
-			PHI_hog_leni_robredo = {
-				picture = Leni_Robredo
+		PHI_hog_leni_robredo = {
+			picture = Leni_Robredo
+			
+			allowed = {
+				original_tag = PHI
 				
-				allowed = {
-					original_tag = PHI
-					
-				}
-				allowed_to_remove = {
-					hidden_trigger = {
-					always = no
-					}
-				}
-				visible = {
-					has_country_flag = VP_Robredo
-				}
-				
-				traits = { 
+			}
+			allowed_to_remove = {
+				hidden_trigger = {
+				always = no
 				}
 			}
+			visible = {
+				has_country_flag = VP_Robredo
+			}
+			
+			traits = { 
+			}
 		}
+	}
 }

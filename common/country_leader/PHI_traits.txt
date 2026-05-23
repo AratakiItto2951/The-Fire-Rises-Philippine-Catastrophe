@@ -1,0 +1,210 @@
+leader_traits = {
+	##Philippines stuff##
+	PHI_Revenge_Legion_Veteran_right = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+		
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "PTF"
+			value = 200
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	PHI_Revenge_Legion_Veteran_left = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+		
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "PTF"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "RRR"
+			value = 200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	PHI_Revenge_Legion_Veteran_conservative = {
+	random = no
+		head_minister_cost_factor = -0.25
+		foreign_minister_cost_factor = -0.25
+		economic_minister_cost_factor = -0.25
+		interior_minister_cost_factor = -0.25
+		intelligence_minister_cost_factor = -0.25
+		theorist_minister_cost_factor = -0.25
+		send_volunteer_size = 4
+		war_support_factor = 0.1
+		army_morale_factor = 0.1
+		army_attack_factor = 0.1
+	
+		ai_strategy = {
+			type = antagonize
+			id = "USA"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "USB"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "APA"
+			value = 200
+		}
+		ai_strategy = {
+			type = befriend
+			id = "USC"
+			value = 200
+		}
+		ai_strategy = {
+			type = antagonize
+			id = "PTF"
+			value = 200
+		}		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	#Philippines
+	##TAG
+	TAG_faction_sinophile = { 
+		random = 0
+	}
+	TAG_faction_japanophile = { 
+		random = 0
+	}
+	TAG_faction_rizalian = { 
+		random = 0
+	}
+	TAG_faction_bonifacian = { 
+		random = 0
+	}		
+	eco_former_government_experience = {
+        random = no
+        political_power_factor = -0.03
+        consumer_goods_factor = 0.02
+        local_resources_factor = 0.02
+        industrial_capacity_factory = 0.02
+        ai_will_do = {
+			factor = 1
+		}
+    }
+	sex_offender = {
+        type = all
+        trait_type = status_trait
+		random = no
+		stability_factor = -0.05				
+        political_power_gain = -0.08
+        army_morale_factor = -0.03
+        experience_gain_factor = -0.05
+        war_support_factor = -0.02
+        ai_will_do = {
+            factor = 0.2
+        }
+        gain_xp = {
+            always = no
+        }
+        non_shared_modifier = {
+            reassignment_duration_factor = 0.5 
+        }
+        
+    }
+    cornered_cat = { #Raffy Delgado gets thrown with homosexuality allegations by detractors within the movement
+        type = all
+        trait_type = status_trait
+
+        random = no
+
+        modifier = {
+            stability_factor = -0.08
+            political_power_gain = -0.10
+            army_morale_factor = -0.04
+            experience_gain_factor = -0.06
+            war_support_factor = -0.03
+            army_attack_factor = 0.02
+        }
+
+        custom_modifier_tooltip = cornered_cat_tt
+
+        ai_will_do = {
+            factor = 0.15
+        }
+
+        gain_xp = {
+            always = no
+        }
+
+        non_shared_modifier = {
+            reassignment_duration_factor = 0.6
+        }
+    }
+}

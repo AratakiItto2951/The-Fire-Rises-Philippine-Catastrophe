@@ -5,9 +5,23 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SOV
-			has_completed_focus = SOV_restore_the_1977_constitution
+			has_idea = SOV_nominal_monarch_gavril
+		}
+		localization_key = SOV_hog_gavril_doroshin
+	}	
+	text = {
+		trigger = {
+			tag = SOV
+			has_idea = SOV_nominal_monarch_dzhugashvili
+		}
+		localization_key = SOV_hog_yakov_dzhugashvili
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_country_flag = SOV_zyuganov_supreme_soviet_leader_flag
 			NOT = {
-				has_country_flag = SOV_zyuganov_retired
+				has_completed_focus = SOV_first_soviet_election
 			}
 		}
 		localization_key = SOV_hog_gennady_zyuganov
@@ -15,10 +29,89 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = SOV
-			has_completed_focus = SOV_restore_the_1977_constitution
-			has_country_flag = SOV_zyuganov_retired
+			OR = {
+				AND = {
+					has_country_flag = SOV_afonin_supreme_soviet_leader_flag
+					NOT = {
+						has_completed_focus = SOV_first_soviet_election
+					}
+				}
+				has_country_flag = SOV_congress_2_afonin_elected
+			}
 		}
 		localization_key = SOV_hog_yuri_afonin
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			OR = {
+				AND = {
+					has_country_flag = SOV_rashkin_supreme_soviet_leader_flag
+					NOT = {
+						has_completed_focus = SOV_first_soviet_election
+					}
+				}
+				has_country_flag = SOV_congress_2_rashkin_elected
+			}
+		}
+		localization_key = SOV_hog_valery_rashkin
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_completed_focus = SOV_first_soviet_election
+			has_country_flag = SOV_congress_2_pasechnik_elected
+		}
+		localization_key = SOV_hog_leonid_pasechnik
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_completed_focus = SOV_first_soviet_election
+			has_country_flag = SOV_congress_2_grudinin_elected
+		}
+		localization_key = SOV_hog_pavel_grudinin
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_completed_focus = SOV_first_soviet_election
+			has_country_flag = SOV_congress_2_levchenko_elected
+		}
+		localization_key = SOV_hog_sergey_levchenko
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_completed_focus = SOV_first_soviet_election
+			has_completed_focus = SOV_new_lukashenko_era
+			has_completed_focus = SOV_iron_hand
+		}
+		localization_key = SOV_hog_lukashenko_juche
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_completed_focus = SOV_first_soviet_election
+			has_completed_focus = SOV_new_lukashenko_era
+			NOT = {
+				has_completed_focus = SOV_iron_hand
+			} 
+		}
+		localization_key = SOV_hog_lukashenko
+	}
+	text = {
+		trigger = {
+			tag = SOV
+			has_idea = SOV_Medvedev_Cool
+		}
+		localization_key = SOV_hog_dmitry_medvedev
+	}
+	text = {
+		trigger = {
+			tag = NOV
+		}
+		localization_key = SOV_hog_boris_litvinov
 	}
 	text = {
 		trigger = {
@@ -182,10 +275,46 @@ defined_text = {
 			has_idea = GER_christian_lindner_hog
 		}
 		localization_key = GER_hog_christian_lindner
-	}	
+	}
 	text = {
 		trigger = {
 			tag = GER
+			has_idea = GER_Baerbock_hog
+		}
+		localization_key = GER_hog_baerbock
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_friedrich_merz_hog
+		}
+		localization_key = GER_hog_merz
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_markus_soder_hog
+		}
+		localization_key = GER_hog_soder
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_alice_weidel_hog
+		}
+		localization_key = GER_hog_weidel
+	}
+	text = {
+		trigger = {
+			tag = GER
+			has_idea = GER_heidi_reichinnek_hog
+		}
+		localization_key = GER_hog_reichinnek
+	}
+	text = {
+		trigger = {
+			tag = GER
+			always = no
 			has_idea = GER_Rossmanith
 		}
 		localization_key = GER_hog_richard_rossmanith
@@ -343,8 +472,9 @@ defined_text = {
 		trigger = {
 			tag = CAN
 			has_government = social_liberal
+			has_idea = CAN_justin_trudeau_hog
 			NOT = {
-				has_country_flag = CAN_PTF_defeat
+				has_country_flag = CAN_trudeau_stays
 			}
 		}
 		localization_key = CAN_hog_justin_trudeau
@@ -353,7 +483,8 @@ defined_text = {
 		trigger = {
 			tag = CAN
 			has_government = social_liberal
-			has_country_flag = CAN_PTF_defeat
+			has_idea = CAN_justin_trudeau_hog
+			has_country_flag = CAN_trudeau_stays
 		}
 		localization_key = CAN_hog_justin_trudeau_defeat
 	}
@@ -363,6 +494,21 @@ defined_text = {
 			has_government = conservative
 		}
 		localization_key = CAN_hog_pierre_poilievre
+	}
+	text = {
+		trigger = {
+			tag = CAN
+			has_government = social_liberal
+			has_idea = CAN_mark_carney_hog
+		}
+		localization_key = CAN_hog_mark_carney
+	}
+	text = {
+		trigger = {
+			tag = CAN
+			has_government = authoritarian_democrat
+		}
+		localization_key = CAN_hog_maxime_bernier
 	}
 	text = {
 		trigger = {
@@ -501,6 +647,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			tag = CAM
+			has_government = social_liberal
+		}
+		localization_key = CAM_hog_sam_rainsy
+	}
+	text = {
+		trigger = {
 			tag = MAL
 			has_government = social_democrat
 			date < 2020.2.24
@@ -538,6 +691,10 @@ defined_text = {
 				character = SIG_halimah_yacob_char
 				ruling_only = yes
 			}
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = conservative
+			}
 		}
 		localization_key = SIG_hog_lee
 	}
@@ -548,8 +705,22 @@ defined_text = {
 				character = SIG_tharman_shanmugaratnam_char
 				ruling_only = yes
 			}
+			OR = {
+				has_government = authoritarian_democrat
+				has_government = conservative
+			}
 		}
 		localization_key = SIG_hog_lawrence_wong
+	}
+	text = {
+		trigger = {
+			tag = SIG
+			OR = {
+				has_government = libertarian_socialist
+				has_government = communist
+			}
+		}
+		localization_key = SIG_hog_goh_meng_seng
 	}
 	text = {
 		trigger = {
@@ -644,9 +815,58 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = HUN
-			has_government = authoritarian_democrat
+			has_idea = HUN_Victor_Orban_HM
 		}
 		localization_key = HUN_hog_viktor_orban
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_Peter_Marki_Zay_HM
+		}
+		localization_key = HUN_hog_peter_marki_zay
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_Kunhalmi_Agnes_HM
+		}
+		localization_key = HUN_hog_kunhalmi_agnes
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_Peter_Jakab_HM
+		}
+		localization_key = HUN_hog_peter_jakab
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_andras_jambor_HM
+		}
+		localization_key = HUN_hog_andras_jambor
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_anna_donath_HM
+		}
+		localization_key = HUN_hog_anna_donath
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_Peter_Magyar_HM
+		}
+		localization_key = HUN_hog_peter_magyar
+	}	
+	text = {
+		trigger = {
+			tag = HUN
+			has_idea = HUN_anna_donath_HM
+		}
+		localization_key = HUN_hog_peter_ungar
 	}
 	text = {
 		trigger = {
@@ -679,6 +899,13 @@ defined_text = {
 	text = {
 		trigger = {
 			tag = ITA
+			has_idea = ITA_Elly_Schlein_HM
+		}
+		localization_key = ITA_hog_elly
+	}
+	text = {
+		trigger = {
+			tag = ITA
 			has_government = social_liberal
 		}
 		localization_key = ITA_hog_conte
@@ -696,6 +923,23 @@ defined_text = {
 			has_government = social_democrat
 		}
 		localization_key = SPR_hog_pedro_sanchez
+	}
+	text = {
+		trigger = {
+			tag = SPR
+			has_government = conservative
+		}
+		localization_key = SPR_hog_alberto_nunez_feijoo
+	}
+	text = {
+		trigger = {
+			tag = GRE
+			OR = {
+				has_government = conservative
+				has_government = market_liberal
+			}
+		}
+		localization_key = GRE_hog_mitsotakis
 	}
 	text = {
 		trigger = {
@@ -820,7 +1064,64 @@ defined_text = {
 		}
 		localization_key = JAM_hog_andrew_holness
 	}
-	
+	text = {
+		trigger = {
+			tag = JAM
+			has_government = social_democrat
+		}
+		localization_key = JAM_hog_peter_phillips
+	}
+	text = {
+		trigger = {
+			tag = JAM
+			has_government = social_democrat
+			date > 2025.9.3
+		}
+		localization_key = JAM_hog_mark_goulding
+	}
+	text = {
+		trigger = {
+			tag = BLZ
+			has_government = conservative
+			date < 2020.11.12
+		}
+		localization_key = BLZ_hog_dean_barrow
+	}
+	text = {
+		trigger = {
+			tag = BLZ
+			has_government = social_liberal
+		}
+		localization_key = BLZ_hog_johnny_briceno
+	}
+	text = {
+		trigger = {
+			tag = BLZ
+			has_government = conservative
+			date > 2020.11.12
+		}
+		localization_key = BLZ_hog_patrick_faber
+	}
+	text = {
+		trigger = {
+			tag = BLZ
+			has_government = conservative
+			date > 2020.11.12
+			has_country_flag = BLZ_Faber_Loss
+			has_country_flag = BLZ_Barrow
+		}
+		localization_key = BLZ_hog_moses_barrow
+	}
+	text = {
+		trigger = {
+			tag = BLZ
+			has_government = conservative
+			date > 2020.11.12
+			has_country_flag = BLZ_Faber_Loss
+			has_country_flag = BLZ_Panton
+		}
+		localization_key = BLZ_hog_tracy_panton
+	}
 	#PHI
 	text = {
 		trigger = {

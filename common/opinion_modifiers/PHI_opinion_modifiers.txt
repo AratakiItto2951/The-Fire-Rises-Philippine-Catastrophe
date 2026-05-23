@@ -1,0 +1,18 @@
+opinion_modifiers = {
+	
+	#Custom Philippines opinions
+	
+	opinion_communist_state = {
+		value = -45
+	}	
+	PHI_opinion_red_baiting = {
+		value = -80
+	}
+	NPA_opinion_state_fascism = {
+		value = -80
+	}	
+	PHI_opinion_anti_americanism = {
+		value = -70
+	}
+	
+}

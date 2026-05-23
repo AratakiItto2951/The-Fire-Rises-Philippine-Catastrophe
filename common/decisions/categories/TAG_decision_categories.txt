@@ -1,0 +1,12 @@
+TAG_civil_war_category = {
+    icon = GFX_PRC_gaw_cat
+    visible_when_empty = yes
+
+    allowed = {
+    	tag = TAG
+    }
+    
+    visible = {
+       tag = TAG
+    }
+}

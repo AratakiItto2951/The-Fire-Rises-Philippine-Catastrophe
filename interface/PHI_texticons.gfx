@@ -1,0 +1,78 @@
+spriteTypes = {
+	###PHI content###
+	
+	#PHI
+	
+	
+	#PHL
+	
+	
+	#PHP
+	
+	
+	#UPH
+	
+	
+	#IGP
+	
+	
+	#TAG
+	
+	spriteType = {
+		name = "GFX_TAG_KBL_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_KBL.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_KDP_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_KDP.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_PNF_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_PNF.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_KA_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_Kabataang_Amangbayan.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_DYouth_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_DuterteYouth.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_NPC_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_NPC.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_sinophile_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_sinophile.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TAG_japanophile_texticon"
+		texturefile = "gfx/texticons/TAG/TAG_japanophile.png"
+		legacy_lazy_load = no
+	}
+	
+	
+	#NPA
+	
+	
+	#KFH
+	
+	
+	#Subic
+	
+	
+	#Cordillera
+	
+	
+	#Bangsamoro
+	
+	###PHI content end###
+}

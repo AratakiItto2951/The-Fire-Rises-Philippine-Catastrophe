@@ -50,7 +50,7 @@ pagasa_tsws_2 = {
 	
 	# Land
 	army_speed_factor = -0.25
-	land_attrition = 0.10
+	attrition = 0.10
 	
 	# Logistics
 	supply_factor = -0.10
@@ -65,7 +65,7 @@ pagasa_tsws_3 = {
 	# Land
 	army_attack_factor = -0.30
 	army_speed_factor = -0.45
-	land_attrition = 0.30
+	attrition = 0.30
 	org_loss_when_moving = 0.15
 	
 	# Logistics
@@ -82,7 +82,7 @@ pagasa_tsws_4 = {
 	# Land
 	army_attack_factor = -0.50
 	army_speed_factor = -0.60
-	land_attrition = 0.60
+	attrition = 0.60
 	org_loss_when_moving = 0.35
 	
 	# Naval
@@ -103,7 +103,7 @@ pagasa_tsws_5 = {
 	# Land
 	army_attack_factor = -0.75            # Offensives will fail
 	army_speed_factor = -0.80             # Armies frozen in place
-	land_attrition = 1.00                 # Attrition cap reached
+	attrition = 1.00                 # Attrition cap reached
 	org_loss_when_moving = 0.60
 	local_org_regain = -0.50
 	

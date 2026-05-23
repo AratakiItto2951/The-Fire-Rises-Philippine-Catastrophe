@@ -1,0 +1,112 @@
+spriteTypes = {
+	#PHI content
+	spriteType = {
+		name = "GFX_idea_PHI_legacy_of_martial_law"
+		texturefile = "gfx/interface/ideas/PHI/PHI_Legacy_of_the_Martial_Law.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_MDT"
+		texturefile = "gfx/interface/ideas/PHI/PHI_MDT.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_increasing_chinese_influence"
+		texturefile = "gfx/interface/ideas/PHI/PHI_increasing_chinese_influence.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_marcos_family"
+		texturefile = "gfx/interface/ideas/PHI/PHI_marcos_dynasty.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PHI_man_of_destiny"
+		texturefile = "gfx/interface/ideas/PHI/PHI_man_of_destiny.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MIN_strength_of_the_brave_idea"
+		texturefile = "gfx/interface/ideas/PHI/PHI_du30.png"
+	}
+	spriteType = {
+		name = "GFX_idea_NPA_weapon_of_the_people"
+		texturefile = "gfx/interface/ideas/PHI/NPA_weapon_of_th_people.png"
+	}
+	
+
+	##PHI submod content## 
+	
+	#PHI
+	##Advisors
+	
+	
+	#PHL
+	##Advisors
+	
+	
+	#PHP
+	##Advisors
+	
+	
+	#UPH
+	##Advisors
+	
+	
+	#IGP
+	##Advisors
+	
+	spriteType = {
+		name = "GFX_idea_IGP_santo_nino"
+		texturefile = "gfx/interface/ideas/IGP/IGP_santo_nino.png"
+	}
+	##Advisors
+	
+	
+	#TAG
+	spriteType = {
+		name = "GFX_idea_NPA_weapon_of_the_people"
+		texturefile = "gfx/interface/ideas/TAG/TAG_abysmal_cohesion.png"
+	}
+	##Advisors
+		spriteType = {
+		name = "GFX_idea_TAG_scott_ritter"
+		texturefile = "gfx/interface/ideas/TAG/advisors/TAG_scott_ritter.png"
+	}
+	
+	
+	#Bangamoro
+	##Advisors
+	
+	
+	#Subic
+	##Advisors
+	
+	
+	#Cordillera
+	##Advisors
+	
+	
+	##Advisors
+	
+	#KFH
+	##Advisors
+	
+	
+	## PHI and Philippine Catastrophe factions HOG
+	spriteType = {
+		name = "GFX_PHI_leni_robredo_por"
+		texturefile = "gfx/Leaders/PHI/Leni Robredo.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_PHI_sara_duterte_por"
+		texturefile = "gfx/Leaders/PHI/PHI_Sara_Duterte.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_PHI_juan_miguel_zubiri_por"
+		texturefile = "gfx/Leaders/PHI/PHI_juan_miguel_zubiri.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_PHI_martin_romualdez_por"
+		texturefile = "gfx/Leaders/PHI/Martin_Romualdez.png"
+		legacy_lazy_load = no
+	}	
+}

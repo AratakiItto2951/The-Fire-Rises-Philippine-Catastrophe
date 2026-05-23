@@ -1013,29 +1013,29 @@ country_event = {
                 id = philcatastrophe.2
                 days = 1
             }
-		delete_unit = {
-			state = 624
-			state = 625
-			state = 627
-			state = 628
-			state = 1272
-			state = 1273
-			state = 1275
-			state = 1276
-			state = 1277
-			state = 1278
-			state = 1279
-			state = 1280
-			state = 1281
-			state = 1384
-			state = 1486
-			state = 1488
-			state = 1489
-			state = 1490
-			state = 1491
-			state = 1492
-			state = 1493
-			disband = yes
+			delete_unit = {
+				state = 624
+				state = 625
+				state = 627
+				state = 628
+				state = 1272
+				state = 1273
+				state = 1275
+				state = 1276
+				state = 1277
+				state = 1278
+				state = 1279
+				state = 1280
+				state = 1281
+				state = 1384
+				state = 1486
+				state = 1488
+				state = 1489
+				state = 1490
+				state = 1491
+				state = 1492
+				state = 1493
+				disband = yes
 			}
         }
     }
@@ -1051,49 +1051,49 @@ country_event = {
 
 		promote_character = {
 			character = PHI_miljunta_jay_tarriela_char
-			ideology = constitutionalist
+			ideology = conservative
 		}
 		set_politics = {
-			ruling_party = constitutionalist
+			ruling_party = conservative
 			elections_allowed = no
 			last_election = "2028.5.10"
 			election_frequency = 72
 		}
 		add_popularity = {
-			ideology = constitutionalist
-			popularity = 0.50
+			ideology = conservative
+			popularity = 0.05
 		}
 
 		if = {
-				limit = {
-					PHI = {
-						has_country_flag = eadi_member
-					}
+			limit = {
+				PHI = {
+					has_country_flag = eadi_member
 				}
-				hidden_effect = {
+			}
+			hidden_effect = {
 				PRC = {
 					remove_from_faction = PHI
 				}
 				PHI = {
 					leave_faction = yes
-					}		
+				}		
+			}
+		}
+		if = {
+			limit = {
+				PHI = {
+					has_country_flag = pdto_member
 				}
 			}
-		if = {
-				limit = {
-					PHI = {
-						has_country_flag = pdto_member
-					}
-				}
-				hidden_effect = {
+			hidden_effect = {
 				JAP = {
 					remove_from_faction = PHI
 				}
 				PHI = {
 					leave_faction = yes
-					}		
-				}
+				}		
 			}
+		}
 
 		# Set party names
 		set_party_name = { ideology = totalitarian_socialist long_name = PHI_miljunta_totalitarian_socialist_long name = PHI_miljunta_totalitarian_socialist_short }
